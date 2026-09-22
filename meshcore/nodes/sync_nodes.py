@@ -22,7 +22,7 @@ ZEVA_URLS = [
     "http://dev.zevaryx.com:8080/meshcore/sensors.json",
 ]
 CM_CORESCOPE_NODES_URL = "https://analyzer.meshcore.coloradomesh.org/api/nodes?limit=100000"  # God help us if we ever get more than 100,000 nodes in Colorado (this would break 2-byte)
-CM_BEACON_NODES_URL = "https://map.meshcore.coloradomesh.org/api/v1/nodes?limit=100000"  # God help us if we ever get more than 100,000 nodes in Colorado (this would break 2-byte)
+CM_BEACON_NODES_URL = "https://map.meshcore.coloradomesh.org/api/v1/nodes"
 
 _COLORADO = COLORADO
 
@@ -363,12 +363,22 @@ def _get_beacon_nodes() -> list[BeaconNode]:
     :return: A list of BeaconNode objects.
     :rtype: list[BeaconNode]
     """
-    all_nodes: list[BeaconNode] = objectrest.get_object(  # type: ignore
-        url=CM_BEACON_NODES_URL,
-        model=BeaconNode,
-        extract_list=True,
-        sub_keys=["items"]
-    )
+    all_nodes: list[BeaconNode] = []
+    more_to_get = True
+    next_cursor = 0
+
+    while more_to_get:
+        page: dict = objectrest.get_json(  # type: ignore
+            url=CM_BEACON_NODES_URL,
+            params={"limit": 200, "cursor": next_cursor},
+        )
+        more_to_get = page.get("hasMore", False)
+        next_cursor = page.get("nextCursor", 0)
+        page_nodes: list[BeaconNode] = [
+            BeaconNode(**data) for data in page.get("items", [])
+        ]
+        all_nodes.extend(page_nodes)
+
     if not all_nodes:
         # We don't want to return an empty list, that would effectively erase the previous data snapshot
         # Instead, consider this run failed
