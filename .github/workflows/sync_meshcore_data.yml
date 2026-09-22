@@ -48,4 +48,3 @@ jobs:
           add: 'meshcore'
           default_author: github_actions
           message: "MeshCore data updated [skip actions]" # https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
-          push: '--force'
