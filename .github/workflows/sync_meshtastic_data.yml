@@ -24,27 +24,20 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Update version number
-        uses: jacobtomlinson/gha-find-replace@2.0.0
-        with:
-          find: "VERSIONADDEDBYGITHUB"
-          replace: "0.0.1" # Just a placeholder needed to install the local package
-          regex: false
-
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r data/meshtastic/nodes/requirements.txt
+          pip install -r meshtastic/nodes/requirements.txt
           pip install -e .
 
       - name: Run Python script to update Meshtastic nodes data
-        run: python data/meshtastic/nodes/sync_nodes.py
-          --nodes-data-file data/meshtastic/nodes/nodes.json
+        run: python meshtastic/nodes/sync_nodes.py
+          --nodes-data-file meshtastic/nodes/nodes.json
 
       - name: Commit data files if modified
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'data/meshtastic'
+          add: 'meshtastic'
           default_author: github_actions
           message: "Meshtastic data updated [skip actions]" # https://github.blog/changelog/2021-02-08-github-actions-skip-pull-request-and-push-workflows-with-skip-ci/
           push: '--force'
