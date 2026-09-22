@@ -11,7 +11,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  sync-meshcore-data:
+  sync-meshtastic-data:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -28,7 +28,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r meshtastic/nodes/requirements.txt
-          pip install -e .
 
       - name: Run Python script to update Meshtastic nodes data
         run: python meshtastic/nodes/sync_nodes.py
