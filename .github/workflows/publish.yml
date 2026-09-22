@@ -1,0 +1,66 @@
+# This workflow will upload a Python Package using Twine when a release is created
+# For more information see: https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions#publishing-to-package-registries
+
+name: Upload Python Package
+
+on:
+  release:
+    types: [created]
+    secrets:
+      PYPI_API_KEY:
+        required: true
+  workflow_dispatch:
+    inputs:
+      version:
+        type: string
+        description: Version number
+        required: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Establish variables
+        id: vars
+        run: |
+          echo "version=${{ github.event.inputs.version || github.event.release.tag_name }}" >> "$GITHUB_OUTPUT"
+          echo "today=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+          echo "year=$(date +'%Y')" >> "$GITHUB_OUTPUT"
+
+      - name: Update version number
+        uses: jacobtomlinson/gha-find-replace@2.0.0
+        with:
+          find: "VERSIONADDEDBYGITHUB"
+          replace: "${{ steps.vars.outputs.version }}"
+          regex: false
+
+      - name: Update copyright year
+        uses: jacobtomlinson/gha-find-replace@2.0.0
+        with:
+          find: "YEARADDEDBYGITHUB"
+          replace: "${{ steps.vars.outputs.year }}"
+          regex: false
+
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Build
+        run: |
+          make install
+          make build
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_KEY }}
