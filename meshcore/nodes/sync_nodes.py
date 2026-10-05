@@ -38,7 +38,6 @@ class MeshMapperNode(BaseModel):
     last_heard: int  # Unix timestamp
     created_at: str  # Unix timestamp as string
     enabled: int
-    power: str
     iata: str
 
     def to_node(self) -> Node:
@@ -67,7 +66,8 @@ def _get_meshmapper_nodes() -> list[MeshMapperNode]:
     all_nodes: list[MeshMapperNode] = objectrest.get_object(  # type: ignore
         url=MESHMAPPER_REPEATERS_URL,
         model=MeshMapperNode,
-        extract_list=True
+        extract_list=True,
+        raise_on_error=True
     )
     if not all_nodes:
         # We don't want to return an empty list, that would effectively erase the previous data snapshot
