@@ -479,17 +479,18 @@ def get_colorado_nodes() -> list[Node]:
     ]
     """
 
+    """Not active
     potatomesh_nodes: list[PotatoMeshNode] = _get_potatomesh_nodes()
     potatomesh_nodes_converted: list[Node] = [
         node.to_node() for node in potatomesh_nodes
     ]
+    """
 
     # Remove duplicates by whole ID
     # Yes, it's possible two nodes, each on different maps, happen to have the same ID, but that's highly unlikely
     # Defer to the newer node if there is a conflict (list built from least-to-most trustworthy)
     unique_nodes_dict: dict[str, Node] = {}
     for node in (
-            potatomesh_nodes_converted +
             meshview_nodes_converted +
             meshmap_nodes_converted +
             liam_cottle_nodes_converted
