@@ -28,7 +28,7 @@
     "role": 0,
     "latitude": 39.0856704,
     "longitude": -108.3441152,
-    "altitude": 1524.0,
+    "altitude": 1527.0,
     "precision": 13,
     "hardware_model": "HELTEC_MESH_NODE_T114"
   },
@@ -143,17 +143,6 @@
     "hardware_model": "RAK4631"
   },
   {
-    "id": "1970537440",
-    "long_name": "Discordian Disciple LF",
-    "short_name": "666",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "THINKNODE_M7"
-  },
-  {
     "id": "1770305532",
     "long_name": "Discordian Disciple MF",
     "short_name": "666",
@@ -163,6 +152,17 @@
     "altitude": 1749.0,
     "precision": 12,
     "hardware_model": "HELTEC_V4"
+  },
+  {
+    "id": "1970537440",
+    "long_name": "Discordian Disciple LF",
+    "short_name": "666",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "THINKNODE_M7"
   },
   {
     "id": "3118365527",
@@ -182,7 +182,7 @@
     "role": 0,
     "latitude": 38.928384,
     "longitude": -104.7789568,
-    "altitude": 2051.0,
+    "altitude": 2053.0,
     "precision": 13,
     "hardware_model": "T_DECK"
   },
@@ -193,7 +193,7 @@
     "role": 0,
     "latitude": 39.8983168,
     "longitude": -105.0148864,
-    "altitude": 1603.0,
+    "altitude": 1613.0,
     "precision": 12,
     "hardware_model": "HELTEC_V4"
   },
@@ -336,7 +336,7 @@
     "role": 0,
     "latitude": 38.8759552,
     "longitude": -104.6740992,
-    "altitude": 2014.0,
+    "altitude": 2013.0,
     "precision": 13,
     "hardware_model": "TRACKER_T1000_E"
   },
@@ -380,7 +380,7 @@
     "role": 0,
     "latitude": 40.1342464,
     "longitude": -104.8838144,
-    "altitude": 1522.0,
+    "altitude": 1535.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -391,7 +391,7 @@
     "role": 0,
     "latitude": 39.9638528,
     "longitude": -104.8707072,
-    "altitude": 1536.0,
+    "altitude": 1563.0,
     "precision": 14,
     "hardware_model": "LILYGO_TBEAM_S3_CORE"
   },
@@ -501,7 +501,7 @@
     "role": 0,
     "latitude": 38.928384,
     "longitude": -104.726528,
-    "altitude": 2102.0,
+    "altitude": 2086.0,
     "precision": 13,
     "hardware_model": "SEEED_SOLAR_NODE"
   },
@@ -611,8 +611,8 @@
     "role": 0,
     "latitude": 39.9245312,
     "longitude": -105.8275328,
-    "altitude": 2594.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "THINKNODE_M7"
   },
   {
@@ -675,9 +675,9 @@
     "long_name": "Harder Victory 21d9",
     "short_name": "HV",
     "role": 0,
-    "latitude": 38.8759552,
-    "longitude": -104.726528,
-    "altitude": 2029.0,
+    "latitude": 38.9808128,
+    "longitude": -104.8313856,
+    "altitude": 2046.0,
     "precision": 13,
     "hardware_model": "TRACKER_T1000_E"
   },
@@ -853,7 +853,7 @@
     "role": 0,
     "latitude": 39.8721024,
     "longitude": -105.1459584,
-    "altitude": 1723.0,
+    "altitude": 1713.0,
     "precision": 13,
     "hardware_model": "T_DECK_PRO"
   },
@@ -985,7 +985,7 @@
     "role": 0,
     "latitude": 39.6099584,
     "longitude": -104.6740992,
-    "altitude": 1875.0,
+    "altitude": 1967.0,
     "precision": 13,
     "hardware_model": "RAK4631"
   },
@@ -1029,7 +1029,7 @@
     "role": 12,
     "latitude": 39.6623872,
     "longitude": -105.0935296,
-    "altitude": 1745.0,
+    "altitude": 1743.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -1073,7 +1073,7 @@
     "role": 0,
     "latitude": 39.6623872,
     "longitude": -104.9362432,
-    "altitude": 1686.0,
+    "altitude": 1684.0,
     "precision": 13,
     "hardware_model": "SEEED_WIO_TRACKER_L1"
   },
@@ -1107,7 +1107,7 @@
     "latitude": 39.9245312,
     "longitude": -105.0411008,
     "altitude": null,
-    "precision": 13,
+    "precision": null,
     "hardware_model": "HELTEC_V4"
   },
   {
@@ -1131,6 +1131,17 @@
     "altitude": null,
     "precision": 14,
     "hardware_model": "HELTEC_V4"
+  },
+  {
+    "id": "4194085154",
+    "long_name": "Sigvard",
+    "short_name": "SIGV",
+    "role": 0,
+    "latitude": 41.1303936,
+    "longitude": -104.726528,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "RAK4631"
   },
   {
     "id": "181097536",
@@ -1227,7 +1238,7 @@
     "role": 0,
     "latitude": 39.1380992,
     "longitude": -104.7789568,
-    "altitude": 2248.0,
+    "altitude": 2253.0,
     "precision": 13,
     "hardware_model": "SEEED_WIO_TRACKER_L1"
   },
@@ -1480,7 +1491,7 @@
     "role": 0,
     "latitude": 39.9245312,
     "longitude": -105.0411008,
-    "altitude": 1608.0,
+    "altitude": 1613.0,
     "precision": 13,
     "hardware_model": "STATION_G2"
   },
@@ -1518,14 +1529,25 @@
     "hardware_model": "HELTEC_V4"
   },
   {
+    "id": "67519920",
+    "long_name": "moev3",
+    "short_name": "mv3",
+    "role": 12,
+    "latitude": 40.3963904,
+    "longitude": -105.0935296,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "HELTEC_V3"
+  },
+  {
     "id": "289190260",
     "long_name": "PikeNFbase",
     "short_name": "pike",
     "role": 12,
-    "latitude": 39.059456,
-    "longitude": -104.9100288,
+    "latitude": 39.0856704,
+    "longitude": -104.8838144,
     "altitude": 2204.0,
-    "precision": 12,
+    "precision": 13,
     "hardware_model": "RAK4631"
   },
   {
@@ -1546,7 +1568,7 @@
     "role": 0,
     "latitude": 39.124992,
     "longitude": -104.7658496,
-    "altitude": 2243.0,
+    "altitude": 2222.0,
     "precision": 14,
     "hardware_model": "SEEED_SOLAR_NODE"
   },
@@ -1579,7 +1601,7 @@
     "role": 12,
     "latitude": 39.7541376,
     "longitude": -105.0017792,
-    "altitude": 1720.0,
+    "altitude": 1596.0,
     "precision": 14,
     "hardware_model": "HELTEC_V4"
   },
@@ -1689,8 +1711,8 @@
     "role": 0,
     "latitude": 40.1342464,
     "longitude": -105.0935296,
-    "altitude": 1055.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "RAK4631"
   },
   {
@@ -1755,7 +1777,7 @@
     "role": 12,
     "latitude": 38.1943808,
     "longitude": -105.3032448,
-    "altitude": 2808.0,
+    "altitude": 2608.0,
     "precision": 13,
     "hardware_model": "HELTEC_V3"
   },
@@ -1766,7 +1788,7 @@
     "role": 0,
     "latitude": 38.8104192,
     "longitude": -105.3949952,
-    "altitude": 2661.0,
+    "altitude": 2638.0,
     "precision": 14,
     "hardware_model": "LILYGO_TBEAM_S3_CORE"
   },
@@ -1789,17 +1811,6 @@
     "latitude": 39.5706368,
     "longitude": -104.9493504,
     "altitude": 1794.0,
-    "precision": 14,
-    "hardware_model": "RAK4631"
-  },
-  {
-    "id": "1935488089",
-    "long_name": "W0KVZ",
-    "short_name": "Com1",
-    "role": 0,
-    "latitude": 39.7541376,
-    "longitude": -105.2114944,
-    "altitude": 1734.0,
     "precision": 14,
     "hardware_model": "RAK4631"
   },
