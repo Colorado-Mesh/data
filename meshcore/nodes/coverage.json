@@ -9,17 +9,17 @@
       "lon": 0.00384
     },
     "schema_version": 2,
-    "generated_at": 1792886274,
-    "data_age_seconds": 2031,
-    "total_squares": 18627,
-    "point_count": 367608,
+    "generated_at": 1792895865,
+    "data_age_seconds": 306,
+    "total_squares": 18635,
+    "point_count": 368039,
     "coverage_type_counts": {
-      "BIDIR": 6198,
-      "TX": 664,
+      "BIDIR": 6203,
+      "TX": 666,
       "RX": 1426,
-      "DISC": 4011,
+      "DISC": 4014,
       "DEAD": 180,
-      "DROP": 6148
+      "DROP": 6146
     },
     "type_bits": {
       "BIDIR": 1,
@@ -36,7 +36,7 @@
       "maxLon": -102.2016
     },
     "radio_configs": {
-      "910.525,62.5,7,5": 209467,
+      "910.525,62.5,7,5": 209898,
       "910.525,62.5,7,8": 51714,
       "918,62.5,5,6": 223,
       "927.25,500,11,8": 79,
@@ -22198,13 +22198,13 @@
         "border_color": "#14522d",
         "snr": 4.6,
         "timestamp": 1791916759,
-        "count": 61,
+        "count": 62,
         "snr_min": -7.5,
         "snr_max": 13.5,
         "status_mask": 63,
         "first_seen": 1774129881,
         "noise": 5.6,
-        "effective": 0.92
+        "effective": 0.9
       },
       {
         "grid_id": "14734_-27367",
@@ -51302,15 +51302,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 5.1,
+        "snr": 6.4,
         "timestamp": 1790877995,
-        "count": 29,
+        "count": 33,
         "snr_min": -4.8,
         "snr_max": 13.3,
-        "status_mask": 45,
+        "status_mask": 47,
         "first_seen": 1774321863,
-        "noise": 2.3,
-        "effective": 0.79
+        "noise": 2.4,
+        "effective": 0.94
       },
       {
         "grid_id": "14754_-27366",
@@ -51323,15 +51323,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 4,
+        "snr": 4.6,
         "timestamp": 1790877944,
-        "count": 14,
+        "count": 16,
         "snr_min": -6.3,
-        "snr_max": 10.3,
+        "snr_max": 11.8,
         "status_mask": 45,
         "first_seen": 1774321897,
-        "noise": 3.6,
-        "effective": 1.07
+        "noise": 3.4,
+        "effective": 1.19
       },
       {
         "grid_id": "14753_-27366",
@@ -51344,15 +51344,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 2.3,
-        "timestamp": 1789750152,
-        "count": 6,
+        "snr": 4.4,
+        "timestamp": 1792894367,
+        "count": 9,
         "snr_min": -3.3,
-        "snr_max": 10.5,
+        "snr_max": 11.5,
         "status_mask": 45,
         "first_seen": 1774321930,
-        "noise": 1.7,
-        "effective": 1.5
+        "noise": 1.4,
+        "effective": 1.78
       },
       {
         "grid_id": "14752_-27366",
@@ -51430,13 +51430,13 @@
         "border_color": "#d96b0c",
         "snr": -1.1,
         "timestamp": 1789855919,
-        "count": 26,
+        "count": 28,
         "snr_min": -4.3,
         "snr_max": 2,
         "status_mask": 38,
         "first_seen": 1774321996,
-        "noise": 2,
-        "effective": 0.23
+        "noise": 2.1,
+        "effective": 0.21
       },
       {
         "grid_id": "14746_-27365",
@@ -51451,13 +51451,13 @@
         "border_color": "#14522d",
         "snr": 1.3,
         "timestamp": 1792395162,
-        "count": 16,
+        "count": 17,
         "snr_min": -5.3,
         "snr_max": 13,
         "status_mask": 47,
         "first_seen": 1774322030,
-        "noise": 9.9,
-        "effective": 0.81
+        "noise": 9.8,
+        "effective": 0.76
       },
       {
         "grid_id": "14745_-27365",
@@ -51472,13 +51472,13 @@
         "border_color": "#d96b0c",
         "snr": 13.3,
         "timestamp": 1792395192,
-        "count": 17,
+        "count": 20,
         "snr_min": 13.3,
         "snr_max": 13.3,
         "status_mask": 50,
         "first_seen": 1774322063,
-        "noise": 13.1,
-        "effective": 0.18
+        "noise": 15.6,
+        "effective": 0.15
       },
       {
         "grid_id": "14742_-27364",
@@ -51493,13 +51493,13 @@
         "border_color": "#117a8b",
         "snr": 13.8,
         "timestamp": 1790204989,
-        "count": 9,
+        "count": 10,
         "snr_min": 13.8,
         "snr_max": 13.8,
         "status_mask": 40,
         "first_seen": 1774322096,
-        "noise": 2.8,
-        "effective": 0.22
+        "noise": 2.9,
+        "effective": 0.2
       },
       {
         "grid_id": "14741_-27364",
@@ -51514,13 +51514,13 @@
         "border_color": "#117a8b",
         "snr": 6.7,
         "timestamp": 1774322116,
-        "count": 20,
+        "count": 24,
         "snr_min": 0,
         "snr_max": 13.5,
         "status_mask": 60,
         "first_seen": 1774322116,
-        "noise": 4.7,
-        "effective": 0.25
+        "noise": 4.8,
+        "effective": 0.21
       },
       {
         "grid_id": "14739_-27364",
@@ -51535,13 +51535,13 @@
         "border_color": "#117a8b",
         "snr": 10.6,
         "timestamp": 1790206071,
-        "count": 12,
+        "count": 14,
         "snr_min": 1.8,
         "snr_max": 14,
         "status_mask": 46,
         "first_seen": 1774322196,
-        "noise": 1.9,
-        "effective": 0.83
+        "noise": 2.1,
+        "effective": 0.71
       },
       {
         "grid_id": "14738_-27365",
@@ -51556,13 +51556,13 @@
         "border_color": "#117a8b",
         "snr": 8.4,
         "timestamp": 1791588356,
-        "count": 23,
+        "count": 24,
         "snr_min": -4.3,
         "snr_max": 14,
         "status_mask": 46,
         "first_seen": 1774322208,
-        "noise": 4.1,
-        "effective": 0.78
+        "noise": 4.5,
+        "effective": 0.75
       },
       {
         "grid_id": "14737_-27365",
@@ -51577,13 +51577,13 @@
         "border_color": "#117a8b",
         "snr": 13.4,
         "timestamp": 1791587683,
-        "count": 36,
+        "count": 38,
         "snr_min": 13,
         "snr_max": 14,
         "status_mask": 60,
         "first_seen": 1774322229,
-        "noise": 3.6,
-        "effective": 0.83
+        "noise": 3.8,
+        "effective": 0.79
       },
       {
         "grid_id": "14736_-27365",
@@ -51598,13 +51598,13 @@
         "border_color": "#117a8b",
         "snr": -1.1,
         "timestamp": 1774322249,
-        "count": 20,
+        "count": 21,
         "snr_min": -5,
         "snr_max": 2.8,
         "status_mask": 46,
         "first_seen": 1774322249,
         "noise": 9.2,
-        "effective": 0.3
+        "effective": 0.29
       },
       {
         "grid_id": "14733_-27365",
@@ -51618,13 +51618,13 @@
         "fill_color": "#bd2130",
         "border_color": "#8b101b",
         "snr": null,
-        "timestamp": 1790876788,
-        "count": 4,
+        "timestamp": 1792893868,
+        "count": 5,
         "snr_min": null,
         "snr_max": null,
         "status_mask": 32,
         "first_seen": 1774322329,
-        "noise": 7.3,
+        "noise": 6.2,
         "effective": 0
       },
       {
@@ -51639,13 +51639,13 @@
         "fill_color": "#bd2130",
         "border_color": "#8b101b",
         "snr": null,
-        "timestamp": 1790876753,
-        "count": 7,
+        "timestamp": 1792893822,
+        "count": 8,
         "snr_min": null,
         "snr_max": null,
         "status_mask": 32,
         "first_seen": 1774322362,
-        "noise": 7.6,
+        "noise": 7,
         "effective": 0
       },
       {
@@ -51701,15 +51701,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 1.3,
+        "snr": 1.2,
         "timestamp": 1788639681,
-        "count": 13,
+        "count": 15,
         "snr_min": -7.5,
         "snr_max": 7.8,
         "status_mask": 45,
         "first_seen": 1774322462,
-        "noise": 6.8,
-        "effective": 1.46
+        "noise": 6.4,
+        "effective": 1.4
       },
       {
         "grid_id": "14725_-27365",
@@ -51722,15 +51722,15 @@
         "coverage_type": "TX",
         "fill_color": "#fd7e14",
         "border_color": "#d96b0c",
-        "snr": 0,
-        "timestamp": 1788639617,
-        "count": 7,
+        "snr": -0.2,
+        "timestamp": 1792893677,
+        "count": 9,
         "snr_min": -4.8,
         "snr_max": 4.8,
         "status_mask": 38,
         "first_seen": 1774322494,
-        "noise": 9.6,
-        "effective": 0.86
+        "noise": 15.7,
+        "effective": 1.11
       },
       {
         "grid_id": "14723_-27365",
@@ -51740,18 +51740,18 @@
           "north": 39.7548,
           "east": -105.07776
         },
-        "coverage_type": "RX",
-        "fill_color": "#6f42c1",
-        "border_color": "#59359a",
+        "coverage_type": "TX",
+        "fill_color": "#fd7e14",
+        "border_color": "#d96b0c",
         "snr": -6.3,
-        "timestamp": 1790211679,
-        "count": 13,
+        "timestamp": 1792893643,
+        "count": 16,
         "snr_min": -6.3,
         "snr_max": -6.3,
-        "status_mask": 36,
+        "status_mask": 38,
         "first_seen": 1774322529,
-        "noise": 13.5,
-        "effective": 0.15
+        "noise": 13.3,
+        "effective": 0.25
       },
       {
         "grid_id": "14721_-27365",
@@ -51764,15 +51764,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 2.1,
+        "snr": 3.9,
         "timestamp": 1777753754,
-        "count": 18,
+        "count": 22,
         "snr_min": -4.8,
-        "snr_max": 10.3,
+        "snr_max": 10.8,
         "status_mask": 47,
         "first_seen": 1774322562,
-        "noise": 5.4,
-        "effective": 1.5
+        "noise": 5.3,
+        "effective": 1.59
       },
       {
         "grid_id": "14719_-27365",
@@ -51785,15 +51785,15 @@
         "coverage_type": "DISC",
         "fill_color": "#17a2b8",
         "border_color": "#117a8b",
-        "snr": 3.3,
-        "timestamp": 1784777472,
-        "count": 4,
+        "snr": 4.5,
+        "timestamp": 1792891523,
+        "count": 7,
         "snr_min": 3.3,
-        "snr_max": 3.3,
-        "status_mask": 40,
+        "snr_max": 5.8,
+        "status_mask": 42,
         "first_seen": 1774322595,
-        "noise": 5.5,
-        "effective": 0.5
+        "noise": 9.7,
+        "effective": 0.86
       },
       {
         "grid_id": "14718_-27365",
@@ -51806,15 +51806,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": -0.9,
+        "snr": 1.6,
         "timestamp": 1789522615,
-        "count": 19,
+        "count": 22,
         "snr_min": -2.3,
-        "snr_max": 0.5,
-        "status_mask": 39,
+        "snr_max": 6.5,
+        "status_mask": 55,
         "first_seen": 1774322628,
-        "noise": 10.6,
-        "effective": 0.47
+        "noise": 10.1,
+        "effective": 0.45
       },
       {
         "grid_id": "14716_-27365",
@@ -51828,8 +51828,8 @@
         "fill_color": "#bd2130",
         "border_color": "#8b101b",
         "snr": null,
-        "timestamp": 1790876227,
-        "count": 3,
+        "timestamp": 1792893495,
+        "count": 4,
         "snr_min": null,
         "snr_max": null,
         "status_mask": 32,
@@ -65961,14 +65961,14 @@
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
         "snr": 1.4,
-        "timestamp": 1791136791,
-        "count": 58,
+        "timestamp": 1792890264,
+        "count": 59,
         "snr_min": -8.8,
         "snr_max": 12.5,
         "status_mask": 47,
         "first_seen": 1774484511,
-        "noise": 11,
-        "effective": 1.34
+        "noise": 11.2,
+        "effective": 1.37
       },
       {
         "grid_id": "14772_-27362",
@@ -67325,15 +67325,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 0,
-        "timestamp": 1791124036,
-        "count": 93,
+        "snr": 0.7,
+        "timestamp": 1792894775,
+        "count": 103,
         "snr_min": -9.8,
-        "snr_max": 8.8,
+        "snr_max": 9.8,
         "status_mask": 47,
         "first_seen": 1774487005,
-        "noise": 5.7,
-        "effective": 1.9
+        "noise": 6.1,
+        "effective": 1.92
       },
       {
         "grid_id": "14662_-27333",
@@ -67390,13 +67390,13 @@
         "border_color": "#14522d",
         "snr": 2.6,
         "timestamp": 1790378330,
-        "count": 107,
+        "count": 108,
         "snr_min": -9.3,
         "snr_max": 12.3,
         "status_mask": 47,
         "first_seen": 1774487054,
         "noise": 10.3,
-        "effective": 1.57
+        "effective": 1.56
       },
       {
         "grid_id": "14758_-27356",
@@ -86479,13 +86479,13 @@
         "border_color": "#14522d",
         "snr": 4,
         "timestamp": 1792395283,
-        "count": 13,
+        "count": 14,
         "snr_min": -5.3,
         "snr_max": 13.5,
         "status_mask": 53,
         "first_seen": 1774638563,
-        "noise": 6.2,
-        "effective": 0.92
+        "noise": 5.9,
+        "effective": 0.86
       },
       {
         "grid_id": "14734_-27365",
@@ -92505,8 +92505,8 @@
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
         "snr": 3.4,
-        "timestamp": 1792679866,
-        "count": 545,
+        "timestamp": 1792894976,
+        "count": 547,
         "snr_min": -9.8,
         "snr_max": 12.8,
         "status_mask": 63,
@@ -93766,13 +93766,13 @@
         "border_color": "#117a8b",
         "snr": 2,
         "timestamp": 1781645513,
-        "count": 21,
+        "count": 23,
         "snr_min": -5,
         "snr_max": 6,
         "status_mask": 46,
         "first_seen": 1774711538,
-        "noise": 6.4,
-        "effective": 0.95
+        "noise": 6.3,
+        "effective": 0.96
       },
       {
         "grid_id": "14761_-27364",
@@ -93785,15 +93785,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": -0.3,
+        "snr": 0.2,
         "timestamp": 1792345371,
-        "count": 24,
+        "count": 25,
         "snr_min": -10,
         "snr_max": 13.5,
         "status_mask": 63,
         "first_seen": 1774711563,
-        "noise": 4,
-        "effective": 1.13
+        "noise": 5.4,
+        "effective": 1.16
       },
       {
         "grid_id": "14761_-27363",
@@ -93808,13 +93808,13 @@
         "border_color": "#14522d",
         "snr": 5.4,
         "timestamp": 1789099612,
-        "count": 13,
+        "count": 14,
         "snr_min": -3.3,
         "snr_max": 13.5,
         "status_mask": 63,
         "first_seen": 1774711596,
-        "noise": 4.2,
-        "effective": 1.08
+        "noise": 4.1,
+        "effective": 1
       },
       {
         "grid_id": "14761_-27361",
@@ -93827,15 +93827,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 9.3,
-        "timestamp": 1789099647,
-        "count": 9,
-        "snr_min": 4.8,
+        "snr": 8.7,
+        "timestamp": 1792894633,
+        "count": 14,
+        "snr_min": 0.3,
         "snr_max": 12.3,
         "status_mask": 61,
         "first_seen": 1774711629,
-        "noise": 5.2,
-        "effective": 1.67
+        "noise": 3.9,
+        "effective": 1.93
       },
       {
         "grid_id": "14774_-27292",
@@ -94688,15 +94688,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 1.8,
-        "timestamp": 1791344304,
-        "count": 407,
+        "snr": 1.9,
+        "timestamp": 1792894842,
+        "count": 423,
         "snr_min": -10.3,
         "snr_max": 12.5,
         "status_mask": 63,
         "first_seen": 1774717147,
-        "noise": 5.5,
-        "effective": 1.89
+        "noise": 5.7,
+        "effective": 1.9
       },
       {
         "grid_id": "14765_-27358",
@@ -94730,15 +94730,15 @@
         "coverage_type": "DISC",
         "fill_color": "#17a2b8",
         "border_color": "#117a8b",
-        "snr": 4.5,
-        "timestamp": 1790978997,
-        "count": 15,
-        "snr_min": -4.3,
-        "snr_max": 10.8,
+        "snr": 4.1,
+        "timestamp": 1792894895,
+        "count": 20,
+        "snr_min": -7.3,
+        "snr_max": 12,
         "status_mask": 46,
         "first_seen": 1774717292,
-        "noise": 3,
-        "effective": 1.47
+        "noise": 2.6,
+        "effective": 1.6
       },
       {
         "grid_id": "14768_-27358",
@@ -94751,15 +94751,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 5.1,
-        "timestamp": 1792557419,
-        "count": 37,
+        "snr": 5.2,
+        "timestamp": 1792894908,
+        "count": 38,
         "snr_min": -4,
         "snr_max": 11.5,
         "status_mask": 47,
         "first_seen": 1774717305,
-        "noise": 2.4,
-        "effective": 1.78
+        "noise": 2.3,
+        "effective": 1.82
       },
       {
         "grid_id": "14769_-27358",
@@ -94772,14 +94772,14 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 3.8,
+        "snr": 4.2,
         "timestamp": 1792348163,
-        "count": 20,
+        "count": 21,
         "snr_min": -4.3,
-        "snr_max": 10.5,
+        "snr_max": 11,
         "status_mask": 45,
         "first_seen": 1774717314,
-        "noise": 5.8,
+        "noise": 5.6,
         "effective": 1.95
       },
       {
@@ -94793,15 +94793,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 2.8,
-        "timestamp": 1790979078,
-        "count": 33,
+        "snr": 3.2,
+        "timestamp": 1792894942,
+        "count": 36,
         "snr_min": -8.8,
         "snr_max": 12.5,
         "status_mask": 47,
         "first_seen": 1774717327,
-        "noise": 4.1,
-        "effective": 1.88
+        "noise": 4,
+        "effective": 1.92
       },
       {
         "grid_id": "14775_-27358",
@@ -148406,15 +148406,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 2.6,
-        "timestamp": 1791039725,
-        "count": 186,
+        "snr": 2.8,
+        "timestamp": 1792894810,
+        "count": 205,
         "snr_min": -10.5,
         "snr_max": 12.5,
         "status_mask": 63,
         "first_seen": 1775944159,
-        "noise": 4.8,
-        "effective": 1.76
+        "noise": 5.2,
+        "effective": 1.8
       },
       {
         "grid_id": "14764_-27356",
@@ -148427,15 +148427,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 3.8,
-        "timestamp": 1791344368,
-        "count": 62,
+        "snr": 4.2,
+        "timestamp": 1792890045,
+        "count": 66,
         "snr_min": -8.3,
-        "snr_max": 10.3,
+        "snr_max": 11,
         "status_mask": 47,
         "first_seen": 1775944192,
         "noise": 3.8,
-        "effective": 1.82
+        "effective": 1.85
       },
       {
         "grid_id": "14764_-27354",
@@ -148450,13 +148450,13 @@
         "border_color": "#14522d",
         "snr": 2.9,
         "timestamp": 1790975237,
-        "count": 55,
+        "count": 56,
         "snr_min": -7.3,
         "snr_max": 13.3,
         "status_mask": 63,
         "first_seen": 1775944226,
         "noise": 2.3,
-        "effective": 1.33
+        "effective": 1.3
       },
       {
         "grid_id": "14764_-27353",
@@ -148469,14 +148469,14 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 3.6,
-        "timestamp": 1792285552,
-        "count": 140,
+        "snr": 3.5,
+        "timestamp": 1792889927,
+        "count": 147,
         "snr_min": -9,
         "snr_max": 13.5,
         "status_mask": 47,
         "first_seen": 1775944259,
-        "noise": 3.4,
+        "noise": 3.3,
         "effective": 1.62
       },
       {
@@ -148490,15 +148490,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 5.1,
+        "snr": 5,
         "timestamp": 1790975337,
-        "count": 69,
+        "count": 71,
         "snr_min": -7,
         "snr_max": 12,
         "status_mask": 47,
         "first_seen": 1775944292,
-        "noise": 3.4,
-        "effective": 1.77
+        "noise": 3.3,
+        "effective": 1.75
       },
       {
         "grid_id": "14768_-27353",
@@ -148512,14 +148512,14 @@
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
         "snr": 3.8,
-        "timestamp": 1790975402,
-        "count": 248,
+        "timestamp": 1792889828,
+        "count": 251,
         "snr_min": -9.8,
         "snr_max": 13.3,
         "status_mask": 47,
         "first_seen": 1775944326,
         "noise": 2.2,
-        "effective": 1.89
+        "effective": 1.9
       },
       {
         "grid_id": "14769_-27353",
@@ -148533,8 +148533,8 @@
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
         "snr": 3.8,
-        "timestamp": 1792871610,
-        "count": 3277,
+        "timestamp": 1792889794,
+        "count": 3288,
         "snr_min": -11.3,
         "snr_max": 13.5,
         "status_mask": 63,
@@ -157055,18 +157055,18 @@
           "north": 39.7386,
           "east": -105.07776
         },
-        "coverage_type": "RX",
-        "fill_color": "#6f42c1",
-        "border_color": "#59359a",
-        "snr": 5.3,
-        "timestamp": 1790876256,
-        "count": 9,
-        "snr_min": 5.3,
-        "snr_max": 5.3,
-        "status_mask": 36,
+        "coverage_type": "DISC",
+        "fill_color": "#17a2b8",
+        "border_color": "#117a8b",
+        "snr": 2.3,
+        "timestamp": 1792891589,
+        "count": 13,
+        "snr_min": -4,
+        "snr_max": 5.8,
+        "status_mask": 44,
         "first_seen": 1776183046,
-        "noise": 5.3,
-        "effective": 0.22
+        "noise": 4.5,
+        "effective": 0.46
       },
       {
         "grid_id": "14722_-27365",
@@ -157079,15 +157079,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 1.8,
+        "snr": 2.3,
         "timestamp": 1790876450,
-        "count": 15,
+        "count": 18,
         "snr_min": -4,
         "snr_max": 8.5,
-        "status_mask": 37,
+        "status_mask": 53,
         "first_seen": 1776183147,
-        "noise": 10.1,
-        "effective": 1.47
+        "noise": 9,
+        "effective": 1.28
       },
       {
         "grid_id": "14724_-27365",
@@ -157100,15 +157100,15 @@
         "coverage_type": "DISC",
         "fill_color": "#17a2b8",
         "border_color": "#117a8b",
-        "snr": -3.8,
-        "timestamp": 1790876504,
-        "count": 4,
+        "snr": 2.1,
+        "timestamp": 1792891335,
+        "count": 9,
         "snr_min": -3.8,
-        "snr_max": -3.8,
-        "status_mask": 40,
+        "snr_max": 6.3,
+        "status_mask": 42,
         "first_seen": 1776183180,
-        "noise": 10.8,
-        "effective": 0.5
+        "noise": 12.3,
+        "effective": 0.89
       },
       {
         "grid_id": "14728_-27365",
@@ -157123,13 +157123,13 @@
         "border_color": "#117a8b",
         "snr": 2.3,
         "timestamp": 1791420960,
-        "count": 5,
+        "count": 6,
         "snr_min": -2.5,
         "snr_max": 8.5,
         "status_mask": 44,
         "first_seen": 1776183247,
-        "noise": 8.8,
-        "effective": 1.2
+        "noise": 9.7,
+        "effective": 1
       },
       {
         "grid_id": "14730_-27365",
@@ -157143,13 +157143,13 @@
         "fill_color": "#bd2130",
         "border_color": "#8b101b",
         "snr": null,
-        "timestamp": 1791420852,
-        "count": 5,
+        "timestamp": 1792893802,
+        "count": 6,
         "snr_min": null,
         "snr_max": null,
         "status_mask": 32,
         "first_seen": 1776183280,
-        "noise": 4.4,
+        "noise": 4.3,
         "effective": 0
       },
       {
@@ -157164,13 +157164,13 @@
         "fill_color": "#bd2130",
         "border_color": "#8b101b",
         "snr": null,
-        "timestamp": 1792462366,
-        "count": 7,
+        "timestamp": 1792893855,
+        "count": 9,
         "snr_min": null,
         "snr_max": null,
         "status_mask": 32,
         "first_seen": 1776183313,
-        "noise": 4.9,
+        "noise": 6.6,
         "effective": 0
       },
       {
@@ -157394,15 +157394,15 @@
         "coverage_type": "DISC",
         "fill_color": "#17a2b8",
         "border_color": "#117a8b",
-        "snr": 5.1,
+        "snr": 3.1,
         "timestamp": 1790876392,
-        "count": 5,
-        "snr_min": 1.3,
+        "count": 8,
+        "snr_min": -2.8,
         "snr_max": 8.3,
-        "status_mask": 56,
+        "status_mask": 62,
         "first_seen": 1776187496,
-        "noise": 10.2,
-        "effective": 1
+        "noise": 7.6,
+        "effective": 1.13
       },
       {
         "grid_id": "14713_-27363",
@@ -157685,18 +157685,18 @@
           "north": 39.7575,
           "east": -105.05088
         },
-        "coverage_type": "DROP",
-        "fill_color": "#bd2130",
-        "border_color": "#8b101b",
-        "snr": null,
-        "timestamp": 1790210989,
-        "count": 11,
-        "snr_min": null,
-        "snr_max": null,
-        "status_mask": 32,
+        "coverage_type": "BIDIR",
+        "fill_color": "#1e7e34",
+        "border_color": "#14522d",
+        "snr": 0.3,
+        "timestamp": 1792891152,
+        "count": 14,
+        "snr_min": 0.3,
+        "snr_max": 0.3,
+        "status_mask": 33,
         "first_seen": 1776189979,
-        "noise": 4.2,
-        "effective": 0
+        "noise": 8.1,
+        "effective": 0.21
       },
       {
         "grid_id": "14725_-27358",
@@ -157711,13 +157711,13 @@
         "border_color": "#117a8b",
         "snr": 3.8,
         "timestamp": 1776189999,
-        "count": 10,
+        "count": 11,
         "snr_min": 1.8,
         "snr_max": 6.8,
         "status_mask": 46,
         "first_seen": 1776189999,
-        "noise": 2.4,
-        "effective": 0.8
+        "noise": 2.5,
+        "effective": 0.73
       },
       {
         "grid_id": "14726_-27358",
@@ -157727,18 +157727,18 @@
           "north": 39.7629,
           "east": -105.05088
         },
-        "coverage_type": "DROP",
-        "fill_color": "#bd2130",
-        "border_color": "#8b101b",
-        "snr": null,
-        "timestamp": 1790210939,
-        "count": 8,
-        "snr_min": null,
-        "snr_max": null,
-        "status_mask": 32,
+        "coverage_type": "BIDIR",
+        "fill_color": "#1e7e34",
+        "border_color": "#14522d",
+        "snr": 2.5,
+        "timestamp": 1792891051,
+        "count": 19,
+        "snr_min": -7.5,
+        "snr_max": 9.8,
+        "status_mask": 39,
         "first_seen": 1776190013,
-        "noise": 3,
-        "effective": 0
+        "noise": 2.8,
+        "effective": 1.11
       },
       {
         "grid_id": "14728_-27358",
@@ -157752,13 +157752,13 @@
         "fill_color": "#bd2130",
         "border_color": "#8b101b",
         "snr": null,
-        "timestamp": 1790210903,
-        "count": 7,
+        "timestamp": 1792891014,
+        "count": 10,
         "snr_min": null,
         "snr_max": null,
         "status_mask": 32,
         "first_seen": 1776190046,
-        "noise": 2,
+        "noise": 2.4,
         "effective": 0
       },
       {
@@ -157774,13 +157774,13 @@
         "border_color": "#117a8b",
         "snr": -3.3,
         "timestamp": 1789408968,
-        "count": 16,
+        "count": 17,
         "snr_min": -3.3,
         "snr_max": -3.3,
         "status_mask": 40,
         "first_seen": 1776190080,
-        "noise": 3.7,
-        "effective": 0.13
+        "noise": 3.6,
+        "effective": 0.12
       },
       {
         "grid_id": "14730_-27358",
@@ -157795,7 +157795,7 @@
         "border_color": "#545b62",
         "snr": 12,
         "timestamp": 1776190113,
-        "count": 16,
+        "count": 18,
         "snr_min": 12,
         "snr_max": 12,
         "status_mask": 48,
@@ -157816,13 +157816,13 @@
         "border_color": "#117a8b",
         "snr": 9.3,
         "timestamp": 1776190133,
-        "count": 11,
+        "count": 12,
         "snr_min": 9.3,
         "snr_max": 9.3,
         "status_mask": 40,
         "first_seen": 1776190133,
         "noise": 2.4,
-        "effective": 0.18
+        "effective": 0.17
       },
       {
         "grid_id": "14732_-27358",
@@ -157837,13 +157837,13 @@
         "border_color": "#545b62",
         "snr": 10.3,
         "timestamp": 1776190147,
-        "count": 11,
+        "count": 12,
         "snr_min": 10.3,
         "snr_max": 10.3,
         "status_mask": 48,
         "first_seen": 1776190147,
-        "noise": 2.2,
-        "effective": 0.09
+        "noise": 2.3,
+        "effective": 0.08
       },
       {
         "grid_id": "14733_-27358",
@@ -157858,13 +157858,13 @@
         "border_color": "#59359a",
         "snr": 7.3,
         "timestamp": 1790210758,
-        "count": 10,
+        "count": 11,
         "snr_min": 7.3,
         "snr_max": 7.3,
         "status_mask": 36,
         "first_seen": 1776190180,
-        "noise": 2.8,
-        "effective": 0.2
+        "noise": 2.7,
+        "effective": 0.18
       },
       {
         "grid_id": "14733_-27357",
@@ -165626,15 +165626,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 5.6,
-        "timestamp": 1790961303,
-        "count": 164,
+        "snr": 5.5,
+        "timestamp": 1792890749,
+        "count": 167,
         "snr_min": -9.8,
         "snr_max": 14,
         "status_mask": 63,
         "first_seen": 1776545688,
         "noise": 2.9,
-        "effective": 0.9
+        "effective": 0.92
       },
       {
         "grid_id": "14831_-27341",
@@ -173165,15 +173165,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 4.9,
-        "timestamp": 1791061748,
-        "count": 66,
+        "snr": 5,
+        "timestamp": 1792890364,
+        "count": 72,
         "snr_min": -8.3,
         "snr_max": 13.5,
         "status_mask": 47,
         "first_seen": 1776791424,
         "noise": 7.1,
-        "effective": 1.94
+        "effective": 1.97
       },
       {
         "grid_id": "14755_-27358",
@@ -173186,15 +173186,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 8.3,
-        "timestamp": 1791738494,
-        "count": 46,
+        "snr": 8.4,
+        "timestamp": 1792890415,
+        "count": 48,
         "snr_min": -6.5,
         "snr_max": 13.5,
         "status_mask": 47,
         "first_seen": 1776791531,
         "noise": 1.6,
-        "effective": 1.91
+        "effective": 1.94
       },
       {
         "grid_id": "14753_-27358",
@@ -173208,13 +173208,13 @@
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
         "snr": 8,
-        "timestamp": 1789762499,
-        "count": 174,
+        "timestamp": 1792890450,
+        "count": 176,
         "snr_min": -8.5,
         "snr_max": 14,
         "status_mask": 63,
         "first_seen": 1776791565,
-        "noise": 0.7,
+        "noise": 0.8,
         "effective": 1.74
       },
       {
@@ -173230,13 +173230,13 @@
         "border_color": "#14522d",
         "snr": 5.7,
         "timestamp": 1789762465,
-        "count": 67,
+        "count": 68,
         "snr_min": -4.8,
         "snr_max": 14,
         "status_mask": 47,
         "first_seen": 1776791598,
-        "noise": 2.6,
-        "effective": 1.04
+        "noise": 2.8,
+        "effective": 1.03
       },
       {
         "grid_id": "14749_-27358",
@@ -173251,13 +173251,13 @@
         "border_color": "#14522d",
         "snr": 8.6,
         "timestamp": 1790983633,
-        "count": 93,
+        "count": 94,
         "snr_min": -9.3,
         "snr_max": 14,
         "status_mask": 63,
         "first_seen": 1776791666,
         "noise": 1,
-        "effective": 0.81
+        "effective": 0.8
       },
       {
         "grid_id": "14750_-27358",
@@ -173270,9 +173270,9 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 4.4,
+        "snr": 4.3,
         "timestamp": 1791567893,
-        "count": 201,
+        "count": 202,
         "snr_min": -8.5,
         "snr_max": 14,
         "status_mask": 63,
@@ -173291,15 +173291,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 8,
+        "snr": 8.1,
         "timestamp": 1792497584,
-        "count": 46,
+        "count": 49,
         "snr_min": -4.8,
         "snr_max": 13.5,
         "status_mask": 61,
         "first_seen": 1776792230,
         "noise": 1.2,
-        "effective": 1.72
+        "effective": 1.73
       },
       {
         "grid_id": "14748_-27358",
@@ -173314,13 +173314,13 @@
         "border_color": "#14522d",
         "snr": 10.1,
         "timestamp": 1791143163,
-        "count": 78,
+        "count": 79,
         "snr_min": -9.5,
         "snr_max": 13.8,
         "status_mask": 63,
         "first_seen": 1776792297,
         "noise": 0.7,
-        "effective": 0.81
+        "effective": 0.8
       },
       {
         "grid_id": "14747_-27358",
@@ -173335,13 +173335,13 @@
         "border_color": "#14522d",
         "snr": 7.3,
         "timestamp": 1789841987,
-        "count": 67,
+        "count": 68,
         "snr_min": -6.5,
         "snr_max": 13.8,
-        "status_mask": 61,
+        "status_mask": 63,
         "first_seen": 1776792330,
-        "noise": 1,
-        "effective": 1.27
+        "noise": 1.1,
+        "effective": 1.28
       },
       {
         "grid_id": "14745_-27358",
@@ -173356,13 +173356,13 @@
         "border_color": "#14522d",
         "snr": 7.1,
         "timestamp": 1791143123,
-        "count": 126,
+        "count": 128,
         "snr_min": -11,
         "snr_max": 14,
         "status_mask": 63,
         "first_seen": 1776792363,
-        "noise": 1.9,
-        "effective": 0.69
+        "noise": 2.1,
+        "effective": 0.68
       },
       {
         "grid_id": "14743_-27358",
@@ -173375,15 +173375,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 11.6,
+        "snr": 11.5,
         "timestamp": 1791602963,
-        "count": 86,
+        "count": 87,
         "snr_min": -1.3,
         "snr_max": 13.8,
         "status_mask": 63,
         "first_seen": 1776792430,
         "noise": 1.1,
-        "effective": 0.44
+        "effective": 0.46
       },
       {
         "grid_id": "14741_-27358",
@@ -173398,13 +173398,13 @@
         "border_color": "#14522d",
         "snr": 5,
         "timestamp": 1789842153,
-        "count": 98,
+        "count": 99,
         "snr_min": -8.5,
         "snr_max": 14,
         "status_mask": 63,
         "first_seen": 1776792467,
         "noise": 1.5,
-        "effective": 0.84
+        "effective": 0.83
       },
       {
         "grid_id": "14740_-27358",
@@ -173417,15 +173417,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 5.3,
+        "snr": 5.1,
         "timestamp": 1789751486,
-        "count": 131,
+        "count": 134,
         "snr_min": -9.3,
         "snr_max": 13.8,
         "status_mask": 63,
         "first_seen": 1776792484,
-        "noise": 1.3,
-        "effective": 0.58
+        "noise": 1.4,
+        "effective": 0.6
       },
       {
         "grid_id": "14735_-27367",
@@ -174464,18 +174464,18 @@
           "north": 39.7332,
           "east": -105.08928
         },
-        "coverage_type": "DROP",
-        "fill_color": "#bd2130",
-        "border_color": "#8b101b",
-        "snr": null,
-        "timestamp": 1776810687,
-        "count": 1,
-        "snr_min": null,
-        "snr_max": null,
-        "status_mask": 32,
+        "coverage_type": "DISC",
+        "fill_color": "#17a2b8",
+        "border_color": "#117a8b",
+        "snr": 3.4,
+        "timestamp": 1792891689,
+        "count": 7,
+        "snr_min": 0.8,
+        "snr_max": 6,
+        "status_mask": 44,
         "first_seen": 1776810687,
-        "noise": 3,
-        "effective": 0
+        "noise": 2.3,
+        "effective": 0.57
       },
       {
         "grid_id": "14717_-27368",
@@ -174485,18 +174485,18 @@
           "north": 39.7386,
           "east": -105.08928
         },
-        "coverage_type": "DROP",
-        "fill_color": "#bd2130",
-        "border_color": "#8b101b",
-        "snr": null,
-        "timestamp": 1776810751,
-        "count": 1,
-        "snr_min": null,
-        "snr_max": null,
-        "status_mask": 32,
+        "coverage_type": "DISC",
+        "fill_color": "#17a2b8",
+        "border_color": "#117a8b",
+        "snr": 0.3,
+        "timestamp": 1792891789,
+        "count": 3,
+        "snr_min": 0.3,
+        "snr_max": 0.3,
+        "status_mask": 40,
         "first_seen": 1776810751,
-        "noise": 0,
-        "effective": 0
+        "noise": 1.3,
+        "effective": 0.67
       },
       {
         "grid_id": "14720_-27368",
@@ -174784,13 +174784,13 @@
         "border_color": "#117a8b",
         "snr": -2.3,
         "timestamp": 1784761884,
-        "count": 6,
+        "count": 7,
         "snr_min": -5,
         "snr_max": 0.5,
         "status_mask": 44,
         "first_seen": 1776817381,
-        "noise": 4.5,
-        "effective": 0.67
+        "noise": 4.3,
+        "effective": 0.57
       },
       {
         "grid_id": "14729_-27365",
@@ -174805,13 +174805,13 @@
         "border_color": "#d96b0c",
         "snr": 3,
         "timestamp": 1790876684,
-        "count": 20,
+        "count": 23,
         "snr_min": -4.8,
         "snr_max": 8.3,
         "status_mask": 38,
         "first_seen": 1776817444,
-        "noise": 13.7,
-        "effective": 0.9
+        "noise": 13.3,
+        "effective": 0.78
       },
       {
         "grid_id": "14734_-27350",
@@ -185725,7 +185725,7 @@
         "border_color": "#14522d",
         "snr": 4.6,
         "timestamp": 1788902203,
-        "count": 109,
+        "count": 110,
         "snr_min": -10.8,
         "snr_max": 14.3,
         "status_mask": 63,
@@ -215057,18 +215057,18 @@
           "north": 39.7332,
           "east": -105.0816
         },
-        "coverage_type": "DROP",
-        "fill_color": "#bd2130",
-        "border_color": "#8b101b",
-        "snr": null,
-        "timestamp": 1778717964,
-        "count": 2,
-        "snr_min": null,
-        "snr_max": null,
-        "status_mask": 32,
+        "coverage_type": "DISC",
+        "fill_color": "#17a2b8",
+        "border_color": "#117a8b",
+        "snr": 2.5,
+        "timestamp": 1792893390,
+        "count": 8,
+        "snr_min": 2.5,
+        "snr_max": 2.5,
+        "status_mask": 42,
         "first_seen": 1778717964,
         "noise": 5,
-        "effective": 0
+        "effective": 0.75
       },
       {
         "grid_id": "14654_-27318",
@@ -217540,7 +217540,7 @@
         "border_color": "#14522d",
         "snr": 4.9,
         "timestamp": 1792557845,
-        "count": 288,
+        "count": 290,
         "snr_min": -9.5,
         "snr_max": 12.3,
         "status_mask": 63,
@@ -217559,15 +217559,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 4.5,
-        "timestamp": 1792596264,
-        "count": 246,
+        "snr": 4.6,
+        "timestamp": 1792895011,
+        "count": 249,
         "snr_min": -11.3,
         "snr_max": 12.3,
         "status_mask": 47,
         "first_seen": 1778952924,
         "noise": 4.2,
-        "effective": 1.93
+        "effective": 1.94
       },
       {
         "grid_id": "14772_-27355",
@@ -217580,9 +217580,9 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 4.6,
+        "snr": 4.7,
         "timestamp": 1791469403,
-        "count": 188,
+        "count": 189,
         "snr_min": -7.5,
         "snr_max": 12,
         "status_mask": 47,
@@ -217601,9 +217601,9 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 3.9,
-        "timestamp": 1791901978,
-        "count": 156,
+        "snr": 4,
+        "timestamp": 1792895043,
+        "count": 157,
         "snr_min": -8,
         "snr_max": 12.8,
         "status_mask": 47,
@@ -217624,13 +217624,13 @@
         "border_color": "#14522d",
         "snr": 1.6,
         "timestamp": 1792596138,
-        "count": 282,
+        "count": 283,
         "snr_min": -10.8,
         "snr_max": 12.5,
         "status_mask": 63,
         "first_seen": 1778952973,
         "noise": 3.7,
-        "effective": 1.72
+        "effective": 1.71
       },
       {
         "grid_id": "14772_-27352",
@@ -217643,15 +217643,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 6.7,
-        "timestamp": 1792247580,
-        "count": 61,
+        "snr": 7,
+        "timestamp": 1792895076,
+        "count": 69,
         "snr_min": -3.5,
         "snr_max": 12.5,
         "status_mask": 45,
         "first_seen": 1778952998,
-        "noise": 6.6,
-        "effective": 1.95
+        "noise": 6.1,
+        "effective": 1.97
       },
       {
         "grid_id": "14772_-27351",
@@ -217666,13 +217666,13 @@
         "border_color": "#14522d",
         "snr": 5.4,
         "timestamp": 1792681002,
-        "count": 134,
+        "count": 135,
         "snr_min": -6.3,
         "snr_max": 12,
         "status_mask": 63,
         "first_seen": 1778953031,
         "noise": 6.3,
-        "effective": 1.86
+        "effective": 1.84
       },
       {
         "grid_id": "14772_-27350",
@@ -223649,15 +223649,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 1.7,
+        "snr": 1.9,
         "timestamp": 1790877320,
-        "count": 46,
+        "count": 47,
         "snr_min": -6.5,
         "snr_max": 13.3,
         "status_mask": 47,
         "first_seen": 1779060159,
         "noise": 3.5,
-        "effective": 1.02
+        "effective": 1.04
       },
       {
         "grid_id": "14752_-27365",
@@ -223672,13 +223672,13 @@
         "border_color": "#14522d",
         "snr": 2.8,
         "timestamp": 1790877909,
-        "count": 19,
+        "count": 20,
         "snr_min": -7,
         "snr_max": 11,
         "status_mask": 47,
         "first_seen": 1779060192,
-        "noise": 4.4,
-        "effective": 1.53
+        "noise": 4.3,
+        "effective": 1.45
       },
       {
         "grid_id": "14753_-27365",
@@ -223712,15 +223712,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 4.3,
-        "timestamp": 1789750118,
-        "count": 14,
+        "snr": 4.5,
+        "timestamp": 1792894399,
+        "count": 15,
         "snr_min": -8.3,
         "snr_max": 10,
         "status_mask": 45,
         "first_seen": 1779060246,
-        "noise": 6.4,
-        "effective": 1.79
+        "noise": 6.1,
+        "effective": 1.87
       },
       {
         "grid_id": "14758_-27366",
@@ -223754,15 +223754,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 2.6,
+        "snr": 2.8,
         "timestamp": 1790878073,
-        "count": 9,
+        "count": 10,
         "snr_min": -4,
         "snr_max": 8,
-        "status_mask": 45,
+        "status_mask": 61,
         "first_seen": 1779060371,
-        "noise": 6.6,
-        "effective": 1.67
+        "noise": 7.6,
+        "effective": 1.6
       },
       {
         "grid_id": "14762_-27366",
@@ -229004,15 +229004,15 @@
         "coverage_type": "DISC",
         "fill_color": "#17a2b8",
         "border_color": "#117a8b",
-        "snr": -8,
-        "timestamp": 1787055481,
-        "count": 8,
+        "snr": -5.9,
+        "timestamp": 1792891034,
+        "count": 9,
         "snr_min": -8,
-        "snr_max": -8,
+        "snr_max": -3.8,
         "status_mask": 40,
         "first_seen": 1779463895,
-        "noise": 3.8,
-        "effective": 0.25
+        "noise": 3.6,
+        "effective": 0.44
       },
       {
         "grid_id": "14723_-27358",
@@ -243515,15 +243515,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 7.3,
+        "snr": 7.5,
         "timestamp": 1790979112,
-        "count": 27,
+        "count": 29,
         "snr_min": -0.3,
         "snr_max": 11.8,
         "status_mask": 45,
         "first_seen": 1781054714,
-        "noise": 2.6,
-        "effective": 1.96
+        "noise": 2.5,
+        "effective": 1.97
       },
       {
         "grid_id": "14784_-27350",
@@ -243601,13 +243601,13 @@
         "border_color": "#117a8b",
         "snr": 10,
         "timestamp": 1788893505,
-        "count": 72,
+        "count": 74,
         "snr_min": -9,
         "snr_max": 13.8,
         "status_mask": 62,
         "first_seen": 1781055293,
-        "noise": 0.9,
-        "effective": 0.24
+        "noise": 1,
+        "effective": 0.23
       },
       {
         "grid_id": "14737_-27358",
@@ -243622,7 +243622,7 @@
         "border_color": "#14522d",
         "snr": 9.8,
         "timestamp": 1788893488,
-        "count": 76,
+        "count": 77,
         "snr_min": -9,
         "snr_max": 14.3,
         "status_mask": 63,
@@ -243643,7 +243643,7 @@
         "border_color": "#14522d",
         "snr": 11,
         "timestamp": 1788893420,
-        "count": 53,
+        "count": 54,
         "snr_min": -2.8,
         "snr_max": 13.5,
         "status_mask": 61,
@@ -243664,13 +243664,13 @@
         "border_color": "#14522d",
         "snr": 10.9,
         "timestamp": 1789505627,
-        "count": 79,
+        "count": 81,
         "snr_min": -4.3,
         "snr_max": 13.5,
         "status_mask": 63,
         "first_seen": 1781055343,
-        "noise": 0.7,
-        "effective": 0.33
+        "noise": 0.8,
+        "effective": 0.32
       },
       {
         "grid_id": "14723_-27359",
@@ -243743,18 +243743,18 @@
           "north": 39.7575,
           "east": -105.05472
         },
-        "coverage_type": "DROP",
-        "fill_color": "#bd2130",
-        "border_color": "#8b101b",
-        "snr": null,
-        "timestamp": 1781061988,
-        "count": 1,
-        "snr_min": null,
-        "snr_max": null,
-        "status_mask": 32,
+        "coverage_type": "RX",
+        "fill_color": "#6f42c1",
+        "border_color": "#59359a",
+        "snr": 7.5,
+        "timestamp": 1792891152,
+        "count": 3,
+        "snr_min": 7.5,
+        "snr_max": 7.5,
+        "status_mask": 36,
         "first_seen": 1781061988,
-        "noise": 3,
-        "effective": 0
+        "noise": 2.7,
+        "effective": 0.67
       },
       {
         "grid_id": "14747_-27284",
@@ -247276,13 +247276,13 @@
         "border_color": "#59359a",
         "snr": 5.1,
         "timestamp": 1790206256,
-        "count": 10,
+        "count": 11,
         "snr_min": -11.3,
         "snr_max": 13.3,
         "status_mask": 52,
         "first_seen": 1781645224,
-        "noise": 2.5,
-        "effective": 0.5
+        "noise": 3,
+        "effective": 0.45
       },
       {
         "grid_id": "14759_-27366",
@@ -247295,15 +247295,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 11,
+        "snr": 11.2,
         "timestamp": 1789927578,
-        "count": 6,
+        "count": 7,
         "snr_min": 10.8,
-        "snr_max": 11.3,
+        "snr_max": 11.5,
         "status_mask": 41,
         "first_seen": 1781645478,
-        "noise": 3.5,
-        "effective": 1.17
+        "noise": 3.3,
+        "effective": 1.29
       },
       {
         "grid_id": "14762_-27365",
@@ -249166,7 +249166,7 @@
         "border_color": "#14522d",
         "snr": 5.2,
         "timestamp": 1791344335,
-        "count": 136,
+        "count": 137,
         "snr_min": -5.3,
         "snr_max": 12.5,
         "status_mask": 47,
@@ -249187,13 +249187,13 @@
         "border_color": "#14522d",
         "snr": 4.2,
         "timestamp": 1792285517,
-        "count": 70,
+        "count": 72,
         "snr_min": -6.5,
         "snr_max": 13.3,
         "status_mask": 63,
         "first_seen": 1781897558,
         "noise": 3.5,
-        "effective": 1.91
+        "effective": 1.86
       },
       {
         "grid_id": "14728_-27301",
@@ -249269,15 +249269,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 3.2,
-        "timestamp": 1791039912,
-        "count": 62,
+        "snr": 3.4,
+        "timestamp": 1792889895,
+        "count": 67,
         "snr_min": -8.8,
         "snr_max": 11.5,
         "status_mask": 47,
         "first_seen": 1781897876,
-        "noise": 3.5,
-        "effective": 1.63
+        "noise": 3.4,
+        "effective": 1.67
       },
       {
         "grid_id": "14767_-27353",
@@ -249290,9 +249290,9 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 5.3,
-        "timestamp": 1791039944,
-        "count": 65,
+        "snr": 5.4,
+        "timestamp": 1792889862,
+        "count": 68,
         "snr_min": -6.8,
         "snr_max": 12,
         "status_mask": 45,
@@ -251495,15 +251495,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 3.1,
-        "timestamp": 1792713291,
-        "count": 169,
+        "snr": 3.2,
+        "timestamp": 1792895510,
+        "count": 214,
         "snr_min": -7.5,
         "snr_max": 11.8,
         "status_mask": 47,
         "first_seen": 1781903695,
         "noise": 5.1,
-        "effective": 1.95
+        "effective": 1.99
       },
       {
         "grid_id": "14817_-27315",
@@ -280622,15 +280622,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 4.2,
-        "timestamp": 1792557386,
-        "count": 45,
+        "snr": 4.6,
+        "timestamp": 1792894876,
+        "count": 49,
         "snr_min": -8.8,
-        "snr_max": 11.8,
+        "snr_max": 12.3,
         "status_mask": 15,
         "first_seen": 1784509117,
-        "noise": 4,
-        "effective": 2.09
+        "noise": 3.9,
+        "effective": 2.1
       },
       {
         "grid_id": "14759_-27358",
@@ -280643,15 +280643,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 3.1,
+        "snr": 2.9,
         "timestamp": 1791123964,
-        "count": 31,
+        "count": 33,
         "snr_min": -8,
         "snr_max": 13.3,
         "status_mask": 47,
         "first_seen": 1784509255,
-        "noise": 3.5,
-        "effective": 1.65
+        "noise": 4.1,
+        "effective": 1.67
       },
       {
         "grid_id": "14757_-27358",
@@ -280664,15 +280664,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 7,
+        "snr": 7.3,
         "timestamp": 1791738577,
-        "count": 23,
+        "count": 24,
         "snr_min": -2,
         "snr_max": 13.3,
         "status_mask": 47,
         "first_seen": 1784509306,
-        "noise": 2.5,
-        "effective": 1.52
+        "noise": 2.8,
+        "effective": 1.54
       },
       {
         "grid_id": "14754_-27358",
@@ -280685,9 +280685,9 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 7.2,
+        "snr": 7.5,
         "timestamp": 1791061683,
-        "count": 40,
+        "count": 42,
         "snr_min": -3.5,
         "snr_max": 13.3,
         "status_mask": 47,
@@ -280706,15 +280706,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 7.9,
+        "snr": 7.7,
         "timestamp": 1789334186,
-        "count": 93,
+        "count": 94,
         "snr_min": -7.8,
         "snr_max": 13.8,
         "status_mask": 63,
         "first_seen": 1784509529,
         "noise": 1.2,
-        "effective": 0.99
+        "effective": 1
       },
       {
         "grid_id": "14742_-27358",
@@ -280727,15 +280727,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 5.5,
+        "snr": 5.3,
         "timestamp": 1791602923,
-        "count": 128,
+        "count": 132,
         "snr_min": -8,
         "snr_max": 13.8,
         "status_mask": 63,
         "first_seen": 1784509641,
         "noise": 1.1,
-        "effective": 1.06
+        "effective": 1.08
       },
       {
         "grid_id": "14716_-27384",
@@ -281879,18 +281879,18 @@
           "north": 39.825,
           "east": -105.07776
         },
-        "coverage_type": "DISC",
-        "fill_color": "#17a2b8",
-        "border_color": "#117a8b",
-        "snr": -0.3,
-        "timestamp": 1791916828,
-        "count": 28,
+        "coverage_type": "BIDIR",
+        "fill_color": "#1e7e34",
+        "border_color": "#14522d",
+        "snr": 1.3,
+        "timestamp": 1792894300,
+        "count": 29,
         "snr_min": -6.8,
-        "snr_max": 6.5,
-        "status_mask": 44,
+        "snr_max": 9,
+        "status_mask": 45,
         "first_seen": 1784778174,
-        "noise": 1,
-        "effective": 0.36
+        "noise": 1.1,
+        "effective": 0.45
       },
       {
         "grid_id": "14938_-27197",
@@ -283963,13 +283963,13 @@
         "border_color": "#545b62",
         "snr": 13.5,
         "timestamp": 1790204895,
-        "count": 11,
+        "count": 12,
         "snr_min": 13.5,
         "snr_max": 13.5,
         "status_mask": 48,
         "first_seen": 1785114271,
-        "noise": 3.5,
-        "effective": 0.09
+        "noise": 3.4,
+        "effective": 0.08
       },
       {
         "grid_id": "14751_-27365",
@@ -283982,15 +283982,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": -0.3,
-        "timestamp": 1789669189,
-        "count": 27,
+        "snr": 0.4,
+        "timestamp": 1792894332,
+        "count": 29,
         "snr_min": -8,
         "snr_max": 11.5,
         "status_mask": 13,
         "first_seen": 1785114383,
-        "noise": 5.2,
-        "effective": 2.04
+        "noise": 5.6,
+        "effective": 2.07
       },
       {
         "grid_id": "14819_-27364",
@@ -286021,13 +286021,13 @@
         "border_color": "#14522d",
         "snr": 4.5,
         "timestamp": 1790206269,
-        "count": 13,
+        "count": 14,
         "snr_min": -3.5,
         "snr_max": 13,
         "status_mask": 39,
         "first_seen": 1785611115,
-        "noise": 7.6,
-        "effective": 0.69
+        "noise": 8.7,
+        "effective": 0.79
       },
       {
         "grid_id": "14781_-27360",
@@ -287680,12 +287680,12 @@
         "border_color": "#14522d",
         "snr": 8.7,
         "timestamp": 1789417134,
-        "count": 143,
+        "count": 144,
         "snr_min": -9.3,
         "snr_max": 14,
         "status_mask": 63,
         "first_seen": 1785623365,
-        "noise": 2.3,
+        "noise": 2.6,
         "effective": 0.66
       },
       {
@@ -301472,18 +301472,18 @@
           "north": 39.8493,
           "east": -105.05088
         },
-        "coverage_type": "DISC",
-        "fill_color": "#17a2b8",
-        "border_color": "#117a8b",
-        "snr": 7.5,
-        "timestamp": 1791136828,
-        "count": 19,
-        "snr_min": 0.5,
+        "coverage_type": "BIDIR",
+        "fill_color": "#1e7e34",
+        "border_color": "#14522d",
+        "snr": 5.2,
+        "timestamp": 1792890298,
+        "count": 25,
+        "snr_min": -4,
         "snr_max": 11,
-        "status_mask": 46,
+        "status_mask": 47,
         "first_seen": 1787000875,
-        "noise": 2.6,
-        "effective": 1.26
+        "noise": 4.9,
+        "effective": 1.48
       },
       {
         "grid_id": "14585_-27299",
@@ -304226,15 +304226,15 @@
         "coverage_type": "BIDIR",
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
-        "snr": 3.8,
-        "timestamp": 1789064397,
-        "count": 65,
+        "snr": 3.4,
+        "timestamp": 1792894699,
+        "count": 79,
         "snr_min": -8,
         "snr_max": 13.8,
         "status_mask": 47,
         "first_seen": 1787323638,
         "noise": 2.8,
-        "effective": 1.51
+        "effective": 1.58
       },
       {
         "grid_id": "14663_-27315",
@@ -324555,14 +324555,14 @@
         "fill_color": "#1e7e34",
         "border_color": "#14522d",
         "snr": 11.3,
-        "timestamp": 1789927613,
-        "count": 5,
+        "timestamp": 1792894467,
+        "count": 6,
         "snr_min": 10.3,
         "snr_max": 13,
         "status_mask": 9,
         "first_seen": 1788823595,
-        "noise": 4.8,
-        "effective": 2.8
+        "noise": 4.3,
+        "effective": 2.83
       },
       {
         "grid_id": "14756_-27365",
@@ -329006,14 +329006,14 @@
         "coverage_type": "DISC",
         "fill_color": "#17a2b8",
         "border_color": "#117a8b",
-        "snr": 6.8,
-        "timestamp": 1790878232,
-        "count": 4,
+        "snr": 7.4,
+        "timestamp": 1792894651,
+        "count": 6,
         "snr_min": 5.5,
-        "snr_max": 8.3,
-        "status_mask": 40,
+        "snr_max": 8.8,
+        "status_mask": 56,
         "first_seen": 1789065394,
-        "noise": 6.8,
+        "noise": 5.5,
         "effective": 1.5
       },
       {
@@ -329027,15 +329027,15 @@
         "coverage_type": "DISC",
         "fill_color": "#17a2b8",
         "border_color": "#117a8b",
-        "snr": 7.3,
-        "timestamp": 1790878196,
-        "count": 4,
+        "snr": 7.4,
+        "timestamp": 1792894585,
+        "count": 5,
         "snr_min": 4.3,
         "snr_max": 10.3,
         "status_mask": 44,
         "first_seen": 1789065461,
-        "noise": 4,
-        "effective": 1.5
+        "noise": 3.8,
+        "effective": 1.6
       },
       {
         "grid_id": "14760_-27363",
@@ -391217,6 +391217,174 @@
         "first_seen": 1792883498,
         "noise": 0,
         "effective": 2.08
+      },
+      {
+        "grid_id": "14724_-27360",
+        "bounds": {
+          "south": 39.7548,
+          "west": -105.0624,
+          "north": 39.7575,
+          "east": -105.05856
+        },
+        "coverage_type": "DROP",
+        "fill_color": "#bd2130",
+        "border_color": "#8b101b",
+        "snr": null,
+        "timestamp": 1792891201,
+        "count": 2,
+        "snr_min": null,
+        "snr_max": null,
+        "status_mask": 32,
+        "first_seen": 1792891181,
+        "noise": 1,
+        "effective": 0
+      },
+      {
+        "grid_id": "14724_-27361",
+        "bounds": {
+          "south": 39.7548,
+          "west": -105.06624,
+          "north": 39.7575,
+          "east": -105.0624
+        },
+        "coverage_type": "DROP",
+        "fill_color": "#bd2130",
+        "border_color": "#8b101b",
+        "snr": null,
+        "timestamp": 1792891234,
+        "count": 2,
+        "snr_min": null,
+        "snr_max": null,
+        "status_mask": 32,
+        "first_seen": 1792891214,
+        "noise": 10.5,
+        "effective": 0
+      },
+      {
+        "grid_id": "14724_-27362",
+        "bounds": {
+          "south": 39.7548,
+          "west": -105.07008,
+          "north": 39.7575,
+          "east": -105.06624
+        },
+        "coverage_type": "TX",
+        "fill_color": "#fd7e14",
+        "border_color": "#d96b0c",
+        "snr": null,
+        "timestamp": 1792891248,
+        "count": 1,
+        "snr_min": null,
+        "snr_max": null,
+        "status_mask": 2,
+        "first_seen": 1792891248,
+        "noise": 15,
+        "effective": 2
+      },
+      {
+        "grid_id": "14724_-27363",
+        "bounds": {
+          "south": 39.7548,
+          "west": -105.07392,
+          "north": 39.7575,
+          "east": -105.07008
+        },
+        "coverage_type": "RX",
+        "fill_color": "#6f42c1",
+        "border_color": "#59359a",
+        "snr": -1.5,
+        "timestamp": 1792891269,
+        "count": 4,
+        "snr_min": -1.5,
+        "snr_max": -1.5,
+        "status_mask": 36,
+        "first_seen": 1792891268,
+        "noise": 2.5,
+        "effective": 0.5
+      },
+      {
+        "grid_id": "14724_-27364",
+        "bounds": {
+          "south": 39.7548,
+          "west": -105.07776,
+          "north": 39.7575,
+          "east": -105.07392
+        },
+        "coverage_type": "DROP",
+        "fill_color": "#bd2130",
+        "border_color": "#8b101b",
+        "snr": null,
+        "timestamp": 1792891314,
+        "count": 1,
+        "snr_min": null,
+        "snr_max": null,
+        "status_mask": 32,
+        "first_seen": 1792891314,
+        "noise": -3,
+        "effective": 0
+      },
+      {
+        "grid_id": "14716_-27366",
+        "bounds": {
+          "south": 39.7332,
+          "west": -105.08544,
+          "north": 39.7359,
+          "east": -105.0816
+        },
+        "coverage_type": "BIDIR",
+        "fill_color": "#1e7e34",
+        "border_color": "#14522d",
+        "snr": 4,
+        "timestamp": 1792891604,
+        "count": 1,
+        "snr_min": 4,
+        "snr_max": 4,
+        "status_mask": 1,
+        "first_seen": 1792891604,
+        "noise": 2,
+        "effective": 3
+      },
+      {
+        "grid_id": "14715_-27367",
+        "bounds": {
+          "south": 39.7305,
+          "west": -105.08928,
+          "north": 39.7332,
+          "east": -105.08544
+        },
+        "coverage_type": "DROP",
+        "fill_color": "#bd2130",
+        "border_color": "#8b101b",
+        "snr": null,
+        "timestamp": 1792893336,
+        "count": 3,
+        "snr_min": null,
+        "snr_max": null,
+        "status_mask": 32,
+        "first_seen": 1792891656,
+        "noise": 1.3,
+        "effective": 0
+      },
+      {
+        "grid_id": "14716_-27368",
+        "bounds": {
+          "south": 39.7332,
+          "west": -105.09312,
+          "north": 39.7359,
+          "east": -105.08928
+        },
+        "coverage_type": "DISC",
+        "fill_color": "#17a2b8",
+        "border_color": "#117a8b",
+        "snr": -4.5,
+        "timestamp": 1792891899,
+        "count": 49,
+        "snr_min": -10.3,
+        "snr_max": 4.8,
+        "status_mask": 44,
+        "first_seen": 1792891722,
+        "noise": 1.2,
+        "effective": 1.67
       }
     ]
   },
@@ -391229,8 +391397,8 @@
       "lon": 0.00384
     },
     "schema_version": 2,
-    "generated_at": 1792886275,
-    "data_age_seconds": 13102,
+    "generated_at": 1792895866,
+    "data_age_seconds": 22693,
     "total_squares": 771,
     "point_count": 1008,
     "coverage_type_counts": {
@@ -407461,8 +407629,8 @@
       "lon": 0.00384
     },
     "schema_version": 2,
-    "generated_at": 1792886276,
-    "data_age_seconds": 6112,
+    "generated_at": 1792895866,
+    "data_age_seconds": 15702,
     "total_squares": 5596,
     "point_count": 58416,
     "coverage_type_counts": {
@@ -525020,10 +525188,10 @@
       "lon": 0.00384
     },
     "schema_version": 2,
-    "generated_at": 1792886276,
-    "data_age_seconds": 82053,
+    "generated_at": 1792895866,
+    "data_age_seconds": 1158,
     "total_squares": 2123,
-    "point_count": 11065,
+    "point_count": 11066,
     "coverage_type_counts": {
       "BIDIR": 351,
       "TX": 53,
@@ -525047,7 +525215,7 @@
       "maxLon": -105.74976
     },
     "radio_configs": {
-      "910.525,62.5,7,5": 6668,
+      "910.525,62.5,7,5": 6669,
       "910.525,62.5,7,8": 2307,
       "910.525,500,7,5": 27
     },
@@ -552133,13 +552301,13 @@
         "fill_color": "#bd2130",
         "border_color": "#8b101b",
         "snr": null,
-        "timestamp": 1792444107,
-        "count": 8,
+        "timestamp": 1792894708,
+        "count": 9,
         "snr_min": null,
         "snr_max": null,
         "status_mask": 32,
         "first_seen": 1785447006,
-        "noise": 2.5,
+        "noise": 2.2,
         "effective": 0
       },
       {
@@ -569646,15 +569814,15 @@
       "lon": 0.00384
     },
     "schema_version": 2,
-    "generated_at": 1792886277,
-    "data_age_seconds": 22,
-    "total_squares": 10052,
-    "point_count": 120447,
+    "generated_at": 1792895867,
+    "data_age_seconds": 3121,
+    "total_squares": 10055,
+    "point_count": 120455,
     "coverage_type_counts": {
       "BIDIR": 3160,
       "TX": 358,
-      "RX": 528,
-      "DISC": 2274,
+      "RX": 530,
+      "DISC": 2275,
       "DEAD": 87,
       "DROP": 3645
     },
@@ -569673,7 +569841,7 @@
       "maxLon": -103.66848
     },
     "radio_configs": {
-      "910.525,62.5,7,5": 65014,
+      "910.525,62.5,7,5": 65022,
       "910.525,62.5,7,8": 3995,
       "908,62.5,7,5": 35,
       "918,62.5,5,6": 28,
@@ -765224,15 +765392,15 @@
         "coverage_type": "DISC",
         "fill_color": "#17a2b8",
         "border_color": "#117a8b",
-        "snr": 8.4,
+        "snr": 8.3,
         "timestamp": 1791758085,
-        "count": 6,
-        "snr_min": 4.3,
+        "count": 8,
+        "snr_min": 4,
         "snr_max": 12.5,
-        "status_mask": 12,
+        "status_mask": 28,
         "first_seen": 1791758068,
-        "noise": -2,
-        "effective": 2
+        "noise": 1,
+        "effective": 1.88
       },
       {
         "grid_id": "14936_-27311",
@@ -780773,6 +780941,69 @@
         "first_seen": 1792886255,
         "noise": 3,
         "effective": 2
+      },
+      {
+        "grid_id": "14935_-27312",
+        "bounds": {
+          "south": 40.3245,
+          "west": -104.87808,
+          "north": 40.3272,
+          "east": -104.87424
+        },
+        "coverage_type": "RX",
+        "fill_color": "#6f42c1",
+        "border_color": "#59359a",
+        "snr": 3.9,
+        "timestamp": 1792886296,
+        "count": 2,
+        "snr_min": -4,
+        "snr_max": 11.8,
+        "status_mask": 20,
+        "first_seen": 1792886291,
+        "noise": 3,
+        "effective": 1.5
+      },
+      {
+        "grid_id": "14935_-27311",
+        "bounds": {
+          "south": 40.3245,
+          "west": -104.87424,
+          "north": 40.3272,
+          "east": -104.8704
+        },
+        "coverage_type": "DISC",
+        "fill_color": "#17a2b8",
+        "border_color": "#117a8b",
+        "snr": 9.6,
+        "timestamp": 1792886333,
+        "count": 2,
+        "snr_min": 7.8,
+        "snr_max": 11.5,
+        "status_mask": 8,
+        "first_seen": 1792886333,
+        "noise": 3,
+        "effective": 2
+      },
+      {
+        "grid_id": "14935_-27310",
+        "bounds": {
+          "south": 40.3245,
+          "west": -104.8704,
+          "north": 40.3272,
+          "east": -104.86656
+        },
+        "coverage_type": "RX",
+        "fill_color": "#6f42c1",
+        "border_color": "#59359a",
+        "snr": 3.4,
+        "timestamp": 1792886381,
+        "count": 2,
+        "snr_min": -5.3,
+        "snr_max": 12,
+        "status_mask": 20,
+        "first_seen": 1792886376,
+        "noise": 2,
+        "effective": 1.5
       }
     ]
   },
@@ -780785,8 +781016,8 @@
       "lon": 0.00384
     },
     "schema_version": 2,
-    "generated_at": 1792886278,
-    "data_age_seconds": 24399,
+    "generated_at": 1792895867,
+    "data_age_seconds": 33988,
     "total_squares": 1566,
     "point_count": 4154,
     "coverage_type_counts": {
@@ -813712,8 +813943,8 @@
       "lon": 0.00384
     },
     "schema_version": 2,
-    "generated_at": 1792886278,
-    "data_age_seconds": 89495,
+    "generated_at": 1792895868,
+    "data_age_seconds": 99085,
     "total_squares": 1375,
     "point_count": 5913,
     "coverage_type_counts": {
@@ -842629,8 +842860,8 @@
       "lon": 0.00384
     },
     "schema_version": 2,
-    "generated_at": 1792886279,
-    "data_age_seconds": 448456,
+    "generated_at": 1792895868,
+    "data_age_seconds": 458045,
     "total_squares": 1943,
     "point_count": 5043,
     "coverage_type_counts": {
