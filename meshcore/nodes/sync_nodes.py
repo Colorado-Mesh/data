@@ -4,16 +4,16 @@ import os
 from typing import Optional
 
 import objectrest
-from pydantic import BaseModel
-
 from coloradomesh.colorado import COLORADO
 from coloradomesh.internal.utils import iso8601_to_unix_timestamp
 from coloradomesh.meshcore.models.general import Node, NodeType
 from coloradomesh.meshcore.models.general.node_params import NodeParams
 from coloradomesh.meshcore.services.stats import determine_region_by_latitude_and_longitude
+from pydantic import BaseModel
 
 MESHMAPPER_REPEATERS_URL = "https://co.meshmapper.net/repeaters.json"  # Only repeaters in Colorado region
 MESHCORE_MAP_URL = "https://map.meshcore.io/api/v1/nodes?short=1"  # All MeshCore devices globally
+MESHCORE_OPEN_MAP_URL = "https://map.meshcoreopen.org/v1/repeaters"  # All MeshCore repeaters globally
 ZEVA_URLS = [
     # Only HTTP
     "http://dev.zevaryx.com:8080/meshcore/repeaters.json",
@@ -24,6 +24,11 @@ ZEVA_URLS = [
 CM_BEACON_NODES_URL = "https://map.meshcore.coloradomesh.org/api/v1/nodes"
 
 _COLORADO = COLORADO
+
+COLORADO_LAT_MIN = 36
+COLORADO_LAT_MAX = 41.5
+COLORADO_LON_MIN = -110
+COLORADO_LON_MAX = -101
 
 
 ### MeshMapper-specific models for parsing API responses
@@ -124,20 +129,15 @@ class MeshCoreMapNode(BaseModel):
             if (self.adv_lat and self.adv_lon) else None,
         )
 
+    def in_colorado(self) -> bool:
+        """
+        Return true if MeshCoreMapNode is in Colorado.
+        :return: True if the node is in Colorado, False otherwise.
+        """
+        if not all([self.adv_lat, self.adv_lon]):
+            return False
 
-def _node_in_colorado(node: MeshCoreMapNode) -> bool:
-    """
-    Return true if MeshCoreMapNode is in Colorado.
-    :param node: The MeshCoreMapNode to check.
-    :return: True if the node is in Colorado, False otherwise.
-    """
-    if not node:
-        return False
-
-    if not all([node.adv_lat, node.adv_lon]):
-        return False
-
-    return _COLORADO.coordinates_within_borders(latitude=node.adv_lat, longitude=node.adv_lon)
+        return _COLORADO.coordinates_within_borders(latitude=self.adv_lat, longitude=self.adv_lon)
 
 
 def _get_meshcore_map_nodes() -> list[MeshCoreMapNode]:
@@ -159,11 +159,11 @@ def _get_meshcore_map_nodes() -> list[MeshCoreMapNode]:
 
     # Rough filter to only nodes in Colorado + padding, to cut down on number of nodes
     # that will do exact polygon math
-    # This rapidly brings it down from 27,000 global nodes to the ~250 that might ACTUALLY be in Colorado
-    lat_min = 36
-    lat_max = 41.5
-    lon_min = -110
-    lon_max = -101
+    # This rapidly brings it down from tens of thousands of global nodes to the few hundred that might ACTUALLY be in Colorado
+    lat_min = COLORADO_LAT_MIN
+    lat_max = COLORADO_LAT_MAX
+    lon_min = COLORADO_LON_MIN
+    lon_max = COLORADO_LON_MAX
     print(
         f"Applying pre-filter to nodes with lat between {lat_min} and {lat_max} and lon between {lon_min} and {lon_max}")
     prefiltered_nodes: list[MeshCoreMapNode] = [
@@ -174,7 +174,7 @@ def _get_meshcore_map_nodes() -> list[MeshCoreMapNode]:
         f"Checking remaining {len(prefiltered_nodes)} nodes for exact Colorado presence"
     )
     filtered_nodes: list[MeshCoreMapNode] = [
-        node for node in prefiltered_nodes if _node_in_colorado(node=node)
+        node for node in prefiltered_nodes if node.in_colorado()
     ]
 
     print(f"Found {len(filtered_nodes)} nodes in Colorado via official MeshCore map")
@@ -234,6 +234,7 @@ def _get_zeva_nodes() -> list[ZevaNode]:
     print(f"Found {len(all_nodes)} nodes from Zeva's repository")
 
     return all_nodes
+
 
 ### Beacon-specific models for parsing API responses
 
@@ -312,6 +313,105 @@ def _get_beacon_nodes() -> list[BeaconNode]:
     return all_nodes
 
 
+### MeshCore Open-specific models for parsing API responses
+
+class MeshCoreOpenMapNodeCell(BaseModel):
+    cell: str
+    lat: Optional[float] = None
+    lon: Optional[float] = None
+
+
+class MeshCoreOpenMapNode(BaseModel):
+    key: str
+    name: str
+    type: int
+    cell: Optional[MeshCoreOpenMapNodeCell] = None
+    locationSource: str
+    confidence: float
+    status: str
+    confirmed: bool
+    sightings: int
+    firstSeen: str  # ISO 8601 timestamp string, e.g. "2026-02-18T01:19:00.379Z"
+    lastSeen: str  # ISO 8601 timestamp string, e.g. "2026-02-18T01:19:00.379Z"
+
+    @property
+    def node_type(self) -> NodeType:
+        if self.type == 1:
+            return NodeType.COMPANION
+        elif self.type == 2:
+            return NodeType.REPEATER
+        elif self.type == 3:
+            return NodeType.ROOM_SERVER
+        elif self.type == 4:
+            return NodeType.SENSOR
+
+        raise Exception(f"Unknown node type: {self.type}")
+
+    @property
+    def latitude(self) -> Optional[float]:
+        return self.cell.lat if self.cell else None
+
+    @property
+    def longitude(self) -> Optional[float]:
+        return self.cell.lon if self.cell else None
+
+    def to_node(self) -> Node:
+        return Node(
+            public_key=self.key,
+            name=self.name,
+            node_type=self.node_type,
+            created_at=0,
+            last_heard=0,
+            owner=None,
+            latitude=self.latitude,
+            longitude=self.longitude,
+            hash_size=None,
+            params=None,
+            estimated_region_iata=determine_region_by_latitude_and_longitude(latitude=self.latitude,
+                                                                             longitude=self.longitude).code
+            if (self.latitude and self.longitude) else None,
+        )
+
+    def in_colorado(self) -> bool:
+        """
+        Return true if MeshCoreOpenMapNode is in Colorado.
+        :return: True if the node is in Colorado, False otherwise.
+        """
+        if not all([self.latitude, self.longitude]):
+            return False
+
+        return _COLORADO.coordinates_within_borders(latitude=self.latitude, longitude=self.longitude)
+
+
+def _get_meshcore_open_nodes() -> list[MeshCoreOpenMapNode]:
+    """
+    Fetch repeaters, rooms and companions from MeshCore Open's map and return them as a list of MeshCore Open Map Node objects.
+    :return: A list of MeshCoreOpenMapNode objects.
+    :rtype: list[MeshCoreOpenMapNode]
+    """
+    all_nodes: list[MeshCoreOpenMapNode] = objectrest.get_object(url=MESHCORE_OPEN_MAP_URL,  # type: ignore
+                                                                 params={
+                                                                     "bbox": f"{COLORADO_LON_MIN},{COLORADO_LAT_MIN},{COLORADO_LON_MAX},{COLORADO_LAT_MAX}",
+                                                                 },
+                                                                 model=MeshCoreOpenMapNode,
+                                                                 sub_keys=["repeaters"],
+                                                                 extract_list=True)
+    if not all_nodes:
+        # We don't want to return an empty list, that would effectively erase the previous data snapshot
+        # Instead, consider this run failed
+        raise Exception(f"Could not load nodes from MeshCore Open's map")
+
+    print(
+        f"Found {len(all_nodes)} nodes from MeshCore Open's map, filtering to find those with lat/lon inside Colorado")
+
+    filtered_nodes: list[MeshCoreOpenMapNode] = [
+        node for node in all_nodes if node.in_colorado()
+    ]
+
+    print(f"Found {len(filtered_nodes)} nodes in Colorado via MeshCore Open's map")
+    return filtered_nodes
+
+
 def get_colorado_nodes() -> list[Node]:
     """
     Get all nodes in Colorado.
@@ -321,6 +421,11 @@ def get_colorado_nodes() -> list[Node]:
     meshcore_map_nodes: list[MeshCoreMapNode] = _get_meshcore_map_nodes()
     meshcore_map_nodes_converted: list[Node] = [
         node.to_node() for node in meshcore_map_nodes
+    ]
+
+    meshcore_open_map_nodes: list[MeshCoreOpenMapNode] = _get_meshcore_open_nodes()
+    meshcore_open_map_nodes_converted: list[Node] = [
+        node.to_node() for node in meshcore_open_map_nodes
     ]
 
     meshmapper_nodes: list[MeshMapperNode] = _get_meshmapper_nodes()
@@ -344,6 +449,7 @@ def get_colorado_nodes() -> list[Node]:
     unique_nodes_dict: dict[str, Node] = {}
     for node in (
             meshcore_map_nodes_converted +
+            meshcore_open_map_nodes_converted +
             meshmapper_nodes_converted +
             zeva_nodes_converted +
             beacon_nodes_converted
