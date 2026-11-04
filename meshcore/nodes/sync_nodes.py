@@ -11,7 +11,6 @@ from coloradomesh.meshcore.models.general.node_params import NodeParams
 from coloradomesh.meshcore.services.stats import determine_region_by_latitude_and_longitude
 from pydantic import BaseModel
 
-MESHMAPPER_REPEATERS_URL = "https://co.meshmapper.net/repeaters.json"  # Only repeaters in Colorado region
 MESHCORE_MAP_URL = "https://map.meshcore.io/api/v1/nodes?short=1"  # All MeshCore devices globally
 MESHCORE_OPEN_MAP_URL = "https://map.meshcoreopen.org/v1/repeaters"  # All MeshCore repeaters globally
 ZEVA_URLS = [
@@ -29,59 +28,6 @@ COLORADO_LAT_MIN = 36
 COLORADO_LAT_MAX = 41.5
 COLORADO_LON_MIN = -110
 COLORADO_LON_MAX = -101
-
-
-### MeshMapper-specific models for parsing API responses
-
-class MeshMapperNode(BaseModel):
-    id: str
-    hex_id: str
-    name: str
-    lat: float
-    lon: float
-    last_heard: int  # Unix timestamp
-    created_at: str  # Unix timestamp as string
-    enabled: int
-    iata: str
-
-    def to_node(self) -> Node:
-        return Node(
-            public_key=self.hex_id,
-            name=self.name,
-            node_type=NodeType.REPEATER,  # Some are rooms, but the API doesn't discern this, so we assume
-            created_at=int(self.created_at) or 0,
-            last_heard=self.last_heard or 0,
-            owner=None,
-            latitude=self.lat,
-            longitude=self.lon,
-            params=None,
-            hash_size=None,
-            estimated_region_iata=determine_region_by_latitude_and_longitude(latitude=self.lat, longitude=self.lon).code
-            if (self.lat and self.lon) else None,
-        )
-
-
-def _get_meshmapper_nodes() -> list[MeshMapperNode]:
-    """
-    Fetch repeaters (not companions) from the MeshMapper API for the CO region and return them as a list of MeshMapperNode objects.
-    :return: A list of MeshMapperNode objects representing the repeaters in the CO region.
-    :rtype: list[MeshMapperNode]
-    """
-    all_nodes: list[MeshMapperNode] = objectrest.get_object(  # type: ignore
-        url=MESHMAPPER_REPEATERS_URL,
-        model=MeshMapperNode,
-        extract_list=True,
-        raise_on_error=True
-    )
-    if not all_nodes:
-        # We don't want to return an empty list, that would effectively erase the previous data snapshot
-        # Instead, consider this run failed
-        raise Exception(f"Could not load nodes from MeshMapper")
-
-    print(f"Found {len(all_nodes)} repeaters in Colorado via MeshMapper API")
-
-    return all_nodes
-
 
 ### MeshCore Map-specific models for parsing API responses
 
@@ -428,11 +374,6 @@ def get_colorado_nodes() -> list[Node]:
         node.to_node() for node in meshcore_open_map_nodes
     ]
 
-    meshmapper_nodes: list[MeshMapperNode] = _get_meshmapper_nodes()
-    meshmapper_nodes_converted: list[Node] = [
-        node.to_node() for node in meshmapper_nodes
-    ]
-
     zeva_nodes: list[ZevaNode] = _get_zeva_nodes()
     zeva_nodes_converted: list[Node] = [
         node.to_node() for node in zeva_nodes
@@ -450,7 +391,6 @@ def get_colorado_nodes() -> list[Node]:
     for node in (
             meshcore_map_nodes_converted +
             meshcore_open_map_nodes_converted +
-            meshmapper_nodes_converted +
             zeva_nodes_converted +
             beacon_nodes_converted
     ):
