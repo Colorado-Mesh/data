@@ -11,17 +11,6 @@
     "hardware_model": "UNSET"
   },
   {
-    "id": "3291120025",
-    "long_name": "NV0N V4 Coloradomesh.org",
-    "short_name": "NV4",
-    "role": 0,
-    "latitude": 40.1997824,
-    "longitude": -105.054208,
-    "altitude": null,
-    "precision": 14,
-    "hardware_model": "HELTEC_V4"
-  },
-  {
     "id": "3099722907",
     "long_name": "JLR_049B",
     "short_name": "049B",
@@ -31,6 +20,17 @@
     "altitude": null,
     "precision": null,
     "hardware_model": "HELTEC_MESH_NODE_T114"
+  },
+  {
+    "id": "1130041208",
+    "long_name": "Nettle_Base",
+    "short_name": "0f78",
+    "role": 12,
+    "latitude": 40.4488192,
+    "longitude": -105.0935296,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "LILYGO_TBEAM_S3_CORE"
   },
   {
     "id": "1803702578",
@@ -72,8 +72,8 @@
     "role": 0,
     "latitude": 39.6099584,
     "longitude": -104.6740992,
-    "altitude": 1867.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "RAK3401"
   },
   {
@@ -163,6 +163,17 @@
     "altitude": null,
     "precision": 13,
     "hardware_model": "HELTEC_V3"
+  },
+  {
+    "id": "2705735448",
+    "long_name": "Meshtastic 3f18",
+    "short_name": "3f18",
+    "role": 0,
+    "latitude": 39.9245312,
+    "longitude": -105.0411008,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "RAK4631"
   },
   {
     "id": "75841992",
@@ -270,20 +281,9 @@
     "role": 0,
     "latitude": 38.928384,
     "longitude": -104.7789568,
-    "altitude": 2054.0,
+    "altitude": 2050.0,
     "precision": 13,
     "hardware_model": "T_DECK"
-  },
-  {
-    "id": "3679619244",
-    "long_name": "Meshtastic 88ac",
-    "short_name": "88ac",
-    "role": 0,
-    "latitude": 39.6623872,
-    "longitude": -105.1459584,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "HELTEC_V3"
   },
   {
     "id": "463834024",
@@ -292,20 +292,9 @@
     "role": 0,
     "latitude": 39.8983168,
     "longitude": -105.0148864,
-    "altitude": 1669.0,
+    "altitude": 1638.0,
     "precision": 12,
     "hardware_model": "HELTEC_V4"
-  },
-  {
-    "id": "2665975752",
-    "long_name": "Meshtastic 8fc8",
-    "short_name": "8fc8",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "HELTEC_V3"
   },
   {
     "id": "4024930603",
@@ -341,15 +330,15 @@
     "hardware_model": "RAK4631"
   },
   {
-    "id": "1322063872",
-    "long_name": "ALTCOMS2",
-    "short_name": "ALC2",
-    "role": 1,
-    "latitude": 39.6623872,
-    "longitude": -104.988672,
+    "id": "2495495268",
+    "long_name": "AE0GQ-2",
+    "short_name": "AEG2",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
     "altitude": null,
     "precision": null,
-    "hardware_model": "T_DECK"
+    "hardware_model": "RAK4631"
   },
   {
     "id": "618948943",
@@ -444,22 +433,11 @@
     "long_name": "BlitzBear Client",
     "short_name": "BCL1",
     "role": 0,
-    "latitude": 38.9545984,
-    "longitude": -104.7003136,
-    "altitude": 2053.0,
-    "precision": 12,
-    "hardware_model": "HELTEC_V4"
-  },
-  {
-    "id": "2706013954",
-    "long_name": "BCN1_Wbandbase",
-    "short_name": "BCN1",
-    "role": 12,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 38.928384,
+    "longitude": -104.726528,
     "altitude": null,
     "precision": null,
-    "hardware_model": "RAK4631"
+    "hardware_model": "HELTEC_V4"
   },
   {
     "id": "1034412546",
@@ -468,7 +446,7 @@
     "role": 12,
     "latitude": 39.97696,
     "longitude": -104.8838144,
-    "altitude": 1557.0,
+    "altitude": 1545.0,
     "precision": 13,
     "hardware_model": "PORTDUINO"
   },
@@ -513,7 +491,7 @@
     "latitude": 38.9808128,
     "longitude": -104.7789568,
     "altitude": null,
-    "precision": 13,
+    "precision": null,
     "hardware_model": "HELTEC_V4"
   },
   {
@@ -567,7 +545,7 @@
     "role": 0,
     "latitude": 38.8759552,
     "longitude": -104.6740992,
-    "altitude": 2003.0,
+    "altitude": 2012.0,
     "precision": 13,
     "hardware_model": "TRACKER_T1000_E"
   },
@@ -644,7 +622,7 @@
     "role": 0,
     "latitude": 40.1342464,
     "longitude": -104.8838144,
-    "altitude": 1527.0,
+    "altitude": 1519.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -677,7 +655,7 @@
     "role": 0,
     "latitude": 39.9638528,
     "longitude": -104.8707072,
-    "altitude": 1543.0,
+    "altitude": 1554.0,
     "precision": 14,
     "hardware_model": "LILYGO_TBEAM_S3_CORE"
   },
@@ -721,7 +699,7 @@
     "role": 1,
     "latitude": 40.4094976,
     "longitude": -105.054208,
-    "altitude": 1519.0,
+    "altitude": 1521.0,
     "precision": 14,
     "hardware_model": "RAK4631"
   },
@@ -732,8 +710,8 @@
     "role": 12,
     "latitude": 40.4094976,
     "longitude": -105.054208,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1525.0,
+    "precision": 14,
     "hardware_model": "RAK3401"
   },
   {
@@ -798,7 +776,7 @@
     "role": 0,
     "latitude": 38.928384,
     "longitude": -104.726528,
-    "altitude": 2088.0,
+    "altitude": 2094.0,
     "precision": 13,
     "hardware_model": "SEEED_SOLAR_NODE"
   },
@@ -864,8 +842,8 @@
     "role": 0,
     "latitude": 39.6099584,
     "longitude": -104.6740992,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1873.0,
+    "precision": 13,
     "hardware_model": "TRACKER_T1000_E"
   },
   {
@@ -886,8 +864,8 @@
     "role": 0,
     "latitude": 39.0332416,
     "longitude": -108.6062592,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1451.0,
+    "precision": 13,
     "hardware_model": "TLORA_T3_S3"
   },
   {
@@ -897,7 +875,7 @@
     "role": 0,
     "latitude": 39.452672,
     "longitude": -104.726528,
-    "altitude": 1868.0,
+    "altitude": 1888.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -933,6 +911,28 @@
     "altitude": null,
     "precision": null,
     "hardware_model": "HELTEC_V4"
+  },
+  {
+    "id": "1324383468",
+    "long_name": "Cypherdeck",
+    "short_name": "Feni",
+    "role": 0,
+    "latitude": 39.6623872,
+    "longitude": -104.9362432,
+    "altitude": 362.0,
+    "precision": 13,
+    "hardware_model": "T_DECK"
+  },
+  {
+    "id": "3676922824",
+    "long_name": "Mesh Fonz",
+    "short_name": "Fonz",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "HELTEC_V3"
   },
   {
     "id": "3925479110",
@@ -1126,8 +1126,8 @@
     "long_name": "JBRak 1W High Mounted Node",
     "short_name": "LR1W",
     "role": 12,
-    "latitude": 41.1959296,
-    "longitude": -104.398848,
+    "latitude": 41.1828224,
+    "longitude": -104.4119552,
     "altitude": null,
     "precision": null,
     "hardware_model": "RAK4631"
@@ -1249,8 +1249,8 @@
     "role": 11,
     "latitude": 39.6099584,
     "longitude": -104.9362432,
-    "altitude": 1721.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "SEEED_SOLAR_NODE"
   },
   {
@@ -1293,7 +1293,7 @@
     "role": 0,
     "latitude": 39.6623872,
     "longitude": -104.8838144,
-    "altitude": 1681.0,
+    "altitude": 1692.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -1315,7 +1315,7 @@
     "role": 0,
     "latitude": 39.452672,
     "longitude": -104.726528,
-    "altitude": 1874.0,
+    "altitude": 17.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -1329,6 +1329,17 @@
     "altitude": 1515.0,
     "precision": 13,
     "hardware_model": "HELTEC_V3"
+  },
+  {
+    "id": "3291120025",
+    "long_name": "NV0N V4 Coloradomesh.org",
+    "short_name": "NV4",
+    "role": 0,
+    "latitude": 40.1997824,
+    "longitude": -105.054208,
+    "altitude": null,
+    "precision": 14,
+    "hardware_model": "UNSET"
   },
   {
     "id": "4020235635",
@@ -1381,8 +1392,8 @@
     "role": 12,
     "latitude": 39.9245312,
     "longitude": -105.0935296,
-    "altitude": 1638.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "SEEED_SOLAR_NODE"
   },
   {
@@ -1425,8 +1436,8 @@
     "role": 0,
     "latitude": 39.6099584,
     "longitude": -104.6740992,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1903.0,
+    "precision": 13,
     "hardware_model": "RAK4631"
   },
   {
@@ -1469,7 +1480,7 @@
     "role": 12,
     "latitude": 39.6623872,
     "longitude": -105.0935296,
-    "altitude": 1732.0,
+    "altitude": 1723.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -1480,7 +1491,7 @@
     "role": 0,
     "latitude": 39.6623872,
     "longitude": -105.0935296,
-    "altitude": 1729.0,
+    "altitude": 1727.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -1527,17 +1538,6 @@
     "altitude": null,
     "precision": null,
     "hardware_model": "TBEAM"
-  },
-  {
-    "id": "2661396380",
-    "long_name": "RS Base 1",
-    "short_name": "RSb1",
-    "role": 12,
-    "latitude": 40.4094976,
-    "longitude": -104.8444928,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "HELTEC_V3"
   },
   {
     "id": "2871523977",
@@ -1826,17 +1826,6 @@
     "hardware_model": "T_ECHO_PLUS"
   },
   {
-    "id": "208819832",
-    "long_name": "Twist n Route",
-    "short_name": "TnR",
-    "role": 11,
-    "latitude": 38.8759552,
-    "longitude": -104.726528,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "RAK4631"
-  },
-  {
     "id": "1745434121",
     "long_name": "Tosche Station",
     "short_name": "Tshe",
@@ -1863,10 +1852,10 @@
     "long_name": "W3OO  denvermesh.org",
     "short_name": "W3OO",
     "role": 0,
-    "latitude": 39.6230656,
-    "longitude": -104.8969216,
+    "latitude": 39.616512,
+    "longitude": -104.9034752,
     "altitude": 1778.0,
-    "precision": 14,
+    "precision": 15,
     "hardware_model": "RAK4631"
   },
   {
@@ -1962,10 +1951,10 @@
     "long_name": "Meshtastic a470",
     "short_name": "a470",
     "role": 0,
-    "latitude": 38.8497408,
-    "longitude": -104.7003136,
+    "latitude": 38.8235264,
+    "longitude": -104.726528,
     "altitude": 1851.0,
-    "precision": 12,
+    "precision": 13,
     "hardware_model": "HELTEC_V3"
   },
   {
@@ -2046,6 +2035,17 @@
     "hardware_model": "PORTDUINO"
   },
   {
+    "id": "2896932892",
+    "long_name": "Angrath b01c",
+    "short_name": "b01c",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "HELTEC_V3"
+  },
+  {
     "id": "656912778",
     "long_name": "MoorePower b18a",
     "short_name": "b18a",
@@ -2110,17 +2110,6 @@
     "altitude": null,
     "precision": null,
     "hardware_model": "SEEED_SOLAR_NODE"
-  },
-  {
-    "id": "463782784",
-    "long_name": "Meshtastic c380",
-    "short_name": "c380",
-    "role": 0,
-    "latitude": 40.1342464,
-    "longitude": -105.1459584,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "HELTEC_V4"
   },
   {
     "id": "446809094",
@@ -2200,6 +2189,17 @@
     "hardware_model": "STATION_G2"
   },
   {
+    "id": "80051292",
+    "long_name": "comcit",
+    "short_name": "com",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "HELTEC_V4"
+  },
+  {
     "id": "2714512508",
     "long_name": "craftsmanMOB2",
     "short_name": "crM2",
@@ -2239,8 +2239,8 @@
     "role": 0,
     "latitude": 39.6099584,
     "longitude": -104.726528,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1756.0,
+    "precision": 13,
     "hardware_model": "HELTEC_V3"
   },
   {
@@ -2371,7 +2371,7 @@
     "role": 0,
     "latitude": 39.9245312,
     "longitude": -105.0411008,
-    "altitude": 1628.0,
+    "altitude": 1615.0,
     "precision": 13,
     "hardware_model": "STATION_G2"
   },
@@ -2415,20 +2415,9 @@
     "role": 12,
     "latitude": 39.8196736,
     "longitude": -104.726528,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1658.0,
+    "precision": 13,
     "hardware_model": "HELTEC_MESH_NODE_T114"
-  },
-  {
-    "id": "1762510012",
-    "long_name": "Nettle (coloradomesh.org)",
-    "short_name": "ntle",
-    "role": 1,
-    "latitude": 40.4488192,
-    "longitude": -105.0935296,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "SEEED_WIO_TRACKER_L1"
   },
   {
     "id": "840326115",
@@ -2460,7 +2449,7 @@
     "latitude": 39.56736,
     "longitude": -104.8150016,
     "altitude": null,
-    "precision": null,
+    "precision": 16,
     "hardware_model": "STATION_G2"
   },
   {
@@ -2470,7 +2459,7 @@
     "role": 0,
     "latitude": 39.124992,
     "longitude": -104.7658496,
-    "altitude": 2223.0,
+    "altitude": 2243.0,
     "precision": 14,
     "hardware_model": "SEEED_SOLAR_NODE"
   },
@@ -2558,7 +2547,7 @@
     "role": 12,
     "latitude": 39.7541376,
     "longitude": -105.0017792,
-    "altitude": 1606.0,
+    "altitude": 1778.0,
     "precision": 14,
     "hardware_model": "HELTEC_V4"
   },
@@ -2745,8 +2734,8 @@
     "role": 0,
     "latitude": 40.1342464,
     "longitude": -105.0935296,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1055.0,
+    "precision": 13,
     "hardware_model": "RAK4631"
   },
   {
@@ -2800,8 +2789,8 @@
     "role": 0,
     "latitude": 40.1473536,
     "longitude": -105.1066368,
-    "altitude": 1529.0,
-    "precision": 14,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "TRACKER_T1000_E"
   },
   {
@@ -2833,7 +2822,7 @@
     "role": 0,
     "latitude": 39.7344768,
     "longitude": -104.955904,
-    "altitude": 1615.0,
+    "altitude": 1629.0,
     "precision": 15,
     "hardware_model": "STATION_G2"
   },
@@ -2844,7 +2833,7 @@
     "role": 12,
     "latitude": 38.1943808,
     "longitude": -105.3032448,
-    "altitude": 2711.0,
+    "altitude": 2848.0,
     "precision": 13,
     "hardware_model": "HELTEC_V3"
   },
@@ -2855,9 +2844,31 @@
     "role": 0,
     "latitude": 38.8104192,
     "longitude": -105.3949952,
-    "altitude": 2658.0,
+    "altitude": 2664.0,
     "precision": 14,
     "hardware_model": "LILYGO_TBEAM_S3_CORE"
+  },
+  {
+    "id": "1285750067",
+    "long_name": "Meshtastic fd33",
+    "short_name": "fd33",
+    "role": 0,
+    "latitude": 40.1866752,
+    "longitude": -105.0935296,
+    "altitude": 1539.0,
+    "precision": 13,
+    "hardware_model": "RAK4631"
+  },
+  {
+    "id": "1935488089",
+    "long_name": "W0KVZ",
+    "short_name": "Com1",
+    "role": 0,
+    "latitude": 39.7541376,
+    "longitude": -105.2114944,
+    "altitude": 1734.0,
+    "precision": 14,
+    "hardware_model": "RAK4631"
   },
   {
     "id": "3545032467",
@@ -2866,7 +2877,7 @@
     "role": 0,
     "latitude": 40.5209088,
     "longitude": -107.5511296,
-    "altitude": 1906.0,
+    "altitude": 1905.0,
     "precision": 15,
     "hardware_model": "HELTEC_MESH_POCKET"
   },
@@ -2880,17 +2891,6 @@
     "altitude": 1991.0,
     "precision": 14,
     "hardware_model": "HELTEC_V4"
-  },
-  {
-    "id": "633497501",
-    "long_name": "Yamz",
-    "short_name": "YZHQ",
-    "role": 12,
-    "latitude": 40.4226048,
-    "longitude": -104.7003136,
-    "altitude": 1445.0,
-    "precision": 12,
-    "hardware_model": "RAK4631"
   },
   {
     "id": "727277",
