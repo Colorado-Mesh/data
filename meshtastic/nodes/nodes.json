@@ -666,7 +666,7 @@
     "role": 0,
     "latitude": 38.928384,
     "longitude": -104.726528,
-    "altitude": 2085.0,
+    "altitude": 2079.0,
     "precision": 13,
     "hardware_model": "SEEED_SOLAR_NODE"
   },
@@ -2558,7 +2558,7 @@
     "role": 0,
     "latitude": 38.8759552,
     "longitude": -104.8313856,
-    "altitude": 1849.0,
+    "altitude": 1884.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -2629,6 +2629,83 @@
     "hardware_model": "THINKNODE_M1"
   },
   {
+    "id": "!b7350482",
+    "long_name": "Cherry Creek Tower2",
+    "short_name": "cct",
+    "role": 11,
+    "latitude": 39.66143,
+    "longitude": -104.860328,
+    "altitude": 1752.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!fec3bb9a",
+    "long_name": "Analogue Wag",
+    "short_name": "🏕",
+    "role": 8,
+    "latitude": 39.6886016,
+    "longitude": -104.9100288,
+    "altitude": 1634.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!455560c8",
+    "long_name": "BoBo 🪬",
+    "short_name": "Bo",
+    "role": 0,
+    "latitude": 40.197013,
+    "longitude": -105.182656,
+    "altitude": 1643.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!e0f1c83e",
+    "long_name": "(☀️) BLKOutCOmm (Solar Node 4)",
+    "short_name": "BKS4",
+    "role": 0,
+    "latitude": 39.8846828,
+    "longitude": -104.9579488,
+    "altitude": 5280.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a2e50d9c",
+    "long_name": "Hack the Planet",
+    "short_name": "hack",
+    "role": 8,
+    "latitude": 39.9245312,
+    "longitude": -105.0411008,
+    "altitude": 1607.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!be1f4697",
+    "long_name": "Bottle_https://coloradomesh.org",
+    "short_name": "Botl",
+    "role": 8,
+    "latitude": 39.8196736,
+    "longitude": -105.1459584,
+    "altitude": 1687.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a5c19f91",
+    "long_name": "K5NWZ.com T001",
+    "short_name": "T001",
+    "role": 5,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
     "id": "!699c8c14",
     "long_name": "Meshtastic 8c14",
     "short_name": "📟",
@@ -2680,17 +2757,6 @@
     "latitude": 39.6623872,
     "longitude": -105.1459584,
     "altitude": 1717.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!e0f1c83e",
-    "long_name": "(☀️) BLKOutCOmm (Solar Node 4)",
-    "short_name": "BKS4",
-    "role": 0,
-    "latitude": 39.8846828,
-    "longitude": -104.9579488,
-    "altitude": 5280.0,
     "precision": null,
     "hardware_model": null
   },
@@ -2805,17 +2871,6 @@
     "hardware_model": null
   },
   {
-    "id": "!b7350482",
-    "long_name": "Cherry Creek Tower2",
-    "short_name": "cct",
-    "role": 11,
-    "latitude": 39.66143,
-    "longitude": -104.860328,
-    "altitude": 1752.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!2e524e77",
     "long_name": "GoldenBiker72",
     "short_name": "GB72",
@@ -2867,17 +2922,6 @@
     "latitude": 39.9245312,
     "longitude": -104.988672,
     "altitude": 1740.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!455560c8",
-    "long_name": "BoBo 🪬",
-    "short_name": "Bo",
-    "role": 0,
-    "latitude": 40.197013,
-    "longitude": -105.182656,
-    "altitude": 1643.0,
     "precision": null,
     "hardware_model": null
   },
@@ -2955,17 +2999,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!be1f4697",
-    "long_name": "Bottle_https://coloradomesh.org",
-    "short_name": "Botl",
-    "role": 8,
-    "latitude": 39.8196736,
-    "longitude": -105.1459584,
-    "altitude": 1687.0,
     "precision": null,
     "hardware_model": null
   },
@@ -3069,17 +3102,6 @@
     "hardware_model": null
   },
   {
-    "id": "!a5c19f91",
-    "long_name": "K5NWZ.com T001",
-    "short_name": "T001",
-    "role": 5,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!62c06f23",
     "long_name": "WnQ Temp",
     "short_name": "WNQT",
@@ -3131,17 +3153,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!fec3bb9a",
-    "long_name": "Analogue Wag",
-    "short_name": "🏕",
-    "role": 8,
-    "latitude": 39.6886016,
-    "longitude": -104.9100288,
-    "altitude": 1639.0,
     "precision": null,
     "hardware_model": null
   },
@@ -4044,17 +4055,6 @@
     "latitude": 40.3963904,
     "longitude": -104.726528,
     "altitude": 1473.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!a2e50d9c",
-    "long_name": "Hack the Planet",
-    "short_name": "hack",
-    "role": 8,
-    "latitude": 39.9245312,
-    "longitude": -105.0411008,
-    "altitude": 1635.0,
     "precision": null,
     "hardware_model": null
   },
