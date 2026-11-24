@@ -246,7 +246,7 @@ class MeshViewNode(_BaseDataSourceNode):
     short_name: str = Field(alias="short_name")
     hardware_model: Optional[str] = Field(alias="hw_model", default=None)
     firmware: Optional[str] = Field(alias="firmware", default=None)
-    role: str = Field(alias="role")
+    role: Optional[str] = Field(alias="role", default=None)
     latitude: Optional[float] = Field(alias="last_lat", default=None)
     longitude: Optional[float] = Field(alias="last_long", default=None)
     first_seen: int = Field(alias="first_seen_us")  # UNIX timestamp
