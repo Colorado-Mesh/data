@@ -88,25 +88,14 @@
     "hardware_model": "TBEAM"
   },
   {
-    "id": "2003254372",
-    "long_name": "Meshtastic 3c64",
-    "short_name": "3c64",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "THINKNODE_M7"
-  },
-  {
     "id": "2003254796",
     "long_name": "Meshtastic 3e0c",
     "short_name": "3e0c",
     "role": 12,
     "latitude": 39.8196736,
     "longitude": -105.1459584,
-    "altitude": 1701.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "THINKNODE_M7"
   },
   {
@@ -187,6 +176,17 @@
     "hardware_model": "RAK4631"
   },
   {
+    "id": "3663164144",
+    "long_name": "SubMonkey 72f0",
+    "short_name": "72f0",
+    "role": 12,
+    "latitude": 39.5575296,
+    "longitude": -104.7789568,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "LILYGO_TBEAM_S3_CORE"
+  },
+  {
     "id": "153818767",
     "long_name": "Meshtastic 7508",
     "short_name": "7508",
@@ -215,9 +215,20 @@
     "role": 0,
     "latitude": 39.9376384,
     "longitude": -105.054208,
+    "altitude": 1653.0,
+    "precision": 14,
+    "hardware_model": "HELTEC_V4"
+  },
+  {
+    "id": "1780778645",
+    "long_name": "WaywardMonkey8695",
+    "short_name": "8695",
+    "role": 0,
+    "latitude": 39.5575296,
+    "longitude": -104.7789568,
     "altitude": null,
     "precision": null,
-    "hardware_model": "HELTEC_V4"
+    "hardware_model": "T_ECHO"
   },
   {
     "id": "2579269700",
@@ -226,7 +237,7 @@
     "role": 0,
     "latitude": 38.928384,
     "longitude": -104.7789568,
-    "altitude": 2043.0,
+    "altitude": 2046.0,
     "precision": 13,
     "hardware_model": "T_DECK"
   },
@@ -237,7 +248,7 @@
     "role": 0,
     "latitude": 39.8983168,
     "longitude": -105.0148864,
-    "altitude": 1646.0,
+    "altitude": 1656.0,
     "precision": 12,
     "hardware_model": "HELTEC_V4"
   },
@@ -352,17 +363,6 @@
     "hardware_model": "STATION_G2"
   },
   {
-    "id": "80036928",
-    "long_name": "BlitzBear Client",
-    "short_name": "BCL1",
-    "role": 0,
-    "latitude": 38.928384,
-    "longitude": -104.726528,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "HELTEC_V4"
-  },
-  {
     "id": "1034412546",
     "long_name": "BDK-Pi",
     "short_name": "BDKP",
@@ -446,7 +446,7 @@
     "role": 0,
     "latitude": 38.8759552,
     "longitude": -104.6740992,
-    "altitude": 2008.0,
+    "altitude": 2009.0,
     "precision": 13,
     "hardware_model": "TRACKER_T1000_E"
   },
@@ -512,7 +512,7 @@
     "role": 0,
     "latitude": 40.1342464,
     "longitude": -104.8838144,
-    "altitude": 1514.0,
+    "altitude": 1521.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -543,9 +543,9 @@
     "long_name": "CSwi0r03 ColoradoMesh",
     "short_name": "CS03",
     "role": 0,
-    "latitude": 39.9638528,
-    "longitude": -104.8707072,
-    "altitude": 1571.0,
+    "latitude": 39.9900672,
+    "longitude": -104.8969216,
+    "altitude": -800.0,
     "precision": 14,
     "hardware_model": "LILYGO_TBEAM_S3_CORE"
   },
@@ -556,8 +556,8 @@
     "role": 11,
     "latitude": 39.8196736,
     "longitude": -105.0935296,
-    "altitude": 1699.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "PORTDUINO"
   },
   {
@@ -576,8 +576,8 @@
     "long_name": "Hammerbrain 2",
     "short_name": "Cat2",
     "role": 0,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 40.1342464,
+    "longitude": -105.0935296,
     "altitude": null,
     "precision": null,
     "hardware_model": "SEEED_WIO_TRACKER_L1"
@@ -589,7 +589,7 @@
     "role": 0,
     "latitude": 40.4094976,
     "longitude": -105.054208,
-    "altitude": 1522.0,
+    "altitude": 1524.0,
     "precision": 14,
     "hardware_model": "RAK4631"
   },
@@ -601,7 +601,7 @@
     "latitude": 39.8196736,
     "longitude": -105.0935296,
     "altitude": null,
-    "precision": 13,
+    "precision": null,
     "hardware_model": "RAK4631"
   },
   {
@@ -617,13 +617,24 @@
   },
   {
     "id": "1487617518",
-    "long_name": "DrakWis ",
+    "long_name": "DrakWis",
     "short_name": "DRAK",
     "role": 0,
     "latitude": 40.1866752,
     "longitude": -104.9362432,
-    "altitude": 1485.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "RAK4631"
+  },
+  {
+    "id": "372143109",
+    "long_name": "Down to Earth Dental",
+    "short_name": "DTED",
+    "role": 12,
+    "latitude": 38.2861312,
+    "longitude": -104.6347776,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "RAK4631"
   },
   {
@@ -633,7 +644,7 @@
     "role": 0,
     "latitude": 38.928384,
     "longitude": -104.726528,
-    "altitude": 2079.0,
+    "altitude": 2094.0,
     "precision": 13,
     "hardware_model": "SEEED_SOLAR_NODE"
   },
@@ -664,10 +675,10 @@
     "long_name": "Doc-Solar-Repeat1",
     "short_name": "DocR",
     "role": 12,
-    "latitude": 38.928384,
-    "longitude": -104.6740992,
+    "latitude": 38.9545984,
+    "longitude": -104.7003136,
     "altitude": 2108.0,
-    "precision": 13,
+    "precision": 12,
     "hardware_model": "RAK4631"
   },
   {
@@ -710,8 +721,8 @@
     "role": 0,
     "latitude": 39.452672,
     "longitude": -104.726528,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1935.0,
+    "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
   {
@@ -765,8 +776,8 @@
     "role": 11,
     "latitude": 39.714816,
     "longitude": -105.1459584,
-    "altitude": 1845.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "RAK4631"
   },
   {
@@ -842,8 +853,8 @@
     "role": 1,
     "latitude": 40.501248,
     "longitude": -104.8838144,
-    "altitude": 1527.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "HELTEC_MESH_NODE_T114"
   },
   {
@@ -1040,8 +1051,8 @@
     "role": 11,
     "latitude": 39.6099584,
     "longitude": -104.9362432,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1715.0,
+    "precision": 13,
     "hardware_model": "SEEED_SOLAR_NODE"
   },
   {
@@ -1095,7 +1106,7 @@
     "role": 0,
     "latitude": 39.452672,
     "longitude": -104.726528,
-    "altitude": 1863.0,
+    "altitude": 1859.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -1221,17 +1232,6 @@
     "hardware_model": "HELTEC_V3"
   },
   {
-    "id": "2658250546",
-    "long_name": "Meshtastic QT78",
-    "short_name": "QT78",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "RAK4631"
-  },
-  {
     "id": "377623864",
     "long_name": "RacoonKing 1W",
     "short_name": "RAKN",
@@ -1249,7 +1249,7 @@
     "role": 12,
     "latitude": 39.6623872,
     "longitude": -105.0935296,
-    "altitude": 1736.0,
+    "altitude": 1723.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -1260,7 +1260,7 @@
     "role": 0,
     "latitude": 39.6623872,
     "longitude": -105.0935296,
-    "altitude": 1710.0,
+    "altitude": 1718.0,
     "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
@@ -1271,6 +1271,17 @@
     "role": 12,
     "latitude": 39.5051008,
     "longitude": -104.9362432,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "HELTEC_V3"
+  },
+  {
+    "id": "49109932",
+    "long_name": "RealNumbers5bac",
+    "short_name": "RLNM",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
     "altitude": null,
     "precision": null,
     "hardware_model": "HELTEC_V3"
@@ -1298,6 +1309,17 @@
     "hardware_model": "TBEAM"
   },
   {
+    "id": "2661396380",
+    "long_name": "RS Base 1",
+    "short_name": "RSb1",
+    "role": 12,
+    "latitude": 40.4094976,
+    "longitude": -104.8444928,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "HELTEC_V3"
+  },
+  {
     "id": "1771835068",
     "long_name": "RS Mobile 1",
     "short_name": "RSm1",
@@ -1320,17 +1342,6 @@
     "hardware_model": "RAK4631"
   },
   {
-    "id": "463563384",
-    "long_name": "BIGRED_SEA",
-    "short_name": "Red",
-    "role": 0,
-    "latitude": 39.6623872,
-    "longitude": -104.726528,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "HELTEC_V4"
-  },
-  {
     "id": "2863770750",
     "long_name": "Ratotaskr",
     "short_name": "Rtsk",
@@ -1348,8 +1359,8 @@
     "role": 11,
     "latitude": 39.8688256,
     "longitude": -104.8346624,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1576.0,
+    "precision": 16,
     "hardware_model": "SEEED_SOLAR_NODE"
   },
   {
@@ -1434,10 +1445,10 @@
     "long_name": "TeleBroadCaster",
     "short_name": "TBC",
     "role": 0,
-    "latitude": 38.8759552,
-    "longitude": -104.8313856,
-    "altitude": null,
-    "precision": null,
+    "latitude": 38.862848,
+    "longitude": -104.8182784,
+    "altitude": 1864.0,
+    "precision": 14,
     "hardware_model": "RAK4631"
   },
   {
@@ -1458,7 +1469,7 @@
     "role": 0,
     "latitude": 39.6099584,
     "longitude": -104.6740992,
-    "altitude": 1854.0,
+    "altitude": 1853.0,
     "precision": 13,
     "hardware_model": "T_ECHO_PLUS"
   },
@@ -1483,17 +1494,6 @@
     "altitude": null,
     "precision": null,
     "hardware_model": "RAK4631"
-  },
-  {
-    "id": "1923150827",
-    "long_name": "Meshtastic f3eb",
-    "short_name": "TRAK",
-    "role": 0,
-    "latitude": 39.1380992,
-    "longitude": -104.7789568,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": "SEEED_WIO_TRACKER_L1"
   },
   {
     "id": "1649425046",
@@ -1546,8 +1546,8 @@
     "role": 12,
     "latitude": 39.9245312,
     "longitude": -105.0411008,
-    "altitude": 1613.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "SEEED_SOLAR_NODE"
   },
   {
@@ -1656,8 +1656,8 @@
     "role": 0,
     "latitude": 39.6623872,
     "longitude": -104.988672,
-    "altitude": 1644.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "HELTEC_V3"
   },
   {
@@ -1744,8 +1744,8 @@
     "role": 0,
     "latitude": 40.1866752,
     "longitude": -105.1459584,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1542.0,
+    "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
   {
@@ -1783,14 +1783,14 @@
   },
   {
     "id": "323014425",
-    "long_name": "Meshtastic cf19",
+    "long_name": "323014425",
     "short_name": "cf19",
-    "role": 0,
+    "role": -1,
     "latitude": 38.8759552,
     "longitude": -104.8313856,
-    "altitude": 1918.0,
-    "precision": 13,
-    "hardware_model": "HELTEC_MESH_NODE_T114"
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
   },
   {
     "id": "2714512508",
@@ -1892,6 +1892,17 @@
     "hardware_model": "RAK4631"
   },
   {
+    "id": "1674439081",
+    "long_name": "Meshtastic e9a9",
+    "short_name": "e9a9",
+    "role": 0,
+    "latitude": 39.6361728,
+    "longitude": -104.6478848,
+    "altitude": 1774.0,
+    "precision": 10,
+    "hardware_model": "TRACKER_T1000_E"
+  },
+  {
     "id": "537848611",
     "long_name": "Meshtastic eb23",
     "short_name": "eb23",
@@ -1969,14 +1980,25 @@
     "hardware_model": null
   },
   {
+    "id": "2455043128",
+    "long_name": "Meshtastic fc38",
+    "short_name": "fc38",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": "HELTEC_V4"
+  },
+  {
     "id": "2732920220",
     "long_name": "Hack the Planet",
     "short_name": "hack",
     "role": 0,
     "latitude": 39.9245312,
     "longitude": -105.0411008,
-    "altitude": 1635.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "STATION_G2"
   },
   {
@@ -2040,9 +2062,9 @@
     "short_name": "oto",
     "role": 2,
     "latitude": 40.1866752,
-    "longitude": -105.0935296,
-    "altitude": null,
-    "precision": null,
+    "longitude": -105.1459584,
+    "altitude": 1551.0,
+    "precision": 13,
     "hardware_model": "RAK4631"
   },
   {
@@ -2052,31 +2074,20 @@
     "role": 12,
     "latitude": 39.0856704,
     "longitude": -104.8838144,
-    "altitude": 2204.0,
-    "precision": 13,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "RAK4631"
   },
   {
     "id": "2732702952",
-    "long_name": "PRA Experiment ",
+    "long_name": "PRA Experiment",
     "short_name": "pra1",
     "role": 11,
     "latitude": 39.56736,
     "longitude": -104.8150016,
     "altitude": null,
-    "precision": 16,
+    "precision": null,
     "hardware_model": "STATION_G2"
-  },
-  {
-    "id": "2741582724",
-    "long_name": "Meshtastic 3b84",
-    "short_name": "rept",
-    "role": 0,
-    "latitude": 39.124992,
-    "longitude": -104.7658496,
-    "altitude": 2231.0,
-    "precision": 14,
-    "hardware_model": "SEEED_SOLAR_NODE"
   },
   {
     "id": "49131132",
@@ -2127,10 +2138,10 @@
     "long_name": "watersnake",
     "short_name": "wrsk",
     "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
+    "latitude": 39.6623872,
+    "longitude": -104.8313856,
+    "altitude": 1721.0,
+    "precision": 13,
     "hardware_model": "M5STACK_CARDPUTER_ADV"
   },
   {
@@ -2206,7 +2217,7 @@
     "role": 1,
     "latitude": 40.1342464,
     "longitude": -105.0935296,
-    "altitude": 1504.0,
+    "altitude": 1512.0,
     "precision": 13,
     "hardware_model": "WISMESH_TAG"
   },
@@ -2261,8 +2272,8 @@
     "role": 12,
     "latitude": 39.8196736,
     "longitude": -105.1459584,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1646.0,
+    "precision": 13,
     "hardware_model": "HELTEC_V4"
   },
   {
@@ -2327,8 +2338,8 @@
     "role": 0,
     "latitude": 40.1342464,
     "longitude": -105.0935296,
-    "altitude": null,
-    "precision": null,
+    "altitude": 1055.0,
+    "precision": 13,
     "hardware_model": "RAK4631"
   },
   {
@@ -2338,8 +2349,8 @@
     "role": 0,
     "latitude": 39.8852096,
     "longitude": -105.054208,
-    "altitude": 1619.0,
-    "precision": 14,
+    "altitude": null,
+    "precision": null,
     "hardware_model": "HELTEC_V3"
   },
   {
@@ -2402,8 +2413,8 @@
     "long_name": "Carissa Vixen (M1)",
     "short_name": "🦊",
     "role": 0,
-    "latitude": 39.8589952,
-    "longitude": -105.2114944,
+    "latitude": 39.911424,
+    "longitude": -105.1066368,
     "altitude": null,
     "precision": null,
     "hardware_model": "THINKNODE_M1"
@@ -2470,7 +2481,7 @@
     "role": 12,
     "latitude": 38.1943808,
     "longitude": -105.3032448,
-    "altitude": 2659.0,
+    "altitude": 2656.0,
     "precision": 13,
     "hardware_model": "HELTEC_V3"
   },
@@ -2481,7 +2492,7 @@
     "role": 0,
     "latitude": 38.8104192,
     "longitude": -105.3949952,
-    "altitude": 2661.0,
+    "altitude": 2653.0,
     "precision": 14,
     "hardware_model": "LILYGO_TBEAM_S3_CORE"
   },
@@ -2503,20 +2514,20 @@
     "role": 0,
     "latitude": 39.518208,
     "longitude": -104.923136,
-    "altitude": 1839.0,
+    "altitude": 1840.0,
     "precision": 14,
     "hardware_model": "HELTEC_MESH_TOWER_V2"
   },
   {
-    "id": "1935488089",
-    "long_name": "W0KVZ",
-    "short_name": "Com1",
+    "id": "2741582724",
+    "long_name": "Meshtastic 3b84",
+    "short_name": "rept",
     "role": 0,
-    "latitude": 39.7541376,
-    "longitude": -105.2114944,
-    "altitude": 1734.0,
+    "latitude": 39.124992,
+    "longitude": -104.7658496,
+    "altitude": 2231.0,
     "precision": 14,
-    "hardware_model": "RAK4631"
+    "hardware_model": "SEEED_SOLAR_NODE"
   },
   {
     "id": "3545032467",
@@ -2534,22 +2545,11 @@
     "long_name": "SOLL II FE",
     "short_name": "cb2d",
     "role": 0,
-    "latitude": 38.7907584,
-    "longitude": -104.824832,
-    "altitude": 1845.0,
+    "latitude": 39.0660096,
+    "longitude": -104.5102592,
+    "altitude": 2185.0,
     "precision": 15,
     "hardware_model": "WISMESH_TAG"
-  },
-  {
-    "id": "463562820",
-    "long_name": "MountainCat🇺🇸",
-    "short_name": "MTC1",
-    "role": 0,
-    "latitude": 38.928384,
-    "longitude": -104.7789568,
-    "altitude": 1946.0,
-    "precision": 13,
-    "hardware_model": "HELTEC_V4"
   },
   {
     "id": "465486264",
@@ -2561,17 +2561,6 @@
     "altitude": 1991.0,
     "precision": 14,
     "hardware_model": "HELTEC_V4"
-  },
-  {
-    "id": "67159304",
-    "long_name": "Lioness",
-    "short_name": "LNS",
-    "role": 0,
-    "latitude": 38.8759552,
-    "longitude": -104.8313856,
-    "altitude": 1884.0,
-    "precision": 13,
-    "hardware_model": "HELTEC_V3"
   },
   {
     "id": "727277",
@@ -2607,39 +2596,6 @@
     "hardware_model": "THINKNODE_M1"
   },
   {
-    "id": "!b2e06e30",
-    "long_name": "RockChalk_Comms",
-    "short_name": "6e30",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!ebb1d677",
-    "long_name": "CW D677",
-    "short_name": "CW77",
-    "role": 0,
-    "latitude": 39.7672448,
-    "longitude": -105.1459584,
-    "altitude": 0.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!1b14f118",
-    "long_name": "Meshtastic f118",
-    "short_name": "f118",
-    "role": 12,
-    "latitude": 39.8196736,
-    "longitude": -105.1459584,
-    "altitude": 1676.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!e0f1c83e",
     "long_name": "(☀️) BLKOutCOmm (Solar Node 4)",
     "short_name": "BKS4",
@@ -2651,134 +2607,24 @@
     "hardware_model": null
   },
   {
-    "id": "!54e111e2",
-    "long_name": "Meshtastic 11e2",
-    "short_name": "11e2",
-    "role": 8,
-    "latitude": 39.6623872,
-    "longitude": -105.0935296,
-    "altitude": 1690.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!1fa4a08c",
-    "long_name": "marcy",
-    "short_name": "a08c",
+    "id": "!fbd325cf",
+    "long_name": "m25n",
+    "short_name": "m25n",
     "role": 0,
-    "latitude": 39.6623872,
-    "longitude": -105.4081024,
-    "altitude": 2833.0,
+    "latitude": 39.8983168,
+    "longitude": -105.119744,
+    "altitude": 1663.0,
     "precision": null,
     "hardware_model": null
   },
   {
-    "id": "!a2ebd974",
-    "long_name": "Bear Creek G2 test",
-    "short_name": "BCGt",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!db5288ac",
-    "long_name": "Meshtastic 88ac",
-    "short_name": "88ac",
-    "role": 8,
-    "latitude": 39.714816,
-    "longitude": -105.1459584,
-    "altitude": 1751.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!699c8c14",
-    "long_name": "Meshtastic 8c14",
-    "short_name": "📟",
+    "id": "!787f5d35",
+    "long_name": "Kanemoto",
+    "short_name": "⛩",
     "role": 12,
-    "latitude": 39.8196736,
-    "longitude": -105.1459584,
-    "altitude": 1640.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!200eeb23",
-    "long_name": "Meshtastic eb23",
-    "short_name": "eb23",
-    "role": 1,
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!d7b08160",
-    "long_name": "MeshCommand",
-    "short_name": "82RP",
-    "role": 12,
-    "latitude": 39.8196736,
-    "longitude": -105.1459584,
-    "altitude": 1683.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!435bbf70",
-    "long_name": "Meshtastic bf70",
-    "short_name": "bf70",
-    "role": 8,
-    "latitude": 39.7672448,
-    "longitude": -105.0935296,
-    "altitude": 1679.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!fda74bb5",
-    "long_name": "centi",
-    "short_name": "c",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!c1ede964",
-    "long_name": "Base e964",
-    "short_name": "e964",
-    "role": 8,
-    "latitude": 39.7672448,
-    "longitude": -105.0411008,
-    "altitude": 1623.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!82173bd8",
-    "long_name": "Nurb4b",
-    "short_name": "Nu4b",
-    "role": 8,
-    "latitude": 39.714816,
-    "longitude": -105.1983872,
-    "altitude": 1835.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!84c68f03",
-    "long_name": "ConwaysGlider Backup",
-    "short_name": "🔙",
-    "role": 0,
-    "latitude": 39.714816,
-    "longitude": -105.1459584,
-    "altitude": 1780.0,
     "precision": null,
     "hardware_model": null
   },
@@ -2794,53 +2640,20 @@
     "hardware_model": null
   },
   {
-    "id": "!da657960",
-    "long_name": "FeedTheMonkey",
-    "short_name": "FEED",
+    "id": "!fda74bb5",
+    "long_name": "centi",
+    "short_name": "c",
     "role": 8,
-    "latitude": 39.7672448,
-    "longitude": -104.988672,
-    "altitude": 1766.0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
     "precision": null,
     "hardware_model": null
   },
   {
-    "id": "!048541c8",
-    "long_name": "☀️ 41c8 [ROUTER LATE]",
-    "short_name": "41c8",
-    "role": 11,
-    "latitude": 39.6886016,
-    "longitude": -105.119744,
-    "altitude": 1681.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!3f6fb170",
-    "long_name": "watersnake",
-    "short_name": "wrsk",
-    "role": 8,
-    "latitude": 39.6623872,
-    "longitude": -104.8313856,
-    "altitude": 1711.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!801cf7d1",
-    "long_name": "JLM_0001",
-    "short_name": "f7d1",
-    "role": 0,
-    "latitude": 39.8688256,
-    "longitude": -104.8346624,
-    "altitude": 1576.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!050c3900",
-    "long_name": "Meshtastic 3900",
-    "short_name": "3900",
+    "id": "!24e4694f",
+    "long_name": "🄰🅁🄼🄾🅁🄽🄴🅃☣",
+    "short_name": "ANET",
     "role": 0,
     "latitude": null,
     "longitude": null,
@@ -2849,35 +2662,123 @@
     "hardware_model": null
   },
   {
-    "id": "!3e33d302",
-    "long_name": "Mao Haus",
-    "short_name": "🐈",
-    "role": 8,
-    "latitude": 39.6623872,
-    "longitude": -105.1459584,
-    "altitude": 1717.0,
+    "id": "!325715d0",
+    "long_name": "Meshtastic 15d0",
+    "short_name": "15d0",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
     "precision": null,
     "hardware_model": null
   },
   {
-    "id": "!f6621a54",
-    "long_name": "Satsang MQTT Gateway",
-    "short_name": "SMQT",
+    "id": "!1b14f118",
+    "long_name": "Meshtastic f118",
+    "short_name": "f118",
     "role": 12,
-    "latitude": 39.8688256,
-    "longitude": -104.8346624,
+    "latitude": 39.8196736,
+    "longitude": -105.1459584,
+    "altitude": 1681.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!ebb1d677",
+    "long_name": "CW D677",
+    "short_name": "CW77",
+    "role": 0,
+    "latitude": 39.7672448,
+    "longitude": -105.1459584,
     "altitude": 0.0,
     "precision": null,
     "hardware_model": null
   },
   {
-    "id": "!756f9ad8",
-    "long_name": "ChopMesh1",
-    "short_name": "Cm1",
+    "id": "!e1092449",
+    "long_name": "Hot Soup",
+    "short_name": "Soup",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!fec3bb9a",
+    "long_name": "Analogue Wag",
+    "short_name": "🏕",
     "role": 8,
-    "latitude": 39.583744,
-    "longitude": -105.119744,
-    "altitude": 1609.0,
+    "latitude": 39.6886016,
+    "longitude": -104.9100288,
+    "altitude": 1624.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!7c5caf60",
+    "long_name": "Meshtastic af60",
+    "short_name": "af60",
+    "role": 8,
+    "latitude": 39.9245312,
+    "longitude": -105.0935296,
+    "altitude": 1664.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!82173bd8",
+    "long_name": "Nurb4b",
+    "short_name": "Nu4b",
+    "role": 8,
+    "latitude": 39.714816,
+    "longitude": -105.1983872,
+    "altitude": 1835.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!433d7ddc",
+    "long_name": "Meshtastic 7ddc",
+    "short_name": "7ddc",
+    "role": 0,
+    "latitude": 39.5575296,
+    "longitude": -104.8838144,
+    "altitude": 1717.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!9253a2c8",
+    "long_name": "JanRan",
+    "short_name": "JaRa",
+    "role": 8,
+    "latitude": 39.8721024,
+    "longitude": -105.1459584,
+    "altitude": 1735.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!da0dc60a",
+    "long_name": "RFB Pocket c60a",
+    "short_name": "c60a",
+    "role": 8,
+    "latitude": 39.6623872,
+    "longitude": -105.0935296,
+    "altitude": 1744.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!ae748982",
+    "long_name": "Reynard",
+    "short_name": "🦊",
+    "role": 5,
+    "latitude": 39.7345466,
+    "longitude": -105.0906233,
+    "altitude": 1656.0,
     "precision": null,
     "hardware_model": null
   },
@@ -2893,13 +2794,24 @@
     "hardware_model": null
   },
   {
-    "id": "!7f378e92",
-    "long_name": "Hampden-Mesh",
-    "short_name": "HMDN",
+    "id": "!801cf7d1",
+    "long_name": "JLM_0001",
+    "short_name": "f7d1",
     "role": 0,
+    "latitude": 39.8688256,
+    "longitude": -104.8346624,
+    "altitude": 1576.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!3e33d302",
+    "long_name": "Mao Haus",
+    "short_name": "🐈",
+    "role": 8,
     "latitude": 39.6623872,
-    "longitude": -105.0935296,
-    "altitude": 1700.0,
+    "longitude": -105.1459584,
+    "altitude": 1717.0,
     "precision": null,
     "hardware_model": null
   },
@@ -2915,6 +2827,996 @@
     "hardware_model": null
   },
   {
+    "id": "!da657960",
+    "long_name": "FeedTheMonkey",
+    "short_name": "FEED",
+    "role": 8,
+    "latitude": 39.7672448,
+    "longitude": -104.988672,
+    "altitude": 1763.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!200eeb23",
+    "long_name": "Meshtastic eb23",
+    "short_name": "eb23",
+    "role": 1,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!43b7c3a8",
+    "long_name": "DR",
+    "short_name": "🦀",
+    "role": 8,
+    "latitude": 39.5051008,
+    "longitude": -104.726528,
+    "altitude": 1771.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!acaaaec4",
+    "long_name": "NLO",
+    "short_name": "NLO",
+    "role": 8,
+    "latitude": 40.1539072,
+    "longitude": -105.0738688,
+    "altitude": 1517.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!53fa24c2",
+    "long_name": "Mack",
+    "short_name": "Mack",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!eb10885e",
+    "long_name": "Cernunnos ",
+    "short_name": "Crns",
+    "role": 8,
+    "latitude": 39.88975,
+    "longitude": -105.0006399,
+    "altitude": 1645.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!da5ad950",
+    "long_name": "rooftop.cjparker.us",
+    "short_name": "d950",
+    "role": 0,
+    "latitude": 39.97696,
+    "longitude": -105.1459584,
+    "altitude": 0.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!092d6a7b",
+    "long_name": "Mudd Slide ",
+    "short_name": "🚽",
+    "role": 2,
+    "latitude": 40.2915328,
+    "longitude": -105.3032448,
+    "altitude": 1680.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a2e9dfec",
+    "long_name": "POSTAL REPEATER",
+    "short_name": "💌",
+    "role": 8,
+    "latitude": 40.42131,
+    "longitude": -105.07,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!e6f8a9dc",
+    "long_name": "W0RMT-05 🔥",
+    "short_name": "🔥",
+    "role": 8,
+    "latitude": 39.9753216,
+    "longitude": -105.1475968,
+    "altitude": 1677.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!c1ede964",
+    "long_name": "Base e964",
+    "short_name": "e964",
+    "role": 8,
+    "latitude": 39.7672448,
+    "longitude": -105.0411008,
+    "altitude": 1623.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a5c19f91",
+    "long_name": "K5NWZ.com T001",
+    "short_name": "T001",
+    "role": 5,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!6983201c",
+    "long_name": "Springfield 🏠",
+    "short_name": "🥸",
+    "role": 1,
+    "latitude": 40.1932288,
+    "longitude": -104.9690112,
+    "altitude": 1488.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!6a248695",
+    "long_name": "WaywardMonkey8695",
+    "short_name": "8695",
+    "role": 8,
+    "latitude": 39.5575296,
+    "longitude": -104.7789568,
+    "altitude": 1745.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a923baf9",
+    "long_name": "Piper dog tracker",
+    "short_name": "PIPR",
+    "role": 5,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!c1f3b744",
+    "long_name": "SM Station G3 ",
+    "short_name": "🫪",
+    "role": 8,
+    "latitude": 39.7344768,
+    "longitude": -104.955904,
+    "altitude": 1631.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!8fcde8bc",
+    "long_name": "AC5OR (Mobile)",
+    "short_name": "🥃",
+    "role": 8,
+    "latitude": 40.206336,
+    "longitude": -105.086976,
+    "altitude": 1546.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!2a3631ec",
+    "long_name": "The Monster Mesh denvermesh.org",
+    "short_name": "Kn3",
+    "role": 2,
+    "latitude": 40.173568,
+    "longitude": -105.1066368,
+    "altitude": 1506.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1ba6388c",
+    "long_name": "Watchtower-S-388c",
+    "short_name": "RFBS",
+    "role": 0,
+    "latitude": 39.6623872,
+    "longitude": -105.0935296,
+    "altitude": 1741.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!fd944fa0",
+    "long_name": "DoubleCSolar1",
+    "short_name": "DCS1",
+    "role": 0,
+    "latitude": 39.8196736,
+    "longitude": -105.0935296,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!f6f8f5b4",
+    "long_name": "Meshtastic f5b4",
+    "short_name": "f5b4",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!ab27fa89",
+    "long_name": "Raven (attic)",
+    "short_name": "Rave",
+    "role": 12,
+    "latitude": 40.501248,
+    "longitude": -104.8838144,
+    "altitude": 1480.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!433adec0",
+    "long_name": "Meshtastic dec0",
+    "short_name": "dec0",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!075b6464",
+    "long_name": "Solstice",
+    "short_name": "Sol",
+    "role": 8,
+    "latitude": 39.5575296,
+    "longitude": -105.1459584,
+    "altitude": 1861.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!33691818",
+    "long_name": "N0AD 1818",
+    "short_name": "1818",
+    "role": 8,
+    "latitude": 39.5575296,
+    "longitude": -104.8838144,
+    "altitude": 1784.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!63b044d3",
+    "long_name": "SOM 1-44d3",
+    "short_name": "SOM1",
+    "role": 8,
+    "latitude": 40.3963904,
+    "longitude": -104.988672,
+    "altitude": 1517.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a98d56a8",
+    "long_name": "Maya dog tracker",
+    "short_name": "MAYA",
+    "role": 5,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!699c8c14",
+    "long_name": "Meshtastic 8c14",
+    "short_name": "📟",
+    "role": 12,
+    "latitude": 39.8196736,
+    "longitude": -105.1459584,
+    "altitude": 1646.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!b2e06e30",
+    "long_name": "RockChalk_Comms",
+    "short_name": "6e30",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!f59dc5fa",
+    "long_name": "Meshtastic c5fa",
+    "short_name": "c5fa",
+    "role": 0,
+    "latitude": 39.714816,
+    "longitude": -105.1459584,
+    "altitude": 1838.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!05cbc680",
+    "long_name": "AckNewsBot DM and say hi",
+    "short_name": "AkNB",
+    "role": 8,
+    "latitude": 39.6099584,
+    "longitude": -104.726528,
+    "altitude": 1720.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1ba58ba8",
+    "long_name": "Meshtastic 8ba8",
+    "short_name": "8ba8",
+    "role": 0,
+    "latitude": 39.8983168,
+    "longitude": -105.0148864,
+    "altitude": 1656.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!84c68f03",
+    "long_name": "ConwaysGlider Backup",
+    "short_name": "🔙",
+    "role": 0,
+    "latitude": 39.714816,
+    "longitude": -105.1459584,
+    "altitude": 1780.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!ba18940e",
+    "long_name": "R3N3R Solar Fixed",
+    "short_name": "SOLR",
+    "role": 12,
+    "latitude": 39.6099584,
+    "longitude": -104.6740992,
+    "altitude": 1867.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!ce287841",
+    "long_name": "BeMesh1",
+    "short_name": "Be1",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!c1e4216c",
+    "long_name": "Meshtastic 216C",
+    "short_name": "216C",
+    "role": 8,
+    "latitude": 39.6623872,
+    "longitude": -104.8838144,
+    "altitude": 1671.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!050c3900",
+    "long_name": "Meshtastic 3900",
+    "short_name": "3900",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!69faa5f2",
+    "long_name": "wrt main",
+    "short_name": "wrt",
+    "role": 8,
+    "latitude": 39.8196736,
+    "longitude": -105.1459584,
+    "altitude": 1632.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!b2a7ecf8",
+    "long_name": "Watchtower North ecf8",
+    "short_name": "RFBN",
+    "role": 12,
+    "latitude": 39.6623872,
+    "longitude": -105.0935296,
+    "altitude": 1734.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a2ebd974",
+    "long_name": "Bear Creek G2 test",
+    "short_name": "BCGt",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!0406413c",
+    "long_name": "Marthinwurer Walkie",
+    "short_name": "MthW",
+    "role": 1,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!919cd40c",
+    "long_name": "Ace Tomato Company",
+    "short_name": "ATC",
+    "role": 2,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!3819c11b",
+    "long_name": "JP Solar Wis",
+    "short_name": "JPSW",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!4d9bc2c4",
+    "long_name": "KrazyMojo1_c2c4",
+    "short_name": "Krz1",
+    "role": 1,
+    "latitude": 39.5575296,
+    "longitude": -105.0411008,
+    "altitude": 1742.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!070002ac",
+    "long_name": "Meshtastic 02AC",
+    "short_name": "02AC",
+    "role": 8,
+    "latitude": 39.47,
+    "longitude": -105.09,
+    "altitude": 1824.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!84be2d8e",
+    "long_name": "dietcokecomms",
+    "short_name": "🦢",
+    "role": 8,
+    "latitude": 40.501248,
+    "longitude": -105.0411008,
+    "altitude": 1514.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a2e9d2d4",
+    "long_name": "Roadie-Station",
+    "short_name": "BBS1",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!2e524e77",
+    "long_name": "GoldenBiker72",
+    "short_name": "GB72",
+    "role": 8,
+    "latitude": 39.7672448,
+    "longitude": -105.1983872,
+    "altitude": 1770.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!b2a73b14",
+    "long_name": "Meshtastic 3b14",
+    "short_name": "3b14",
+    "role": 0,
+    "latitude": 40.3963904,
+    "longitude": -104.726528,
+    "altitude": 1473.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!756f9ad8",
+    "long_name": "ChopMesh1",
+    "short_name": "Cm1",
+    "role": 8,
+    "latitude": 39.583744,
+    "longitude": -105.119744,
+    "altitude": 1609.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1ba2fa44",
+    "long_name": "Sloth ⭕",
+    "short_name": "Slth",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!3af9cc19",
+    "long_name": "Meshtastic cc19",
+    "short_name": "cc19",
+    "role": 8,
+    "latitude": 39.9962851,
+    "longitude": -105.1001523,
+    "altitude": 1626.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!12576bd3",
+    "long_name": "W0SUN Solar Node",
+    "short_name": "🌞",
+    "role": 8,
+    "latitude": 39.5575296,
+    "longitude": -104.8838144,
+    "altitude": 1760.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!130ac403",
+    "long_name": "K5NWZ.com T002",
+    "short_name": "T002",
+    "role": 5,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1de92c88",
+    "long_name": "Meshtastic 2C88",
+    "short_name": "2C88",
+    "role": 8,
+    "latitude": 39.8196736,
+    "longitude": -105.0411008,
+    "altitude": 1628.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a4bd2a05",
+    "long_name": "CMOS Echo",
+    "short_name": "☃",
+    "role": 8,
+    "latitude": 39.7082624,
+    "longitude": -104.9165824,
+    "altitude": 1646.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!7dea2f9f",
+    "long_name": "BeaconofHope ",
+    "short_name": "BeHo",
+    "role": 8,
+    "latitude": 39.8721024,
+    "longitude": -105.1459584,
+    "altitude": 1724.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!69851c00",
+    "long_name": "erie_gooding_common_node",
+    "short_name": "GOOD",
+    "role": 8,
+    "latitude": 40.0293888,
+    "longitude": -105.0411008,
+    "altitude": 1550.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!db5288ac",
+    "long_name": "Meshtastic 88ac",
+    "short_name": "88ac",
+    "role": 8,
+    "latitude": 39.714816,
+    "longitude": -105.1459584,
+    "altitude": 1751.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!aca37236",
+    "long_name": "Wads Eye",
+    "short_name": "👁",
+    "role": 8,
+    "latitude": 39.8721024,
+    "longitude": -105.0935296,
+    "altitude": 1660.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!433f11a0",
+    "long_name": "K9VXN Mobile",
+    "short_name": "🛻",
+    "role": 8,
+    "latitude": 39.8852096,
+    "longitude": -105.054208,
+    "altitude": 1619.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!32165be3",
+    "long_name": "ArvPrcNullToad",
+    "short_name": "nulT",
+    "role": 8,
+    "latitude": 39.8721024,
+    "longitude": -105.0935296,
+    "altitude": 1684.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!d7b08160",
+    "long_name": "MeshCommand",
+    "short_name": "82RP",
+    "role": 12,
+    "latitude": 39.8196736,
+    "longitude": -105.1459584,
+    "altitude": 1683.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!be1f4697",
+    "long_name": "Bottle_https://coloradomesh.org",
+    "short_name": "Botl",
+    "role": 8,
+    "latitude": 39.8196736,
+    "longitude": -105.1459584,
+    "altitude": 1687.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!f6621a54",
+    "long_name": "Satsang MQTT Gateway",
+    "short_name": "SMQT",
+    "role": 12,
+    "latitude": 39.8688256,
+    "longitude": -104.8346624,
+    "altitude": 0.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!ba0c6051",
+    "long_name": "oto tree",
+    "short_name": "oto",
+    "role": 2,
+    "latitude": 40.1866752,
+    "longitude": -105.1459584,
+    "altitude": 1551.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!49b6893c",
+    "long_name": "SpringGulchBase",
+    "short_name": "SGBS",
+    "role": 12,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!043adc68",
+    "long_name": "Meshtastic dc68",
+    "short_name": "dc68",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a02b340d",
+    "long_name": "ConwaysGlider Base",
+    "short_name": "🏠",
+    "role": 12,
+    "latitude": 39.714816,
+    "longitude": -105.1459584,
+    "altitude": 1776.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!04f49550",
+    "long_name": "Mestastic 9550",
+    "short_name": "9550",
+    "role": 12,
+    "latitude": 39.714816,
+    "longitude": -104.9362432,
+    "altitude": 1646.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!0202d2a6",
+    "long_name": "Sunhaus",
+    "short_name": "Snhs",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!75d00cd0",
+    "long_name": "Meshtastic 0cd0",
+    "short_name": "0cd0",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1c8d2a58",
+    "long_name": "🐿KF0FEI-MT Base",
+    "short_name": "JROC",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!22f9ace4",
+    "long_name": "Carissa Vixen (M1)",
+    "short_name": "🦊",
+    "role": 8,
+    "latitude": 39.911424,
+    "longitude": -105.1066368,
+    "altitude": 1654.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1814290f",
+    "long_name": "OmegaMW2",
+    "short_name": "OMW2",
+    "role": 0,
+    "latitude": 39.6588173,
+    "longitude": -105.0933616,
+    "altitude": 1676.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!9253a2e0",
+    "long_name": "Sabzavote",
+    "short_name": "Sabz",
+    "role": 0,
+    "latitude": 39.8196736,
+    "longitude": -105.0411008,
+    "altitude": 1692.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!39dcb053",
+    "long_name": " bee ",
+    "short_name": "🐝",
+    "role": 8,
+    "latitude": 39.9245312,
+    "longitude": -104.988672,
+    "altitude": 1502.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!04096f30",
+    "long_name": "STP-6f30🌄",
+    "short_name": "STP",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!93ebacad",
+    "long_name": "MoBaseStation",
+    "short_name": "MoB1",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!756f9434",
+    "long_name": "KC9WBD Base",
+    "short_name": "9434",
+    "role": 12,
+    "latitude": 40.6061056,
+    "longitude": -105.0411008,
+    "altitude": 1539.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!da5772f0",
+    "long_name": "SubMonkey 72f0",
+    "short_name": "72f0",
+    "role": 12,
+    "latitude": 39.5575296,
+    "longitude": -104.7789568,
+    "altitude": 1756.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!435bbf70",
+    "long_name": "Meshtastic bf70",
+    "short_name": "bf70",
+    "role": 8,
+    "latitude": 39.7672448,
+    "longitude": -105.0935296,
+    "altitude": 1651.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!da622b00",
+    "long_name": "KA0GBG",
+    "short_name": "K0GB",
+    "role": 0,
+    "latitude": 39.6775173,
+    "longitude": -105.1188218,
+    "altitude": 1728.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!58ab3dee",
+    "long_name": "DrakWis ",
+    "short_name": "DRAK",
+    "role": 8,
+    "latitude": 40.1866752,
+    "longitude": -104.9362432,
+    "altitude": 1485.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a2ea1980",
+    "long_name": "Meshtastic 1980",
+    "short_name": "1980",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1fa4a08c",
+    "long_name": "Meshtastic a08c",
+    "short_name": "a08c",
+    "role": 0,
+    "latitude": 39.6623872,
+    "longitude": -105.4081024,
+    "altitude": 2824.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!690dc4bc",
+    "long_name": "Nettle (coloradomesh.org)",
+    "short_name": "ntle",
+    "role": 1,
+    "latitude": 40.4488192,
+    "longitude": -105.0935296,
+    "altitude": 1563.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!62c06f23",
+    "long_name": "WnQ Temp",
+    "short_name": "WNQT",
+    "role": 1,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!43b78cfc",
+    "long_name": "Rainbow Goldfish",
+    "short_name": "RG",
+    "role": 12,
+    "latitude": 39.5051008,
+    "longitude": -104.9362432,
+    "altitude": 1835.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!49b77718",
+    "long_name": "BrightTempo9-RPT",
+    "short_name": "BtT9",
+    "role": 8,
+    "latitude": 40.1342464,
+    "longitude": -104.8838144,
+    "altitude": 1517.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
     "id": "!b7350482",
     "long_name": "Cherry Creek Tower2",
     "short_name": "cct",
@@ -2922,6 +3824,908 @@
     "latitude": 39.66143,
     "longitude": -104.860328,
     "altitude": 1752.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!433e5b3c",
+    "long_name": "LnO Base Station",
+    "short_name": "LOBS",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!17ca198b",
+    "long_name": "BGB Fixed",
+    "short_name": "BGB2",
+    "role": 8,
+    "latitude": 39.5575296,
+    "longitude": -104.8838144,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!0acb5440",
+    "long_name": "StormMountain",
+    "short_name": "SMTN",
+    "role": 8,
+    "latitude": 40.501248,
+    "longitude": -105.3556736,
+    "altitude": 2474.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!27189542",
+    "long_name": "Satsang-Commerce-City-96-Potomac",
+    "short_name": "SC96",
+    "role": 11,
+    "latitude": 39.8688256,
+    "longitude": -104.8346624,
+    "altitude": 1576.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!435b0f78",
+    "long_name": "Nettle_Base",
+    "short_name": "0f78",
+    "role": 12,
+    "latitude": 40.4488192,
+    "longitude": -105.0935296,
+    "altitude": 1572.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!7a63a766",
+    "long_name": "Meshtastic A766",
+    "short_name": "A766",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!c70ea292",
+    "long_name": "R3N3R H2T",
+    "short_name": "a292",
+    "role": 8,
+    "latitude": 39.5575296,
+    "longitude": -104.8838144,
+    "altitude": 1796.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!7f378e92",
+    "long_name": "Hampden-Mesh",
+    "short_name": "HMDN",
+    "role": 0,
+    "latitude": 39.6623872,
+    "longitude": -105.0935296,
+    "altitude": 1707.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!7785cb90",
+    "long_name": "HomeTastic",
+    "short_name": "HMRK",
+    "role": 7,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!4b9803d5",
+    "long_name": "craftsman3",
+    "short_name": "cra3",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!34457c61",
+    "long_name": "Meshtastic 7c61",
+    "short_name": "7c61",
+    "role": 8,
+    "latitude": 39.97696,
+    "longitude": -105.0935296,
+    "altitude": 1611.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!63cde9a9",
+    "long_name": "Meshtastic e9a9",
+    "short_name": "e9a9",
+    "role": 0,
+    "latitude": 39.6361728,
+    "longitude": -104.6478848,
+    "altitude": 1762.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!db51cec0",
+    "long_name": "Meshtastic LoMo",
+    "short_name": "LoMo",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!9a33b73d",
+    "long_name": "Jormungandr",
+    "short_name": "Jrmn",
+    "role": 0,
+    "latitude": 39.91572,
+    "longitude": -105.0291099,
+    "altitude": 1602.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!3f6fb170",
+    "long_name": "watersnake",
+    "short_name": "wrsk",
+    "role": 8,
+    "latitude": 39.6623872,
+    "longitude": -104.8313856,
+    "altitude": 1738.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!9843d370",
+    "long_name": "Meshtastic d370",
+    "short_name": "d370",
+    "role": 1,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!9254fc38",
+    "long_name": "Meshtastic fc38",
+    "short_name": "fc38",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!2727b18a",
+    "long_name": "MoorePower b18a",
+    "short_name": "b18a",
+    "role": 1,
+    "latitude": 39.6066816,
+    "longitude": -104.6904832,
+    "altitude": 1854.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!daa8a37e",
+    "long_name": "RandMK Home",
+    "short_name": "RMKH",
+    "role": 12,
+    "latitude": 40.1342464,
+    "longitude": -104.9362432,
+    "altitude": 1524.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!fa9ff5d0",
+    "long_name": "🛰️ ⓄⓃⓇⓔ 🛰️",
+    "short_name": "🌐",
+    "role": 8,
+    "latitude": 39.6623872,
+    "longitude": -104.8313856,
+    "altitude": 1703.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!ce37ec3b",
+    "long_name": "Meshtastic EC3B",
+    "short_name": "EC3B",
+    "role": 8,
+    "latitude": 39.7672448,
+    "longitude": -105.0411008,
+    "altitude": 0.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!2cfc29df",
+    "long_name": "BR01 Cyberman (Base Station)",
+    "short_name": "BR01",
+    "role": 0,
+    "latitude": 39.9245312,
+    "longitude": -105.0411008,
+    "altitude": 0.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!da621e50",
+    "long_name": "⛺️Camping",
+    "short_name": "Cmpn",
+    "role": 0,
+    "latitude": 39.6623872,
+    "longitude": -105.0935296,
+    "altitude": 1732.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!ef9fed73",
+    "long_name": "K5NWZ.com HA",
+    "short_name": "NWZ1",
+    "role": 12,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!d676b533",
+    "long_name": "Meshtastic b533",
+    "short_name": "b533",
+    "role": 8,
+    "latitude": 39.6099584,
+    "longitude": -105.1459584,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!756bea54",
+    "long_name": "MudRoof",
+    "short_name": "mudr",
+    "role": 8,
+    "latitude": 39.9425536,
+    "longitude": -105.0165248,
+    "altitude": 1601.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!7aa33fc6",
+    "long_name": "Fire Watch",
+    "short_name": "🔥",
+    "role": 2,
+    "latitude": 40.1342464,
+    "longitude": -105.1983872,
+    "altitude": 2042.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!9185068c",
+    "long_name": "ChecaBase77",
+    "short_name": "🗽",
+    "role": 0,
+    "latitude": 40.0293888,
+    "longitude": -105.0411008,
+    "altitude": 1558.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1ba73de4",
+    "long_name": "Ocelot ⭕",
+    "short_name": "Oclt",
+    "role": 12,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!eb5e9727",
+    "long_name": "Beefy Tower",
+    "short_name": "BEFT",
+    "role": 0,
+    "latitude": 39.6099584,
+    "longitude": -104.9362432,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!433b0ea8",
+    "long_name": "www.slovakia.travel 🇸🇰",
+    "short_name": "👾",
+    "role": 8,
+    "latitude": 40.5018,
+    "longitude": -105.0266,
+    "altitude": 1502.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!214e7e28",
+    "long_name": "Taco Bender ",
+    "short_name": "🌮",
+    "role": 1,
+    "latitude": 40.218478,
+    "longitude": -105.255125,
+    "altitude": 1643.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!68093609",
+    "long_name": "Tosche Station",
+    "short_name": "Tshe",
+    "role": 12,
+    "latitude": 39.9245312,
+    "longitude": -105.0411008,
+    "altitude": 1624.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!088c2cdc",
+    "long_name": "Clinton Cigar Lounge",
+    "short_name": "DVN1",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!16821538",
+    "long_name": "RacoonKing 1W",
+    "short_name": "RAKN",
+    "role": 12,
+    "latitude": 40.501248,
+    "longitude": -104.8838144,
+    "altitude": 0.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!7767fd3c",
+    "long_name": "Meshtastic fd3c",
+    "short_name": "fd3c",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!02e6ff50",
+    "long_name": "CaymanBonnie",
+    "short_name": "ff50",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1e3569d3",
+    "long_name": "Whizbo 3 Solar Xiao",
+    "short_name": "Wzb3",
+    "role": 8,
+    "latitude": 40.435712,
+    "longitude": -105.0017792,
+    "altitude": 1542.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a35a5a38",
+    "long_name": "K5NWZ.com APF1",
+    "short_name": "APF1",
+    "role": 12,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!d0c20ab3",
+    "long_name": "oto city3",
+    "short_name": "oto",
+    "role": 2,
+    "latitude": 40.1866752,
+    "longitude": -105.1459584,
+    "altitude": 1687.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a6d7c69b",
+    "long_name": "Styxking",
+    "short_name": "D10B",
+    "role": 1,
+    "latitude": 40.4094976,
+    "longitude": -105.054208,
+    "altitude": 1521.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!9e71af32",
+    "long_name": "Meshtastic QT78",
+    "short_name": "QT78",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!10b6aba6",
+    "long_name": "MoorePower aba6",
+    "short_name": "MPa6",
+    "role": 0,
+    "latitude": 39.6099584,
+    "longitude": -104.6740992,
+    "altitude": 1888.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a3e11cf9",
+    "long_name": "Marthinwurer Solar coloradomesh.org",
+    "short_name": "MrtS",
+    "role": 11,
+    "latitude": 39.6099584,
+    "longitude": -104.9362432,
+    "altitude": 1715.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!168bb30e",
+    "long_name": "Sole's Solar b30e",
+    "short_name": "b30e",
+    "role": 8,
+    "latitude": 39.714816,
+    "longitude": -105.0935296,
+    "altitude": 1688.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!043af748",
+    "long_name": "Office_CO_E1",
+    "short_name": "f748",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!5b7f627f",
+    "long_name": "Dry Rub",
+    "short_name": "🧂",
+    "role": 1,
+    "latitude": 40.225628,
+    "longitude": -105.2752421,
+    "altitude": 1623.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1b756897",
+    "long_name": "⚔️Malleus Abrahamistarum ",
+    "short_name": "COY1",
+    "role": 8,
+    "latitude": 41.2352512,
+    "longitude": -104.726528,
+    "altitude": 1861.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!c05b995d",
+    "long_name": "GECC0 T114",
+    "short_name": "T114",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!435baa74",
+    "long_name": "Meshtastic aa74",
+    "short_name": "aa74",
+    "role": 0,
+    "latitude": 39.5575296,
+    "longitude": -105.0935296,
+    "altitude": 1720.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!0d07112b",
+    "long_name": "Union Street Trail",
+    "short_name": "UST",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!6984e550",
+    "long_name": "Farpoint Station",
+    "short_name": "FPS1",
+    "role": 8,
+    "latitude": 39.9245312,
+    "longitude": -105.0411008,
+    "altitude": 1623.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!71dc2053",
+    "long_name": "Hilltop Station 001",
+    "short_name": "HS01",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!0220c978",
+    "long_name": "Lightfighter01",
+    "short_name": "mrw1",
+    "role": 12,
+    "latitude": 39.8196736,
+    "longitude": -104.726528,
+    "altitude": 1658.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!dde771d5",
+    "long_name": "TOR-Card",
+    "short_name": "TORC",
+    "role": 1,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!7c0da1e7",
+    "long_name": "R3N3R Techo+",
+    "short_name": "TE+R",
+    "role": 8,
+    "latitude": 39.6099584,
+    "longitude": -104.6740992,
+    "altitude": 1875.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!9e76b854",
+    "long_name": "Meshtastic b854",
+    "short_name": "b854",
+    "role": 8,
+    "latitude": 40.0228352,
+    "longitude": -105.0607616,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a2e9fdc0",
+    "long_name": "Kitchen",
+    "short_name": "KTCH",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!af186bfb",
+    "long_name": "KE0WEN",
+    "short_name": "K0WN",
+    "role": 8,
+    "latitude": 40.1342464,
+    "longitude": -105.0935296,
+    "altitude": 1536.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!308e307e",
+    "long_name": "Meshtastic 307e",
+    "short_name": "307e",
+    "role": 8,
+    "latitude": 39.6099584,
+    "longitude": -105.0411008,
+    "altitude": 1664.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!43b59808",
+    "long_name": "Meshtastic 9808",
+    "short_name": "9808",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!433e6dc8",
+    "long_name": "Mattchis",
+    "short_name": "☠",
+    "role": 1,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!ec6fa11e",
+    "long_name": "🔥W0RMT-r1",
+    "short_name": "r1",
+    "role": 12,
+    "latitude": 39.9753216,
+    "longitude": -105.1475968,
+    "altitude": 1661.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!69859bcc",
+    "long_name": "Meshtastic 9bcc",
+    "short_name": "9bcc",
+    "role": 12,
+    "latitude": 40.4488192,
+    "longitude": -105.0935296,
+    "altitude": 1547.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1e6723fe",
+    "long_name": "Meshtastic 23fe",
+    "short_name": "23fe",
+    "role": 0,
+    "latitude": 39.5575296,
+    "longitude": -104.8838144,
+    "altitude": 1759.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!4829c50f",
+    "long_name": "TED Base",
+    "short_name": "M6",
+    "role": 12,
+    "latitude": 39.714816,
+    "longitude": -105.1983872,
+    "altitude": 1884.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!aca9d418",
+    "long_name": "pine forest",
+    "short_name": "pine",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!f0c3a587",
+    "long_name": "Meshtastic a587",
+    "short_name": "a587",
+    "role": 0,
+    "latitude": 39.7672448,
+    "longitude": -105.0935296,
+    "altitude": 1670.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!f66b7d80",
+    "long_name": "dunderMax",
+    "short_name": "dmax",
+    "role": 8,
+    "latitude": 39.7840384,
+    "longitude": -104.9448448,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!b2a78a64",
+    "long_name": "Meshtastic 8A64",
+    "short_name": "8A64",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!7aea10c9",
+    "long_name": "LRA rptr W0XYZ",
+    "short_name": "LRA",
+    "role": 2,
+    "latitude": 40.3963904,
+    "longitude": -105.1459584,
+    "altitude": 1649.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!4ecd1800",
+    "long_name": "ALTCOMS2",
+    "short_name": "ALC2",
+    "role": 1,
+    "latitude": 39.6623872,
+    "longitude": -104.988672,
+    "altitude": 1603.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!54e111e2",
+    "long_name": "Meshtastic 11e2",
+    "short_name": "11e2",
+    "role": 8,
+    "latitude": 39.6623872,
+    "longitude": -105.0935296,
+    "altitude": 1690.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!39c935ce",
+    "long_name": "Meshtastic 35ce",
+    "short_name": "35ce",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!e2e523f0",
+    "long_name": "Pooch_Home",
+    "short_name": "POH",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1b9f1d12",
+    "long_name": "AltComs Solar Node",
+    "short_name": "ALC0",
+    "role": 8,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!ebe2e491",
+    "long_name": "E80m2213s",
+    "short_name": "e80",
+    "role": 8,
+    "latitude": 40.7109632,
+    "longitude": -106.4566784,
+    "altitude": 2492.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!5f8d9b40",
+    "long_name": "KNAXMoodswing",
+    "short_name": "KNAX",
+    "role": 12,
+    "latitude": 39.7840384,
+    "longitude": -104.9440256,
+    "altitude": 1593.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!a35a7378",
+    "long_name": "K5NWZ.com APM1",
+    "short_name": "APM1",
+    "role": 12,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!335c954c",
+    "long_name": "Bug02",
+    "short_name": "Bg02",
+    "role": 8,
+    "latitude": 39.6618231,
+    "longitude": -104.9942423,
+    "altitude": 1619.0,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!1547a412",
+    "long_name": "Jer a412",
+    "short_name": "a412",
+    "role": 0,
+    "latitude": null,
+    "longitude": null,
+    "altitude": null,
+    "precision": null,
+    "hardware_model": null
+  },
+  {
+    "id": "!048541c8",
+    "long_name": "☀️ 41c8 [ROUTER LATE]",
+    "short_name": "41c8",
+    "role": 11,
+    "latitude": 39.6886016,
+    "longitude": -105.119744,
+    "altitude": 1681.0,
     "precision": null,
     "hardware_model": null
   },
@@ -2948,83 +4752,6 @@
     "hardware_model": null
   },
   {
-    "id": "!05cbc680",
-    "long_name": "AckNewsBot DM and say hi",
-    "short_name": "AkNB",
-    "role": 8,
-    "latitude": 39.6099584,
-    "longitude": -104.726528,
-    "altitude": 1720.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!a02b340d",
-    "long_name": "ConwaysGlider Base",
-    "short_name": "🏠",
-    "role": 12,
-    "latitude": 39.714816,
-    "longitude": -105.1459584,
-    "altitude": 1770.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!a2e9fdc0",
-    "long_name": "Kitchen",
-    "short_name": "KTCH",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!a4bd2a05",
-    "long_name": "CMOS Echo",
-    "short_name": "☃",
-    "role": 8,
-    "latitude": 39.7082624,
-    "longitude": -104.9165824,
-    "altitude": 1646.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!fd944fa0",
-    "long_name": "DoubleCSolar1",
-    "short_name": "DCS1",
-    "role": 0,
-    "latitude": 39.8196736,
-    "longitude": -105.0935296,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!2cfc29df",
-    "long_name": "BR01 Cyberman (Base Station)",
-    "short_name": "BR01",
-    "role": 0,
-    "latitude": 39.9245312,
-    "longitude": -105.0411008,
-    "altitude": 0.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!756bea54",
-    "long_name": "MudRoof",
-    "short_name": "mudr",
-    "role": 8,
-    "latitude": 39.9425536,
-    "longitude": -105.0198016,
-    "altitude": 1603.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!fa6baed4",
     "long_name": "Meshtastic aed4",
     "short_name": "aed4",
@@ -3047,61 +4774,6 @@
     "hardware_model": null
   },
   {
-    "id": "!ce37ec3b",
-    "long_name": "Meshtastic EC3B",
-    "short_name": "EC3B",
-    "role": 8,
-    "latitude": 39.7672448,
-    "longitude": -105.0411008,
-    "altitude": 0.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!ef9fed73",
-    "long_name": "K5NWZ.com HA",
-    "short_name": "NWZ1",
-    "role": 12,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!58ab3dee",
-    "long_name": "DrakWis ",
-    "short_name": "DRAK",
-    "role": 8,
-    "latitude": 40.1866752,
-    "longitude": -104.9362432,
-    "altitude": 1485.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!68093609",
-    "long_name": "Tosche Station",
-    "short_name": "Tshe",
-    "role": 12,
-    "latitude": 39.9245312,
-    "longitude": -105.0411008,
-    "altitude": 1610.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!f59dc5fa",
-    "long_name": "Meshtastic c5fa",
-    "short_name": "c5fa",
-    "role": 0,
-    "latitude": 39.714816,
-    "longitude": -105.1459584,
-    "altitude": 1844.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!ebc7efea",
     "long_name": "Meshtastic EFEA",
     "short_name": "EFEA",
@@ -3113,76 +4785,10 @@
     "hardware_model": null
   },
   {
-    "id": "!a2e9dfec",
-    "long_name": "POSTAL REPEATER",
-    "short_name": "💌",
-    "role": 8,
-    "latitude": 40.42131,
-    "longitude": -105.07,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!c1f3b744",
-    "long_name": "SM Station G3 ",
-    "short_name": "🫪",
-    "role": 8,
-    "latitude": 39.7344768,
-    "longitude": -104.955904,
-    "altitude": 1617.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!4ecd1800",
-    "long_name": "ALTCOMS2",
-    "short_name": "ALC2",
-    "role": 1,
-    "latitude": 39.6623872,
-    "longitude": -104.988672,
-    "altitude": 1656.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!b2a7ecf8",
-    "long_name": "Watchtower North ecf8",
-    "short_name": "RFBN",
-    "role": 12,
-    "latitude": 39.6623872,
-    "longitude": -105.0935296,
-    "altitude": 1734.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!a6d7c69b",
-    "long_name": "Styxking",
-    "short_name": "D10B",
-    "role": 1,
-    "latitude": 40.4094976,
-    "longitude": -105.054208,
-    "altitude": 1521.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!db129029",
     "long_name": "Meshtastic T114",
     "short_name": "BWA1",
     "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!0406413c",
-    "long_name": "Marthinwurer Walkie",
-    "short_name": "MthW",
-    "role": 1,
     "latitude": null,
     "longitude": null,
     "altitude": null,
@@ -3201,116 +4807,6 @@
     "hardware_model": null
   },
   {
-    "id": "!a2ea1980",
-    "long_name": "Meshtastic 1980",
-    "short_name": "1980",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!ba18940e",
-    "long_name": "R3N3R Solar Fixed",
-    "short_name": "SOLR",
-    "role": 12,
-    "latitude": 39.6099584,
-    "longitude": -104.6740992,
-    "altitude": 1867.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!fa9ff5d0",
-    "long_name": "🛰️ ⓄⓃⓇⓔ 🛰️",
-    "short_name": "🌐",
-    "role": 8,
-    "latitude": 39.6623872,
-    "longitude": -104.8313856,
-    "altitude": 1703.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!63b044d3",
-    "long_name": "SOM 1-44d3",
-    "short_name": "SOM1",
-    "role": 8,
-    "latitude": 40.3963904,
-    "longitude": -104.988672,
-    "altitude": 1524.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!69851c00",
-    "long_name": "erie_gooding_common_node",
-    "short_name": "GOOD",
-    "role": 8,
-    "latitude": 40.0293888,
-    "longitude": -105.0411008,
-    "altitude": 1550.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!7dea2f9f",
-    "long_name": "BeaconofHope ",
-    "short_name": "BeHo",
-    "role": 8,
-    "latitude": 39.8721024,
-    "longitude": -105.1459584,
-    "altitude": 1739.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!ba0c6051",
-    "long_name": "oto tree",
-    "short_name": "oto",
-    "role": 2,
-    "latitude": 40.1866752,
-    "longitude": -105.1459584,
-    "altitude": 1551.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!acaaaec4",
-    "long_name": "NLO",
-    "short_name": "NLO",
-    "role": 8,
-    "latitude": 40.1539072,
-    "longitude": -105.0738688,
-    "altitude": 1517.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!1ba2fa44",
-    "long_name": "Sloth ⭕",
-    "short_name": "Slth",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!12576bd3",
-    "long_name": "W0SUN Solar Node",
-    "short_name": "🌞",
-    "role": 8,
-    "latitude": 39.5575296,
-    "longitude": -104.8838144,
-    "altitude": 1760.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!cc351205",
     "long_name": "SpinyLiz",
     "short_name": "🦎",
@@ -3318,72 +4814,6 @@
     "latitude": 39.5575296,
     "longitude": -104.8838144,
     "altitude": 1849.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!ce287841",
-    "long_name": "BeMesh1",
-    "short_name": "Be1",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!7c0da1e7",
-    "long_name": "R3N3R Techo+",
-    "short_name": "TE+R",
-    "role": 8,
-    "latitude": 39.6099584,
-    "longitude": -104.6740992,
-    "altitude": 1875.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!168bb30e",
-    "long_name": "Sole's Solar b30e",
-    "short_name": "b30e",
-    "role": 8,
-    "latitude": 39.714816,
-    "longitude": -105.0935296,
-    "altitude": 1688.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!49b6893c",
-    "long_name": "SpringGulchBase",
-    "short_name": "SGBS",
-    "role": 12,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!1e6723fe",
-    "long_name": "Meshtastic 23fe",
-    "short_name": "23fe",
-    "role": 0,
-    "latitude": 39.5575296,
-    "longitude": -104.8838144,
-    "altitude": 1759.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!da0dc60a",
-    "long_name": "RFB Pocket c60a",
-    "short_name": "c60a",
-    "role": 8,
-    "latitude": 39.6623872,
-    "longitude": -105.0935296,
-    "altitude": 1744.0,
     "precision": null,
     "hardware_model": null
   },
@@ -3399,39 +4829,6 @@
     "hardware_model": null
   },
   {
-    "id": "!ab27fa89",
-    "long_name": "Raven (attic)",
-    "short_name": "Rave",
-    "role": 12,
-    "latitude": 40.501248,
-    "longitude": -104.8838144,
-    "altitude": 1480.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!aca9d418",
-    "long_name": "pine forest",
-    "short_name": "pine",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!043adc68",
-    "long_name": "Meshtastic dc68",
-    "short_name": "dc68",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!b9a263a4",
     "long_name": "MESH POTATO ",
     "short_name": "🥔",
@@ -3439,28 +4836,6 @@
     "latitude": 40.1654346,
     "longitude": -105.0706469,
     "altitude": 1539.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!435b0f78",
-    "long_name": "Nettle_Base",
-    "short_name": "0f78",
-    "role": 12,
-    "latitude": 40.4488192,
-    "longitude": -105.0935296,
-    "altitude": 1563.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!fec3bb9a",
-    "long_name": "Analogue Wag",
-    "short_name": "🏕",
-    "role": 8,
-    "latitude": 39.6886016,
-    "longitude": -104.9100288,
-    "altitude": 1633.0,
     "precision": null,
     "hardware_model": null
   },
@@ -3476,17 +4851,6 @@
     "hardware_model": null
   },
   {
-    "id": "!04f49550",
-    "long_name": "Mestastic 9550",
-    "short_name": "9550",
-    "role": 12,
-    "latitude": 39.714816,
-    "longitude": -104.9362432,
-    "altitude": 1646.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!cec1fba0",
     "long_name": "Meshtastic FBA0",
     "short_name": "FBA0",
@@ -3494,39 +4858,6 @@
     "latitude": 39.7672448,
     "longitude": -105.0935296,
     "altitude": 1705.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!433b0ea8",
-    "long_name": "www.slovakia.travel 🇸🇰",
-    "short_name": "👾",
-    "role": 8,
-    "latitude": 40.5018,
-    "longitude": -105.0266,
-    "altitude": 1502.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!9254fc38",
-    "long_name": "Meshtastic fc38",
-    "short_name": "fc38",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!93ebacad",
-    "long_name": "MoBaseStation",
-    "short_name": "MoB1",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
     "precision": null,
     "hardware_model": null
   },
@@ -3542,17 +4873,6 @@
     "hardware_model": null
   },
   {
-    "id": "!a5c19f91",
-    "long_name": "K5NWZ.com T001",
-    "short_name": "T001",
-    "role": 5,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!0cf094ac",
     "long_name": "👽ET👽",
     "short_name": "👽",
@@ -3560,17 +4880,6 @@
     "latitude": 39.5575296,
     "longitude": -105.0411008,
     "altitude": 1669.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!16821538",
-    "long_name": "RacoonKing 1W",
-    "short_name": "RAKN",
-    "role": 12,
-    "latitude": 40.501248,
-    "longitude": -104.8838144,
-    "altitude": 0.0,
     "precision": null,
     "hardware_model": null
   },
@@ -3597,28 +4906,6 @@
     "hardware_model": null
   },
   {
-    "id": "!db51cec0",
-    "long_name": "Meshtastic LoMo",
-    "short_name": "LoMo",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!da621e50",
-    "long_name": "⛺️Camping",
-    "short_name": "Cmpn",
-    "role": 0,
-    "latitude": 39.6623872,
-    "longitude": -105.0935296,
-    "altitude": 1732.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!9e7868d8",
     "long_name": "Meshtastic 68d8",
     "short_name": "68d8",
@@ -3626,28 +4913,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!088c2cdc",
-    "long_name": "Clinton Cigar Lounge",
-    "short_name": "DVN1",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!27189542",
-    "long_name": "Satsang-Commerce-City-96-Potomac",
-    "short_name": "SC96",
-    "role": 11,
-    "latitude": 39.8688256,
-    "longitude": -104.8346624,
-    "altitude": 1576.0,
     "precision": null,
     "hardware_model": null
   },
@@ -3663,50 +4928,6 @@
     "hardware_model": null
   },
   {
-    "id": "!63cde9a9",
-    "long_name": "Meshtastic e9a9",
-    "short_name": "e9a9",
-    "role": 0,
-    "latitude": 39.6361728,
-    "longitude": -104.6478848,
-    "altitude": 1762.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!214e7e28",
-    "long_name": "Taco Bender ",
-    "short_name": "🌮",
-    "role": 1,
-    "latitude": 40.218478,
-    "longitude": -105.255125,
-    "altitude": 1643.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!a2e9d2d4",
-    "long_name": "Roadie-Station",
-    "short_name": "BBS1",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!a3e11cf9",
-    "long_name": "Marthinwurer Solar coloradomesh.org",
-    "short_name": "MrtS",
-    "role": 11,
-    "latitude": 39.6099584,
-    "longitude": -104.9362432,
-    "altitude": 1719.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!50858550",
     "long_name": "asmo solar roof",
     "short_name": "asm2",
@@ -3714,39 +4935,6 @@
     "latitude": 39.5001856,
     "longitude": -104.7150592,
     "altitude": 1908.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!e2e523f0",
-    "long_name": "Pooch_Home",
-    "short_name": "POH",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!092d6a7b",
-    "long_name": "Mudd Slide ",
-    "short_name": "🚽",
-    "role": 2,
-    "latitude": 40.2915328,
-    "longitude": -105.3032448,
-    "altitude": 1680.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!4b9803d5",
-    "long_name": "craftsman3",
-    "short_name": "cra3",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
     "precision": null,
     "hardware_model": null
   },
@@ -3762,17 +4950,6 @@
     "hardware_model": null
   },
   {
-    "id": "!daa8a37e",
-    "long_name": "RandMK Home",
-    "short_name": "RMKH",
-    "role": 12,
-    "latitude": 40.1342464,
-    "longitude": -104.9362432,
-    "altitude": 1524.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!1c17d9bd",
     "long_name": "Meshtastic b884",
     "short_name": "b884",
@@ -3780,28 +4957,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!75d00cd0",
-    "long_name": "Meshtastic 0cd0",
-    "short_name": "0cd0",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!1ba6388c",
-    "long_name": "Watchtower-S-388c",
-    "short_name": "RFBS",
-    "role": 0,
-    "latitude": 39.6623872,
-    "longitude": -105.0935296,
-    "altitude": 1741.0,
     "precision": null,
     "hardware_model": null
   },
@@ -3828,83 +4983,6 @@
     "hardware_model": null
   },
   {
-    "id": "!be1f4697",
-    "long_name": "Bottle_https://coloradomesh.org",
-    "short_name": "Botl",
-    "role": 8,
-    "latitude": 39.8196736,
-    "longitude": -105.1459584,
-    "altitude": 1687.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!6983201c",
-    "long_name": "Springfield 🏠",
-    "short_name": "🥸",
-    "role": 1,
-    "latitude": 40.1932288,
-    "longitude": -104.9690112,
-    "altitude": 1488.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!22f9ace4",
-    "long_name": "Carissa Vixen (M1)",
-    "short_name": "🦊",
-    "role": 8,
-    "latitude": 39.8852096,
-    "longitude": -105.0804224,
-    "altitude": 1625.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!2e524e77",
-    "long_name": "GoldenBiker72",
-    "short_name": "GB72",
-    "role": 8,
-    "latitude": 39.7672448,
-    "longitude": -105.1983872,
-    "altitude": 1770.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!39dcb053",
-    "long_name": " bee ",
-    "short_name": "🐝",
-    "role": 8,
-    "latitude": 39.9245312,
-    "longitude": -104.988672,
-    "altitude": 1740.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!130ac403",
-    "long_name": "K5NWZ.com T002",
-    "short_name": "T002",
-    "role": 5,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!070002ac",
-    "long_name": "Meshtastic 02AC",
-    "short_name": "02AC",
-    "role": 8,
-    "latitude": 39.47,
-    "longitude": -105.09,
-    "altitude": 1824.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!16ced38c",
     "long_name": "RRStationG2c-CavFilter",
     "short_name": "RG2c",
@@ -3916,61 +4994,6 @@
     "hardware_model": null
   },
   {
-    "id": "!a35a5a38",
-    "long_name": "K5NWZ.com APF1",
-    "short_name": "APF1",
-    "role": 12,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!1ba58ba8",
-    "long_name": "Meshtastic 8ba8",
-    "short_name": "8ba8",
-    "role": 0,
-    "latitude": 39.8983168,
-    "longitude": -105.0148864,
-    "altitude": 1646.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!6984e550",
-    "long_name": "Farpoint Station",
-    "short_name": "FPS1",
-    "role": 8,
-    "latitude": 39.9245312,
-    "longitude": -105.0411008,
-    "altitude": 1636.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!62c06f23",
-    "long_name": "WnQ Temp",
-    "short_name": "WNQT",
-    "role": 1,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!69faa5f2",
-    "long_name": "wrt main",
-    "short_name": "wrt",
-    "role": 8,
-    "latitude": 39.8196736,
-    "longitude": -105.1459584,
-    "altitude": 1653.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!e9fa0ec6",
     "long_name": "Green Mtn East Solar Base",
     "short_name": "GMEB",
@@ -3978,28 +5001,6 @@
     "latitude": 39.714816,
     "longitude": -105.1459584,
     "altitude": 1845.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!919cd40c",
-    "long_name": "Ace Tomato Company",
-    "short_name": "ATC",
-    "role": 2,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!9253a2e0",
-    "long_name": "Sabzavote",
-    "short_name": "Sabz",
-    "role": 0,
-    "latitude": 39.8196736,
-    "longitude": -105.0411008,
-    "altitude": 1662.0,
     "precision": null,
     "hardware_model": null
   },
@@ -4026,50 +5027,6 @@
     "hardware_model": null
   },
   {
-    "id": "!7aa33fc6",
-    "long_name": "Fire Watch",
-    "short_name": "🔥",
-    "role": 2,
-    "latitude": 40.1342464,
-    "longitude": -105.1983872,
-    "altitude": 2042.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!4d9bc2c4",
-    "long_name": "KrazyMojo1_c2c4",
-    "short_name": "Krz1",
-    "role": 1,
-    "latitude": 39.5575296,
-    "longitude": -105.0411008,
-    "altitude": 1742.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!f66b7d80",
-    "long_name": "dunderMax",
-    "short_name": "dmax",
-    "role": 8,
-    "latitude": 39.7840384,
-    "longitude": -104.9448448,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!5f8d9b40",
-    "long_name": "KNAXMoodswing",
-    "short_name": "KNAX",
-    "role": 12,
-    "latitude": 39.7840384,
-    "longitude": -104.9440256,
-    "altitude": 1593.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!b1c8aae0",
     "long_name": "Jeremy",
     "short_name": "Jer",
@@ -4077,17 +5034,6 @@
     "latitude": 40.501248,
     "longitude": -104.8838144,
     "altitude": 1506.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!17ca198b",
-    "long_name": "BGB Fixed",
-    "short_name": "BGB2",
-    "role": 8,
-    "latitude": 39.5575296,
-    "longitude": -104.8838144,
-    "altitude": null,
     "precision": null,
     "hardware_model": null
   },
@@ -4103,17 +5049,6 @@
     "hardware_model": null
   },
   {
-    "id": "!1e3569d3",
-    "long_name": "Whizbo 3 Solar Xiao",
-    "short_name": "Wzb3",
-    "role": 8,
-    "latitude": 40.435712,
-    "longitude": -105.0017792,
-    "altitude": 1542.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!ea8fd7b8",
     "long_name": "lindo node",
     "short_name": "hrn",
@@ -4121,17 +5056,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!eb10885e",
-    "long_name": "Cernunnos ",
-    "short_name": "Crns",
-    "role": 8,
-    "latitude": 39.88975,
-    "longitude": -105.0006399,
-    "altitude": 1645.0,
     "precision": null,
     "hardware_model": null
   },
@@ -4169,50 +5093,6 @@
     "hardware_model": null
   },
   {
-    "id": "!9185068c",
-    "long_name": "ChecaBase77",
-    "short_name": "🗽",
-    "role": 0,
-    "latitude": 40.0293888,
-    "longitude": -105.0411008,
-    "altitude": 1558.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!eb5e9727",
-    "long_name": "Beefy Tower",
-    "short_name": "BEFT",
-    "role": 0,
-    "latitude": 39.6099584,
-    "longitude": -104.9362432,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!0202d2a6",
-    "long_name": "Sunhaus",
-    "short_name": "Snhs",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!71dc2053",
-    "long_name": "Hilltop Station 001",
-    "short_name": "HS01",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!6772ce73",
     "long_name": "CW CE73",
     "short_name": "CW73",
@@ -4235,28 +5115,6 @@
     "hardware_model": null
   },
   {
-    "id": "!325715d0",
-    "long_name": "Meshtastic 15d0",
-    "short_name": "15d0",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!7aea10c9",
-    "long_name": "LRA rptr W0XYZ",
-    "short_name": "LRA",
-    "role": 2,
-    "latitude": 40.3963904,
-    "longitude": -105.1459584,
-    "altitude": 1649.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!699b848c",
     "long_name": "Meshtastic 848C",
     "short_name": "848C",
@@ -4268,28 +5126,6 @@
     "hardware_model": null
   },
   {
-    "id": "!32165be3",
-    "long_name": "ArvPrcNullToad",
-    "short_name": "nulT",
-    "role": 8,
-    "latitude": 39.8721024,
-    "longitude": -105.0935296,
-    "altitude": 1684.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!9a33b73d",
-    "long_name": "Jormungandr",
-    "short_name": "Jrmn",
-    "role": 0,
-    "latitude": 39.91572,
-    "longitude": -105.0291099,
-    "altitude": 1602.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!02ed9a88",
     "long_name": "Meshtastic 9a88",
     "short_name": "9a88",
@@ -4297,28 +5133,6 @@
     "latitude": 39.6623872,
     "longitude": -104.988672,
     "altitude": 1636.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!dde771d5",
-    "long_name": "TOR-Card",
-    "short_name": "TORC",
-    "role": 1,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!8fcde8bc",
-    "long_name": "AC5OR (Mobile)",
-    "short_name": "🥃",
-    "role": 8,
-    "latitude": 40.206336,
-    "longitude": -105.086976,
-    "altitude": 1546.0,
     "precision": null,
     "hardware_model": null
   },
@@ -4356,17 +5170,6 @@
     "hardware_model": null
   },
   {
-    "id": "!af186bfb",
-    "long_name": "KE0WEN",
-    "short_name": "K0WN",
-    "role": 8,
-    "latitude": 40.1342464,
-    "longitude": -105.0935296,
-    "altitude": 1523.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!092b168f",
     "long_name": "Meshtastic 7508",
     "short_name": "7508",
@@ -4374,28 +5177,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!0d07112b",
-    "long_name": "Union Street Trail",
-    "short_name": "UST",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!075b6464",
-    "long_name": "Solstice",
-    "short_name": "Sol",
-    "role": 8,
-    "latitude": 39.5575296,
-    "longitude": -105.1459584,
-    "altitude": 1866.0,
     "precision": null,
     "hardware_model": null
   },
@@ -4422,17 +5203,6 @@
     "hardware_model": null
   },
   {
-    "id": "!d676b533",
-    "long_name": "Meshtastic b533",
-    "short_name": "b533",
-    "role": 8,
-    "latitude": 39.6099584,
-    "longitude": -105.1459584,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!9e786e38",
     "long_name": "Coconut Base",
     "short_name": "🥥",
@@ -4440,50 +5210,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!b2a73b14",
-    "long_name": "Meshtastic 3b14",
-    "short_name": "3b14",
-    "role": 0,
-    "latitude": 40.3963904,
-    "longitude": -104.726528,
-    "altitude": 1473.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!a35a7378",
-    "long_name": "K5NWZ.com APM1",
-    "short_name": "APM1",
-    "role": 12,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!2727b18a",
-    "long_name": "MoorePower b18a",
-    "short_name": "b18a",
-    "role": 1,
-    "latitude": 39.6066816,
-    "longitude": -104.6904832,
-    "altitude": 1848.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!10b6aba6",
-    "long_name": "MoorePower aba6",
-    "short_name": "MPa6",
-    "role": 0,
-    "latitude": 39.6099584,
-    "longitude": -104.6740992,
-    "altitude": 1852.0,
     "precision": null,
     "hardware_model": null
   },
@@ -4499,28 +5225,6 @@
     "hardware_model": null
   },
   {
-    "id": "!433f11a0",
-    "long_name": "K9VXN Mobile",
-    "short_name": "🛻",
-    "role": 8,
-    "latitude": 39.8852096,
-    "longitude": -105.054208,
-    "altitude": 1619.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!02e6ff50",
-    "long_name": "CaymanBonnie",
-    "short_name": "ff50",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!699b2ed0",
     "long_name": "Meshtastic wslr",
     "short_name": "WSLR",
@@ -4528,28 +5232,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!2a3631ec",
-    "long_name": "The Monster Mesh denvermesh.org",
-    "short_name": "Kn3",
-    "role": 2,
-    "latitude": 40.173568,
-    "longitude": -105.1066368,
-    "altitude": 1506.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!da622b00",
-    "long_name": "KA0GBG",
-    "short_name": "K0GB",
-    "role": 0,
-    "latitude": 39.6775173,
-    "longitude": -105.1188218,
-    "altitude": 1728.0,
     "precision": null,
     "hardware_model": null
   },
@@ -4565,39 +5247,6 @@
     "hardware_model": null
   },
   {
-    "id": "!33691818",
-    "long_name": "N0AD 1818",
-    "short_name": "1818",
-    "role": 8,
-    "latitude": 39.5575296,
-    "longitude": -104.8838144,
-    "altitude": 1784.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!9e71af32",
-    "long_name": "Meshtastic QT78",
-    "short_name": "QT78",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!aca37236",
-    "long_name": "Wads Eye",
-    "short_name": "👁",
-    "role": 8,
-    "latitude": 39.8721024,
-    "longitude": -105.0935296,
-    "altitude": 1660.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!33665480",
     "long_name": "HANK: Go Team Venture ✌️!",
     "short_name": "HANK",
@@ -4609,32 +5258,10 @@
     "hardware_model": null
   },
   {
-    "id": "!0acb5440",
-    "long_name": "StormMountain",
-    "short_name": "SMTN",
-    "role": 8,
-    "latitude": 40.501248,
-    "longitude": -105.3556736,
-    "altitude": 2474.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!da63ded0",
     "long_name": "dufus base",
     "short_name": "ded0",
     "role": 12,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!433adec0",
-    "long_name": "Meshtastic dec0",
-    "short_name": "dec0",
-    "role": 8,
     "latitude": null,
     "longitude": null,
     "altitude": null,
@@ -4675,50 +5302,6 @@
     "hardware_model": null
   },
   {
-    "id": "!1b9f1d12",
-    "long_name": "AltComs Solar Node",
-    "short_name": "ALC0",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!a923baf9",
-    "long_name": "Piper dog tracker",
-    "short_name": "PIPR",
-    "role": 5,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!49b77718",
-    "long_name": "BrightTempo9-RPT",
-    "short_name": "BtT9",
-    "role": 8,
-    "latitude": 40.1342464,
-    "longitude": -104.8838144,
-    "altitude": 1524.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!433d7ddc",
-    "long_name": "Meshtastic 7ddc",
-    "short_name": "7ddc",
-    "role": 0,
-    "latitude": 39.5575296,
-    "longitude": -104.8838144,
-    "altitude": 1717.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!b03dec7c",
     "long_name": "Meshtastic ec7c",
     "short_name": "ec7c",
@@ -4748,17 +5331,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!e6f8a9dc",
-    "long_name": "W0RMT-05 🔥",
-    "short_name": "🔥",
-    "role": 8,
-    "latitude": 39.9753216,
-    "longitude": -105.1475968,
-    "altitude": 0.0,
     "precision": null,
     "hardware_model": null
   },
@@ -4796,28 +5368,6 @@
     "hardware_model": null
   },
   {
-    "id": "!fbd325cf",
-    "long_name": "m25n",
-    "short_name": "m25n",
-    "role": 0,
-    "latitude": 39.8983168,
-    "longitude": -105.119744,
-    "altitude": 1663.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!4829c50f",
-    "long_name": "TED Base",
-    "short_name": "M6",
-    "role": 12,
-    "latitude": 39.714816,
-    "longitude": -105.1983872,
-    "altitude": 1884.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!4e07ba5d",
     "long_name": "AAGr ZepTepi ba5d (MQTT)",
     "short_name": "📡",
@@ -4825,39 +5375,6 @@
     "latitude": 40.5798912,
     "longitude": -104.9624576,
     "altitude": 1482.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!1c8d2a58",
-    "long_name": "🐿KF0FEI-MT Base",
-    "short_name": "JROC",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!d0c20ab3",
-    "long_name": "oto city3",
-    "short_name": "oto",
-    "role": 2,
-    "latitude": 40.1866752,
-    "longitude": -105.1459584,
-    "altitude": 1687.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!b2a78a64",
-    "long_name": "Meshtastic 8A64",
-    "short_name": "8A64",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
     "precision": null,
     "hardware_model": null
   },
@@ -4906,54 +5423,10 @@
     "hardware_model": null
   },
   {
-    "id": "!24e4694f",
-    "long_name": "🄰🅁🄼🄾🅁🄽🄴🅃☣",
-    "short_name": "ANET",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!335c954c",
-    "long_name": "Bug02",
-    "short_name": "Bg02",
-    "role": 8,
-    "latitude": 39.6618231,
-    "longitude": -104.9942423,
-    "altitude": 1619.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!0220c978",
-    "long_name": "Lightfighter01",
-    "short_name": "mrw1",
-    "role": 12,
-    "latitude": 39.8196736,
-    "longitude": -104.726528,
-    "altitude": 1658.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!fd2dc4a4",
     "long_name": "static node denvermesh.org",
     "short_name": "void",
     "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!a98d56a8",
-    "long_name": "Maya dog tracker",
-    "short_name": "MAYA",
-    "role": 5,
     "latitude": null,
     "longitude": null,
     "altitude": null,
@@ -4975,17 +5448,6 @@
     "id": "!16a76045",
     "long_name": "GD Big Bratwurst",
     "short_name": "BRAT",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!3819c11b",
-    "long_name": "JP Solar Wis",
-    "short_name": "JPSW",
     "role": 8,
     "latitude": null,
     "longitude": null,
@@ -5049,17 +5511,6 @@
     "hardware_model": null
   },
   {
-    "id": "!04096f30",
-    "long_name": "STP-6f30🌄",
-    "short_name": "STP",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!09cae2f4",
     "long_name": "Meshtastic e2f4",
     "short_name": "e2f4",
@@ -5082,28 +5533,6 @@
     "hardware_model": null
   },
   {
-    "id": "!43b78cfc",
-    "long_name": "Rainbow Goldfish",
-    "short_name": "RG",
-    "role": 12,
-    "latitude": 39.5051008,
-    "longitude": -104.9362432,
-    "altitude": 1835.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!e1092449",
-    "long_name": "Hot Soup",
-    "short_name": "Soup",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!abc8f936",
     "long_name": "R3N3R TNM1",
     "short_name": "R3M1",
@@ -5115,32 +5544,10 @@
     "hardware_model": null
   },
   {
-    "id": "!1814290f",
-    "long_name": "OmegaMW2",
-    "short_name": "OMW2",
-    "role": 0,
-    "latitude": 39.6588173,
-    "longitude": -105.0933616,
-    "altitude": 1676.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!da56ba3c",
     "long_name": "Crawford Base",
     "short_name": "CBSH",
     "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!9843d370",
-    "long_name": "Meshtastic d370",
-    "short_name": "d370",
-    "role": 1,
     "latitude": null,
     "longitude": null,
     "altitude": null,
@@ -5170,43 +5577,10 @@
     "hardware_model": null
   },
   {
-    "id": "!043af748",
-    "long_name": "Office_CO_E1",
-    "short_name": "f748",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!84be2d8e",
-    "long_name": "dietcokecomms",
-    "short_name": "🦢",
-    "role": 8,
-    "latitude": 40.501248,
-    "longitude": -105.0411008,
-    "altitude": 1536.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!b03ca828",
     "long_name": "TARDIS1",
     "short_name": "TAR1",
     "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!43b59808",
-    "long_name": "Meshtastic 9808",
-    "short_name": "9808",
-    "role": 0,
     "latitude": null,
     "longitude": null,
     "altitude": null,
@@ -5221,39 +5595,6 @@
     "latitude": 39.9245312,
     "longitude": -105.0411008,
     "altitude": 1599.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!1b756897",
-    "long_name": "⚔️Malleus Abrahamistarum ",
-    "short_name": "COY1",
-    "role": 8,
-    "latitude": 41.2352512,
-    "longitude": -104.726528,
-    "altitude": 1861.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!6a248695",
-    "long_name": "WaywardMonkey8695",
-    "short_name": "8695",
-    "role": 8,
-    "latitude": 39.5575296,
-    "longitude": -104.7789568,
-    "altitude": 1746.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!7785cb90",
-    "long_name": "HomeTastic",
-    "short_name": "HMRK",
-    "role": 7,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
     "precision": null,
     "hardware_model": null
   },
@@ -5280,17 +5621,6 @@
     "hardware_model": null
   },
   {
-    "id": "!690dc4bc",
-    "long_name": "Nettle (coloradomesh.org)",
-    "short_name": "ntle",
-    "role": 1,
-    "latitude": 40.4488192,
-    "longitude": -105.0935296,
-    "altitude": 1563.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!635c52db",
     "long_name": "RobynBase denvermesh.org",
     "short_name": "🤖",
@@ -5298,17 +5628,6 @@
     "latitude": 39.7672448,
     "longitude": -105.1459584,
     "altitude": 1631.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!308e307e",
-    "long_name": "Meshtastic 307e",
-    "short_name": "307e",
-    "role": 8,
-    "latitude": 39.6099584,
-    "longitude": -105.0411008,
-    "altitude": 1669.0,
     "precision": null,
     "hardware_model": null
   },
@@ -5401,17 +5720,6 @@
     "hardware_model": null
   },
   {
-    "id": "!435baa74",
-    "long_name": "Meshtastic aa74",
-    "short_name": "aa74",
-    "role": 0,
-    "latitude": 39.5575296,
-    "longitude": -105.0935296,
-    "altitude": 1745.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!3da7e202",
     "long_name": "BDK-Pi",
     "short_name": "BDKP",
@@ -5430,17 +5738,6 @@
     "latitude": 39.788544,
     "longitude": -105.160704,
     "altitude": 1688.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!433e5b3c",
-    "long_name": "LnO Base Station",
-    "short_name": "LOBS",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
     "precision": null,
     "hardware_model": null
   },
@@ -5544,17 +5841,6 @@
     "hardware_model": null
   },
   {
-    "id": "!da5772f0",
-    "long_name": "SubMonkey 72f0",
-    "short_name": "72f0",
-    "role": 12,
-    "latitude": 39.5575296,
-    "longitude": -104.7789568,
-    "altitude": 1756.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!92f0aac2",
     "long_name": "Meshtastic aac2",
     "short_name": "aac2",
@@ -5639,28 +5925,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!c05b995d",
-    "long_name": "GECC0 T114",
-    "short_name": "T114",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!ebe2e491",
-    "long_name": "E80m2213s",
-    "short_name": "e80",
-    "role": 8,
-    "latitude": 40.7109632,
-    "longitude": -106.4566784,
-    "altitude": 2492.0,
     "precision": null,
     "hardware_model": null
   },
@@ -5819,17 +6083,6 @@
     "hardware_model": null
   },
   {
-    "id": "!433e6dc8",
-    "long_name": "Mattchis",
-    "short_name": "☠",
-    "role": 1,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!6342cb22",
     "long_name": "RamblinPancreas_KQ4CEA_01",
     "short_name": "RP01",
@@ -5859,17 +6112,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!5b7f627f",
-    "long_name": "Dry Rub",
-    "short_name": "🧂",
-    "role": 1,
-    "latitude": 40.225628,
-    "longitude": -105.2752421,
-    "altitude": 1623.0,
     "precision": null,
     "hardware_model": null
   },
@@ -5918,17 +6160,6 @@
     "hardware_model": null
   },
   {
-    "id": "!7767fd3c",
-    "long_name": "Meshtastic fd3c",
-    "short_name": "fd3c",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!1ba34808",
     "long_name": "Meshtastic 8472",
     "short_name": "8472",
@@ -5936,17 +6167,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!7c5caf60",
-    "long_name": "Meshtastic AF60",
-    "short_name": "AF60",
-    "role": 8,
-    "latitude": 39.9245312,
-    "longitude": -105.0935296,
-    "altitude": 1664.0,
     "precision": null,
     "hardware_model": null
   },
@@ -6006,17 +6226,6 @@
     "hardware_model": null
   },
   {
-    "id": "!43b7c3a8",
-    "long_name": "DR",
-    "short_name": "🦀",
-    "role": 8,
-    "latitude": 39.5051008,
-    "longitude": -104.726528,
-    "altitude": 1771.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!302235c7",
     "long_name": "Meshtastic 35C7",
     "short_name": "35C7",
@@ -6035,17 +6244,6 @@
     "latitude": 40.1342464,
     "longitude": -105.0935296,
     "altitude": 1513.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!787f5d35",
-    "long_name": "Kanemoto",
-    "short_name": "⛩",
-    "role": 12,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
     "precision": null,
     "hardware_model": null
   },
@@ -6171,17 +6369,6 @@
     "hardware_model": null
   },
   {
-    "id": "!9253a2c8",
-    "long_name": "JanRan",
-    "short_name": "JaRa",
-    "role": 8,
-    "latitude": 39.8721024,
-    "longitude": -105.1459584,
-    "altitude": 1747.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!6be8cc6c",
     "long_name": "Fr3nzy_Solar",
     "short_name": "8675",
@@ -6277,39 +6464,6 @@
     "latitude": null,
     "longitude": null,
     "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!69859bcc",
-    "long_name": "Meshtastic 9bcc",
-    "short_name": "9bcc",
-    "role": 12,
-    "latitude": 40.4488192,
-    "longitude": -105.0935296,
-    "altitude": 1547.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!1ba73de4",
-    "long_name": "Ocelot ⭕",
-    "short_name": "Oclt",
-    "role": 12,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!ec6fa11e",
-    "long_name": "🔥W0RMT-r1",
-    "short_name": "r1",
-    "role": 12,
-    "latitude": 39.9753216,
-    "longitude": -105.1475968,
-    "altitude": 1661.0,
     "precision": null,
     "hardware_model": null
   },
@@ -6556,17 +6710,6 @@
     "hardware_model": null
   },
   {
-    "id": "!c70ea292",
-    "long_name": "R3N3R H2T",
-    "short_name": "a292",
-    "role": 8,
-    "latitude": 39.5575296,
-    "longitude": -104.8838144,
-    "altitude": 1796.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!d34ae193",
     "long_name": "Meshtastic E193",
     "short_name": "E193",
@@ -6574,17 +6717,6 @@
     "latitude": 39.6099584,
     "longitude": -105.1983872,
     "altitude": 1855.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!1de92c88",
-    "long_name": "Meshtastic 2C88",
-    "short_name": "2C88",
-    "role": 8,
-    "latitude": 39.8196736,
-    "longitude": -105.0411008,
-    "altitude": 1628.0,
     "precision": null,
     "hardware_model": null
   },
@@ -7260,17 +7392,6 @@
     "hardware_model": null
   },
   {
-    "id": "!756f9434",
-    "long_name": "KC9WBD Base",
-    "short_name": "9434",
-    "role": 12,
-    "latitude": 40.6061056,
-    "longitude": -105.0411008,
-    "altitude": 1539.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
     "id": "!32912176",
     "long_name": "JEC Car Node",
     "short_name": "JECC",
@@ -7464,149 +7585,6 @@
     "role": 12,
     "latitude": 39.8524416,
     "longitude": -105.0607616,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!32409698",
-    "long_name": "AC5OR (Base)",
-    "short_name": "🍺",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!698500d8",
-    "long_name": "Dave - AB0DB",
-    "short_name": "Dave",
-    "role": 8,
-    "latitude": 40.1211392,
-    "longitude": -105.1590656,
-    "altitude": 1543.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!a2e95e94",
-    "long_name": "Enright Base",
-    "short_name": "EB82",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!98c2b876",
-    "long_name": "🦈Jaws",
-    "short_name": "🦈",
-    "role": 0,
-    "latitude": 40.1473536,
-    "longitude": -105.1066368,
-    "altitude": 1519.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!4842d631",
-    "long_name": "Meshtastic d631",
-    "short_name": "d631",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!9e75e1a4",
-    "long_name": "Meshtastic e1a4",
-    "short_name": "e1a4",
-    "role": 0,
-    "latitude": 39.5575296,
-    "longitude": -105.0935296,
-    "altitude": 1703.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!eeec22fc",
-    "long_name": "Fast900Trepeater",
-    "short_name": "F9Tr",
-    "role": 0,
-    "latitude": 39.6099584,
-    "longitude": -105.1459584,
-    "altitude": 1736.0,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!d14f0c2f",
-    "long_name": "BHT Solar",
-    "short_name": "BHTS",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!df4a0184",
-    "long_name": "BGB Solar",
-    "short_name": "BGB1",
-    "role": 8,
-    "latitude": 39.5575296,
-    "longitude": -104.8838144,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!e0abc6c6",
-    "long_name": "Meshtastic c6c6",
-    "short_name": "c6c6",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!14033568",
-    "long_name": "Meshtastic 3568",
-    "short_name": "3568",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!3d41fd71",
-    "long_name": "MEfd71",
-    "short_name": "fd71",
-    "role": 0,
-    "latitude": null,
-    "longitude": null,
-    "altitude": null,
-    "precision": null,
-    "hardware_model": null
-  },
-  {
-    "id": "!169dfa19",
-    "long_name": "Meshtastic FA19",
-    "short_name": "FA19",
-    "role": 8,
-    "latitude": null,
-    "longitude": null,
     "altitude": null,
     "precision": null,
     "hardware_model": null
