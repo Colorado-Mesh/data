@@ -1,7 +1,7 @@
 import argparse
 import json
 import os
-from typing import Optional
+from typing import Optional, List
 
 import objectrest
 from coloradomesh.colorado import COLORADO
@@ -9,7 +9,7 @@ from coloradomesh.internal.utils import iso8601_to_unix_timestamp
 from coloradomesh.meshcore.models.general import Node, NodeType
 from coloradomesh.meshcore.models.general.node_params import NodeParams
 from coloradomesh.meshcore.services.stats import determine_region_by_latitude_and_longitude
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 MESHCORE_MAP_URL = "https://map.meshcore.io/api/v1/nodes?short=1"  # All MeshCore devices globally
 MESHCORE_OPEN_MAP_URL = "https://map.meshcoreopen.org/v1/repeaters"  # All MeshCore repeaters globally
@@ -20,6 +20,8 @@ ZEVA_URLS = [
     "http://dev.zevaryx.com:8080/meshcore/companions.json",
     "http://dev.zevaryx.com:8080/meshcore/sensors.json",
 ]
+W5KV_URL = "https://w5kv.com/wp-json/w5kv/v1/repeater"  # Latest 150 MeshCore nodes heard by observer
+K5NWZ_URL = "https://asl.k5nwz.com/mesh-explorer/mesh.json"  # Not needed, just proxying Beacon
 CM_BEACON_NODES_URL = "https://map.meshcore.coloradomesh.org/api/v1/nodes"
 
 _COLORADO = COLORADO
@@ -181,6 +183,65 @@ def _get_zeva_nodes() -> list[ZevaNode]:
 
     return all_nodes
 
+
+### W5KV-specific models for parsing API responses
+
+class W5KVNode(BaseModel):
+    name: str
+    type_string: str = Field(alias="type")
+    is_repeater: bool = Field(alias="repeater")
+    direct: bool
+    last_seen: float  # UNIX timestamp
+    first_seen: float # UNIX timestamp
+    rssi: Optional[float] = None
+    snr: Optional[float] = None
+    adverts: Optional[int] = None
+
+    @property
+    def type(self) -> NodeType:
+        if self.is_repeater or self.type_string == "Repeater":
+            return NodeType.REPEATER
+        elif self.type_string == "Room Server":
+            return NodeType.ROOM_SERVER
+        elif self.type_string == "Chat Node":
+            return NodeType.COMPANION
+        else:
+            return NodeType.UNKNOWN
+
+
+    # TODO: Needs PUBLIC KEY to be useful
+    def to_node(self) -> Node:
+        return Node(
+            public_key="0",
+            name=self.name,
+            node_type=self.type,
+            created_at=int(self.first_seen),
+            last_heard=int(self.last_seen),
+            owner=None,
+            latitude=None,
+            longitude=None,
+            params=None,
+            hash_size=None,
+            estimated_region_iata=None,
+        )
+
+def _get_w5kv_nodes() -> list[W5KVNode]:
+    """
+    Fetch nodes from W5KV observer and return them as a list of W5KVNode objects.
+    :return: A list of W5KVNode objects.
+    :rtype: list[W5KVNode]
+    """
+    all_nodes: list[W5KVNode] = objectrest.get_object(url=W5KV_URL,  # type: ignore
+                                                      model=W5KVNode,
+                                                      sub_keys=["snapshot", "neighbors"],
+                                                      extract_list=True)
+    if not all_nodes:
+        # We DO want to return an empty list, this is a lower-priority source
+        print(f"Could not load nodes from W5KV observer, skipping...")
+
+    print(f"Found {len(all_nodes)} nodes from W5KV observer")
+
+    return all_nodes
 
 ### Beacon-specific models for parsing API responses
 
@@ -358,54 +419,77 @@ def _get_meshcore_open_nodes() -> list[MeshCoreOpenMapNode]:
     return filtered_nodes
 
 
+class NodeSource:
+    def __init__(self, name: str, priority: int, nodes: List[Node]):
+        self.name = name
+        self.priority = priority
+        self.nodes = nodes
+
 def get_colorado_nodes() -> list[Node]:
     """
     Get all nodes in Colorado.
     :return: A list of Node objects representing all nodes in Colorado.
     :rtype: list[Node]
     """
-    meshcore_map_nodes: list[MeshCoreMapNode] = _get_meshcore_map_nodes()
-    meshcore_map_nodes_converted: list[Node] = [
-        node.to_node() for node in meshcore_map_nodes
-    ]
-
-    meshcore_open_map_nodes: list[MeshCoreOpenMapNode] = _get_meshcore_open_nodes()
-    meshcore_open_map_nodes_converted: list[Node] = [
-        node.to_node() for node in meshcore_open_map_nodes
-    ]
-
-    zeva_nodes: list[ZevaNode] = _get_zeva_nodes()
-    zeva_nodes_converted: list[Node] = [
-        node.to_node() for node in zeva_nodes
-    ]
-
-    beacon_nodes: list[BeaconNode] = _get_beacon_nodes()
-    beacon_nodes_converted: list[Node] = [
-        node.to_node() for node in beacon_nodes
+    node_sources: List[NodeSource] = [
+        NodeSource(
+            name="meshcore_map",
+            priority=150,  # More people probably have the official MeshCore app rather than MCOpen
+            nodes=[node.to_node() for node in _get_meshcore_map_nodes()]
+        ),
+        NodeSource(
+            name="meshcore_open_map",
+            priority=100,
+            nodes=[node.to_node() for node in _get_meshcore_open_nodes()]
+        ),
+        NodeSource(
+            name="zeva",
+            priority=300,
+            nodes=[node.to_node() for node in _get_zeva_nodes()]
+        ),
+        NodeSource(
+            name="beacon",
+            priority=400,
+            nodes=[node.to_node() for node in _get_beacon_nodes()]
+        ),
+        # TODO: Add W5KV when public keys available (required)
     ]
 
     # Remove duplicates by whole ID
     # Yes, it's possible two nodes, each on different maps, happen to have the same ID, but that's highly unlikely
-    # Defer to the node with the more recent `last_heard` if there is a conflict
+    # Defer to the source with the more recent `last_heard` if there is a conflict, otherwise higher priority
     unique_nodes_dict: dict[str, Node] = {}
-    for node in (
-            meshcore_map_nodes_converted +
-            meshcore_open_map_nodes_converted +
-            zeva_nodes_converted +
-            beacon_nodes_converted
-    ):
-        node_id = node.public_key.upper()
+    highest_priority_so_far: int = 0
 
-        if node_id in unique_nodes_dict:
-            existing_node = unique_nodes_dict[node_id]
-            existing_node_last_heard = existing_node.last_heard or 0
-            conflicting_node_last_heard = node.last_heard or 0
-            unique_nodes_dict[
-                node_id] = node if conflicting_node_last_heard > existing_node_last_heard else existing_node
-        else:
-            unique_nodes_dict[node_id] = node
+    # TODO: Priority not stored, would require changing schema in coloradomesh library
+
+    for source in node_sources:
+        current_priority: int = source.priority
+        nodes: List[Node] = source.nodes
+        for node in nodes:
+            node_id = node.public_key.upper()
+
+            if node_id in unique_nodes_dict:
+                # Current node has already been documented, battle them
+                existing_node = unique_nodes_dict[node_id]
+                unique_nodes_dict[node_id] = battle_new_node_with_existing_node(new_node=node, existing_node=existing_node)
+            else:
+                unique_nodes_dict[node_id] = node
+        highest_priority_so_far = current_priority
 
     return list(unique_nodes_dict.values())
+
+def battle_new_node_with_existing_node(new_node: Node, existing_node: Node) -> Node:
+    """
+    Returns either the existing node or the new node, based on criteria of which should win out in a conflict.
+    :param new_node:
+    :param existing_node:
+    :return:
+    """
+    existing_node_last_heard = existing_node.last_heard or 0
+    new_node_last_heard = new_node.last_heard or 0
+    # Return whichever has newest "last_heard" time
+    return new_node if new_node_last_heard > existing_node_last_heard else existing_node
 
 
 def _read_nodes_from_file(file_path: str) -> list[Node]:
