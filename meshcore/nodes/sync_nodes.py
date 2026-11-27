@@ -188,6 +188,7 @@ def _get_zeva_nodes() -> list[ZevaNode]:
 
 class W5KVNode(BaseModel):
     name: str
+    public_key: str
     type_string: str = Field(alias="type")
     is_repeater: bool = Field(alias="repeater")
     direct: bool
@@ -212,7 +213,7 @@ class W5KVNode(BaseModel):
     # TODO: Needs PUBLIC KEY to be useful
     def to_node(self) -> Node:
         return Node(
-            public_key="0",
+            public_key=self.public_key,
             name=self.name,
             node_type=self.type,
             created_at=int(self.first_seen),
@@ -452,7 +453,11 @@ def get_colorado_nodes() -> list[Node]:
             priority=400,
             nodes=[node.to_node() for node in _get_beacon_nodes()]
         ),
-        # TODO: Add W5KV when public keys available (required)
+        NodeSource(
+            name="w5kv",
+            priority=250,
+            nodes=[node.to_node() for node in _get_w5kv_nodes()]
+        )
     ]
 
     # Remove duplicates by whole ID
