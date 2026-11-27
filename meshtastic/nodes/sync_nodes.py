@@ -5,16 +5,16 @@ from datetime import datetime
 from typing import Optional
 
 import objectrest
-from pydantic import BaseModel, Field
-
 from coloradomesh.colorado import COLORADO
 from coloradomesh.meshtastic.models.general import Node, NodeRole
+from pydantic import BaseModel, Field
 
 MESHMAP_URL = "https://meshmap.net/nodes.json"  # All Meshtastic devices globally
 LIAMCOTTLE_MESHTASTIC_URL = "https://meshtastic.liamcottle.net/api/v1/nodes"  # All Meshtastic devices globally
 CM_MESHVIEW_URL = "https://map.meshtastic.coloradomesh.org/api/nodes?days_active=3"  # All ACTIVE Meshtastic devices heard on the msh/US/CO topic
 MALLA_US_URL = "https://mshus.meshmonitoring.com/api/locations"  # All Meshtastic devices in US reporting location
 CM_POTATOMESH_URL = "https://potato.meshtastic.coloradomesh.org/api/nodes?limit=10000"  # All Meshtastic devices heard by local observers
+K5NWZ_URL = "https://asl.k5nwz.com/mesh-explorer/mesh.json"  # Proxying other sites, but also has his own MQTT broker and gateway station for native heards
 
 _COLORADO = COLORADO
 
@@ -367,7 +367,7 @@ def _get_malla_us_nodes() -> list[MallaUSNode]:
 
     print(f"Found {len(all_nodes)} nodes in Colorado via Malla US")
 
-    filtered_nodes: list[MallaUSNode] = MallaUSNode.filter_to_colorado(nodes=all_nodes, # type: ignore
+    filtered_nodes: list[MallaUSNode] = MallaUSNode.filter_to_colorado(nodes=all_nodes,  # type: ignore
                                                                        data_source="Malla US")
 
     # Additional filter, only include nodes with long names
@@ -451,6 +451,73 @@ def _get_potatomesh_nodes() -> list[PotatoMeshNode]:
     return valid_nodes
 
 
+### NoCoMesh-specific models for parsing API responses
+class NoCoMeshNode(_BaseDataSourceNode):
+    num: Optional[int] = Field(alias="num", default=None)
+    node_id: str = Field(alias="id")
+    long_name: Optional[str] = Field(alias="name", default=None)
+    short_name: Optional[str] = Field(alias="short", default="XXXX")
+    hardware_model: Optional[str] = Field(alias="hw", default=None)
+    role: Optional[str] = Field(alias="role", default=None)
+    channel: Optional[str] = Field(alias="ch", default=None)
+    last_heard: Optional[float] = Field(alias="last", default=None)  # UNIX timestamp
+    first_heard: Optional[float] = Field(alias="first", default=None)  # UNIX timestamp
+    latitude: Optional[float] = Field(alias="lat", default=None)
+    longitude: Optional[float] = Field(alias="lng", default=None)
+
+    @property
+    def filter_latitude(self) -> Optional[float]:
+        return self.latitude
+
+    @property
+    def filter_longitude(self) -> Optional[float]:
+        return self.longitude
+
+    @property
+    def node_role(self) -> NodeRole:
+        return NodeRole.from_name(name=self.role) if self.role is not None else NodeRole.UNKNOWN
+
+    def to_node(self) -> Node:
+        return Node(
+            id=self.node_id,
+            long_name=self.long_name,  # type: ignore (will be there)
+            short_name=self.short_name,  # type: ignore (will be there)
+            hardware_model=self.hardware_model,
+            role=self.node_role,
+            latitude=self.latitude,
+            longitude=self.longitude,
+            altitude=None,
+            precision=None,  # We don't know the meter measurement
+        )
+
+
+def _get_nocomesh_nodes() -> list[NoCoMeshNode]:
+    """
+    Fetch all nodes from the NoCo Mesh (K5NWZ) map.
+    :rtype: list[PotatoMeshNode]
+    """
+    all_nodes: list[K5NWZNode] = objectrest.get_object(url=K5NWZ_URL,  # type: ignore
+                                                       model=NoCoMeshNode,
+                                                       sub_keys=["meshtastic", "nodes"],
+                                                       extract_list=True,
+                                                       )
+
+    if not all_nodes:
+        # We don't want to return an empty list, that would effectively erase the previous data snapshot
+        # Instead, consider this run failed
+        raise Exception(f"Could not load nodes from NoCo Mesh")
+
+    print(f"Found {len(all_nodes)} nodes in Colorado via NoCo Mesh")
+
+    # Additional filter, only include nodes with long names
+    valid_nodes: list[NoCoMeshNode] = [
+        node for node in all_nodes if node.long_name is not None
+    ]
+    print(f"Found {len(valid_nodes)} valid nodes in Colorado via NoCo Mesh")
+
+    return valid_nodes
+
+
 def get_colorado_nodes() -> list[Node]:
     """
     Get all nodes in Colorado.
@@ -484,6 +551,11 @@ def get_colorado_nodes() -> list[Node]:
         node.to_node() for node in potatomesh_nodes
     ]
 
+    nocomesh_nodes: list[NoCoMeshNode] = _get_nocomesh_nodes()
+    nocomesh_nodes_converted: list[Node] = [
+        node.to_node() for node in nocomesh_nodes
+    ]
+
     # Remove duplicates by whole ID
     # Yes, it's possible two nodes, each on different maps, happen to have the same ID, but that's highly unlikely
     # Defer to the newer node if there is a conflict (list built from least-to-most trustworthy)
@@ -492,7 +564,8 @@ def get_colorado_nodes() -> list[Node]:
             meshview_nodes_converted +
             meshmap_nodes_converted +
             liam_cottle_nodes_converted +
-            potatomesh_nodes_converted
+            potatomesh_nodes_converted +
+            nocomesh_nodes_converted
     ):
         node_id = str(node.id)
 
